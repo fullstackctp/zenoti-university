@@ -19,7 +19,13 @@
   padding-left: 0px !important;
  }
  p{
- 	font-size: 14px;
+	line-height: 20px;
+	text-align: left;
+	font-family: Lato-Regular;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(0,0,0,1);	
  }
  /*unversal class*/
   .section-padding-1{
@@ -34,14 +40,25 @@
 
 /*Driving growth through Gift Cards*/
 .driving-heading h2{
-	font-size: 47.71px;
-	margin-bottom: 20px;
-
+    white-space: nowrap;
+    line-height: 57.25167465209961px;
+    text-align: left;
+    font-family: Lato;
+	margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.982rem;
+    color: rgba(0,0,0,1);
 }
+
 h6.sub-heading{
+	line-height: 20px;
+	text-align: left;
+	font-family: Lato-Semibold;
+	font-style: normal;
+	font-weight: normal;
 	font-size: 16px;
-	font-weight: 500;
-	font-family: Lato-Semibold, Lato;
+	color: rgba(0,0,0,1);
 }
 .btn-outline-zenoti{
 	color: #0078d4 !important;
@@ -57,8 +74,15 @@ h6.sub-heading{
 	background-color: #ceefed;
 	padding: 15px 20px;
 	border-radius: 7px;
+}
+.global p{
+	line-height: 20px;
+	text-align: left;
+	font-family: Lato-Bold;
+	font-style: normal;
+	font-weight: normal;
 	font-size: 14px;
-	color: #1C6357;
+	color: rgba(28,99,87,1);
 }
 /*adult*/
 .adult-1{
@@ -105,18 +129,53 @@ h6.sub-heading{
 }
 .new-blue{
 	background-color:#d0ebf7;
-	padding: 65px 111px !important;
+	padding: 65px 80px !important;
 	border-radius: 10px;
 }
 .new-orange{
 	background-color:#ffecca;
-	padding: 65px 111px !important;
+	padding: 65px 110px !important;
 	border-radius: 10px;
 }
+.gift-hover:hover{
+	box-shadow: 0 7px 20px -2px rgb(81, 109, 19,.2);
+}
+
 
 .main-3 h4{
 	font-size: 14px;
 }
+/*accordion main 4*/
+.accordion-cos .accordion-button:not(.collapsed){
+	background-color: #f3f5f6;
+	color: #000;
+}
+.accordion-cos h2 button {
+	font-size: 14px !important;
+	font-weight: 500;
+}
+.accordion-cos .accordion-body {
+	padding: 1rem 1.25rem;
+	background: #f3f5f6;
+	 margin-top: 5px; 
+	border-top: 1px solid #eee;
+}
+.accordion-cos .accordion-item{
+	border: none;
+}
+.accordion-cos .accordion-button{
+	margin-top: 3px;
+	background: #f3f5f6;
+}
+.accordion-button:focus{
+	box-shadow: none !important;
+}
+.accordion-cos h2.accordion-header button{
+	font-size: 14px !important;
+	font-weight: 600;
+}
+
+
 /*sidebar*/
 .side-bar-heading{
 	background-color: #000;
@@ -130,20 +189,479 @@ h6.sub-heading{
 	background: #0078d4 !important;
 	color: #fff;
 }
+/*question*/
+.question{
+	border: 1px solid #eee;
+	border-radius: 10px;
+}
+.question-2-pad{
+	padding:0 11px;
+}
+.question-header{
+	background-color: #0078d4;
+	color: #fff;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding: 10px 15px;
+}
+.question-header h2{
+	font-size: 17px;
+}
 
+.question-body{
+	padding: 20px 10px;
+}
+.question-footer {
+	padding: 0 10px;
+}
+.question-footer .tick{
+	padding: 10px 20px;
+	border-top: 1px solid #eee;
+}
+.question-footer .tick i{
+	background-color: #389382;
+	padding: 7px;
+	border-radius: 50%;
+	color: #fff;
+}
 
-
+.question-footer .tick span{
+	color: #389382;
+	font-weight: 600;
+}
+.question-icon a{
+	color: #fff;
+}
+.question-icon a:hover{
+	color: #fff;
+}
+.tickbtn{
+	background-color: #0078d4;
+	border-bottom-right-radius: 10px;
+}
+.tickbtn a{
+   color: #fff; 
+}
+.tickbtn a:hover{
+   color: #fff; 
+}
+.question-radio{
+	border-top: 1px solid #eee;
+	padding-bottom: 0px;
+}
+.radio-question{
+	border-top: 1px solid #eee;
+	padding: 10px 10px;
+}
+.radio-question:first-child{
+	border: none;
+}
+/*sidebar*/
+.your-progress h6{
+   font-size: 14px;
+}
+.accordion-button::after {
+	order: 3;
+}
+/*.your-progress{
+	position: fixed;
+} */
 /*next*/
 .btn-outline-bn{
-	color: #5ac8c4 !important;
-    border-color: #5ac8c4!important;
-    border: 2px solid #5ac8c4!important;
+	color: #5AC8C4 !important;
+    border-color: #5AC8C4!important;
+    border: 2px solid #5AC8C4!important;
     border-radius: 7px !important;
+}
+.btn-outline-bn:hover{
+	background-color: #5AC8C4;
+	color: #fff !important;
+}
+#page-wrap { 
+  width: 600px; 
+  margin: 15px auto; 
+  position: relative; 
+}
+
+/* #sidebar { 
+  position: fixed; 
+} */
+
+
+.myDiv{
+	display:none;
+    padding:10px;
+} 
+
+
+.demoClass{
+	background: #DAF7F4 !important;
 }
 
 
+@media only screen and (max-width:480px){
+ .main-box{
+ 	margin-top: 15px !important;
+ }
+ .millenials{
+ 	margin-top: 10px !important;
+ }
+ .navbar-brand{
+ 	margin-right: 0px !important;
+ }
+  .tickbtn a{
+ 	font-size: 10px;
+ }
+ .your-progress{
+	position: relative;
+} 
+} 
+@media only screen and (max-width:600px){
+ .main-box{
+ 	margin-top: 15px !important;
+ }
+ .millenials{
+ 	margin-top: 10px !important;
+ }
+ .navbar-brand{
+ 	margin-right: 0px !important;
+ }
+  .tickbtn a{
+ 	font-size: 12px;
+ }
+} 
+@media only screen and (max-width:767px){
+ .main-box{
+ 	margin-top: 15px !important;
+ }
+ .millenials{
+ 	margin-top: 10px !important;
+ }
+ .navbar-brand{
+ 	margin-right: 0px !important;
+ }
+ .tickbtn a{
+ 	font-size: 13px;
+ }
+} 
+@media only screen and (max-width:991px){
+  .driving-heading h2{
+      font-size: 30px;
+  }
+} 
 
 
 
 
-
+.ac-menu .fas {
+	float: right;
+	font-size: 1.2em;
+  }
+  
+  .ac-menu ul {
+	margin: 0;
+	padding: 10px !important;
+	list-style: none;
+  }
+  
+  .ac-menu ul li {
+	margin-top: 2px;
+	background-color: #f3f5f6;
+  }
+  
+  .ac-menu ul li a {
+	display: block;
+	text-decoration: none;
+  }
+  
+  .ac-menu ul li a:hover,
+  .ac-menu ul li a.hover {
+	background-color: rgba(0, 0, 0, 0.15);
+	color: #333;
+  }
+  
+  .ac-menu .ac-list > li > a {
+	padding: 10px 15px;
+	background-color: rgba(243,245,246,1);
+	color: #777;
+	font-size: 14px;
+  }
+  
+  .ac-menu .sub-menu {
+	display: none;
+  }
+  
+  .ac-menu .sub-menu > li > a {
+	padding: 5px 15px;
+	background-color: #eeeeee;
+	color: #aaa;
+	font-size: 14px;
+  }
+  
+  /* Hover / Open */
+  .ac-menu .ac-list > li > a:hover,
+  .ac-menu .ac-list > li > .open {
+	background-color: rgba(0,120,212,1);
+	color: #fff;
+  }
+  
+  .ac-menu .open > .ac-icon:before {
+	content: "";
+  }
+  
+  /* Transition */
+  .ac-menu .ac-list > li > a {
+	transition: all 0.24s ease-in-out;
+  }
+  
+  .bc-menu .bc-icon {
+	float: right;
+	font-size: 1.2em;
+  }
+  
+  .bc-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+  }
+  
+  .bc-menu ul li a {
+	display: block;
+	text-decoration: none;
+  }
+  
+  .bc-menu ul li a:hover,
+  .bc-menu ul li a.hover {
+	background-color: rgba(0, 0, 0, 0.05);
+	color: #333;
+  }
+  
+  .bc-menu .bc-list > li {
+	margin-top: 2px;
+  }
+  
+  .bc-menu .bc-list > li > a {
+	padding: 8px 15px;
+	border: 1px solid #ddd;
+	background-color: #fff;
+	color: #777;
+  }
+  
+  .bc-menu .sub-menu {
+	display: none;
+	border: 1px solid #ddd;
+	background-color: #fff;
+	transform: translateY(-1px);
+  }
+  
+  .bc-menu .sub-menu > li {
+	margin-top: 0;
+  }
+  
+  .bc-menu .sub-menu > li > a {
+	padding: 5px 15px;
+	color: #aaa;
+	font-size: 14px;
+  }
+  
+  /* Hover / Open */
+  .bc-menu .bc-list > li > a:hover,
+  .bc-menu .bc-list > li > .open {
+	background-color: #eee;
+  }
+  
+  .bc-menu .open > .bc-icon:before {
+	content: "";
+  }
+  
+  /* Transition */
+  .bc-menu .bc-list > li > a {
+	transition: all 0.24s ease-in-out;
+  }
+  
+  .cc-menu .cc-icon {
+	float: right;
+	font-size: 1.2em;
+  }
+  
+  .cc-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+  }
+  
+  .cc-menu ul li a {
+	display: block;
+	text-decoration: none;
+  }
+  
+  .cc-menu .cc-list > li {
+	margin-top: -1px;
+  }
+  
+  .cc-menu .cc-list > li > a {
+	padding: 8px 15px;
+	border: 1px solid #ddd;
+	background-color: #fff;
+	color: #777;
+  }
+  
+  .cc-menu .sub-menu {
+	display: none;
+	padding: 5px 0;
+	background-color: #fff;
+  }
+  
+  .cc-menu .sub-menu > li {
+	margin-top: 0;
+  }
+  
+  .cc-menu .sub-menu > li > a {
+	padding: 5px 15px;
+	color: #aaa;
+	font-size: 14px;
+  }
+  
+  .cc-menu .sub-menu > li > a:hover,
+  .cc-menu .sub-menu > li > a.hover {
+	color: #e56;
+  }
+  
+  /* Hover / Open */
+  .cc-menu .cc-list > li > a:hover {
+	color: #d56;
+  }
+  
+  .cc-menu .cc-list > li > a.open {
+	background-color: #d56;
+	border-color: #d56;
+	color: #fff;
+  }
+  
+  .cc-menu .open > .cc-icon:before {
+	content: "";
+  }
+  
+  /* Transition */
+  .cc-menu .cc-list > li > a {
+	transition: all 0.24s ease-in-out;
+  }
+  
+  .dc-menu .dc-icon {
+	float: right;
+	font-size: 1.2em;
+  }
+  
+  .dc-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+  }
+  
+  .dc-menu ul li a {
+	display: block;
+	text-decoration: none;
+  }
+  
+  .dc-menu .dc-list {
+	background-color: #2980b9;
+  }
+  
+  /* change this background-color */
+  .dc-menu .dc-list > li {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  }
+  
+  .dc-menu .dc-list > li > a {
+	padding: 8px 15px;
+	color: #fff;
+  }
+  
+  .dc-menu .sub-menu {
+	display: none;
+	background-color: rgba(255, 255, 255, 0.15);
+  }
+  
+  .dc-menu .sub-menu > li > a {
+	padding: 5px 15px;
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 14px;
+  }
+  
+  .dc-menu .sub-menu > li > a:hover,
+  .dc-menu .sub-menu > li > a.hover {
+	background-color: rgba(0, 0, 0, 0.1);
+	color: #fff;
+  }
+  
+  /* Hover / Open / Active */
+  .dc-menu .dc-list > li > a:hover,
+  .dc-menu .dc-list > li > .open {
+	background-color: #333;
+  }
+  
+  .dc-menu .open > .dc-icon:before {
+	content: "";
+  }
+  
+  /* Transition */
+  .dc-menu .dc-list > li > a {
+	transition: all 0.2s ease;
+  }
+  
+  .ec-menu .ec-icon {
+	float: right;
+	font-size: 1.2em;
+  }
+  
+  .ec-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+  }
+  
+  .ec-menu ul li a {
+	display: block;
+	text-decoration: none;
+	border-left: 1px solid #ddd;
+  }
+  
+  .ec-menu ul li a:hover,
+  .ec-menu ul li.open > a {
+	color: #d56;
+  }
+  
+  .ec-menu ul li a:hover,
+  .ec-menu ul li.open a {
+	border-color: #d56;
+  }
+  
+  .ec-menu .ec-list > li > a {
+	padding: 8px 15px;
+	color: #777;
+	font-weight: 500;
+  }
+  
+  .ec-menu .sub-menu {
+	display: none;
+  }
+  
+  .ec-menu .sub-menu > li > a {
+	padding: 5px 25px;
+	color: #999;
+	font-size: 14px;
+  }
+  
+  .ec-menu .sub-menu .sub-menu > li > a {
+	padding-left: 35px;
+  }
+  
+  /* Hover / Open */
+  .ec-menu .open > a > .ec-icon:before {
+	content: "";
+  }
+  
+  /* Transition */
+  .ec-menu ul li a {
+	transition: all 0.24s ease-in-out;
+  }
