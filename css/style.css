@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+ *
+ {
+ 	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+ 	font-family: 'Lato', sans-serif;
+ 	scroll-behavior: smooth;
+ }
+ a{
+ 	text-decoration: none !important;
+ }
+ body
+ {
+ 	min-height: 100vh;
+ 	overflow-x: hidden;
+ }
+ ul{
+  padding-left: 0px !important;
+ }
+ p{
+ 	font-size: 14px;
+ }
+ /*unversal class*/
+  .section-padding-1{
+  	padding: 30px 0;
+  }
+ /*end universal*/
+/*header*/
+
+
+
+
+
+/*Driving growth through Gift Cards*/
+.driving-heading h2{
+	font-size: 47.71px;
+	margin-bottom: 20px;
+
+}
+h6.sub-heading{
+	font-size: 16px;
+	font-weight: 500;
+	font-family: Lato-Semibold, Lato;
+}
+.btn-outline-zenoti{
+	color: #0078d4 !important;
+    border-color: #0078d4 !important;
+    border: 2px solid #0078d4 !important;
+    border-radius: 7px !important;
+}
+.main-box .imgBox img{
+   border-radius: 7px;
+}
+
+.global{
+	background-color: #ceefed;
+	padding: 15px 20px;
+	border-radius: 7px;
+	font-size: 14px;
+	color: #1C6357;
+}
+/*adult*/
+.adult-1{
+	border: 2px solid #bf992c;
+	border-radius: 10px;
+	display: flex;
+	align-items: flex-start;
+	padding: 10px;
+}
+.adult-content h6.survey-heading {
+	color: #BF992C;
+	font-size: 23px;
+	font-weight: 600;
+}
+
+.adult-2{
+	border: 2px solid #A3B53C;
+	border-radius: 10px;
+	display: flex;
+	align-items: flex-start;
+	padding: 10px;
+}
+.adult-content h6.survey-heading-2 {
+	color: #A3B53C;
+	font-size: 23px;
+	font-weight: 600;
+}
+/*gift card*/
+
+.new-green{
+	background-color: #e8f4b5;
+	padding: 65px 111px !important;
+	border-radius: 10px;
+}
+.new-pink{
+	background-color: #ffe1ca;
+	padding: 65px 111px !important;
+	border-radius: 10px;
+}
+.new-purple{
+	background-color:#e3e0fc;
+	padding: 65px 111px !important;
+	border-radius: 10px;
+}
+.new-blue{
+	background-color:#d0ebf7;
+	padding: 65px 111px !important;
+	border-radius: 10px;
+}
+.new-orange{
+	background-color:#ffecca;
+	padding: 65px 111px !important;
+	border-radius: 10px;
+}
+
+.main-3 h4{
+	font-size: 14px;
+}
+/*sidebar*/
+.side-bar-heading{
+	background-color: #000;
+	color: #fff;
+	padding: 10px;
+}
+.side-bar-heading h4{
+	font-size: 13px;
+}
+.accordion-side .accordion-button:not(.collapsed){
+	background: #0078d4 !important;
+	color: #fff;
+}
+
+
+
+/*next*/
+.btn-outline-bn{
+	color: #5ac8c4 !important;
+    border-color: #5ac8c4!important;
+    border: 2px solid #5ac8c4!important;
+    border-radius: 7px !important;
+}
+
+
+
+
+
+
+
