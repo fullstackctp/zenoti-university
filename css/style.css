@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lato", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   scroll-behavior: smooth;
 }
 a {
@@ -19,7 +19,7 @@ ul {
 p {
   line-height: 20px;
   text-align: left;
-  font-family: Lato;
+  font-family:'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 0.875rem;
@@ -36,7 +36,7 @@ p {
 .driving-heading h2 {
   line-height: 3.578rem;
   text-align: left;
-  font-family: Lato;
+  font-family:'Open Sans', sans-serif;
   margin-bottom: 30px;
   font-style: normal;
   font-weight: 600;
@@ -48,7 +48,7 @@ p {
 h6.sub-heading {
   line-height: 20px;
   text-align: left;
-  font-family: Lato-Semibold;
+  font-family:'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 1rem;
@@ -72,7 +72,7 @@ h6.sub-heading {
 .global p {
   line-height: 20px;
   text-align: left;
-  font-family: Lato-Bold;
+  font-family:'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 0.875rem;
@@ -359,7 +359,7 @@ h6.sub-heading {
 span.accor-time {
   line-height: 20px;
   text-align: left;
-  font-family: Lato-Medium;
+  font-family:'Open Sans', sans-serif;Medium;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -442,50 +442,7 @@ footer {
   display: inline-block;
 }
 
-[type="radio"]:checked + label,
-[type="radio"]:not(:checked) + label {
-  position: relative;
-  padding-left: 28px;
-  cursor: pointer;
-  line-height: 20px;
-  display: inline-block;
-  color: #666;
-}
-[type="radio"]:checked + label:before,
-[type="radio"]:not(:checked) + label:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 14px;
-  height: 14px;
-  border: 1px solid #ddd;
-  border-radius: 100%;
-  background: #fff;
-}
-[type="radio"]:checked + label:after,
-[type="radio"]:not(:checked) + label:after {
-  content: "";
-  width: 8px;
-  height: 8px;
-  background: blue;
-  position: absolute;
-  top: 4px;
-  left: 4px;
-  border-radius: 100%;
-  -webkit-transition: all 0.2s ease;
-  transition: all 0.2s ease;
-}
-[type="radio"]:not(:checked) + label:after {
-  opacity: 0;
-  -webkit-transform: scale(0);
-  transform: scale(0);
-}
-[type="radio"]:checked + label:after {
-  opacity: 1;
-  -webkit-transform: scale(1);
-  transform: scale(1);
-}
+
 
 /* responsive */
 @media (min-width: 1200px) and (max-width: 1500px) {
@@ -693,3 +650,20 @@ footer {
   min-width: 100%;
   box-shadow: 0px 7px 20px #516d132e;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* relevance page */
