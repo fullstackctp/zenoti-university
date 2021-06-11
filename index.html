@@ -21,6 +21,7 @@
       .your-progress .accordion-button {
         padding: 10px !important;
       }
+      
     </style>
   </head>
   <body>
@@ -966,7 +967,7 @@
               </p>
               <div class="block ac-menu">
                 <ul class="ac-list">
-                  <a href="#relevance" class="relevance">
+                  <a href="#relevance" class="relevance navigation">
                     <li>
                       <span class="sidebar-span">
                         1. Relevance in the Beauty and Wellness space
@@ -977,7 +978,7 @@
                       >
                     </li>
                   </a>
-                  <a href="#giftcard" class="giftcard">
+                  <a href="#giftcard" class="giftcard navigation">
                     <li>
                       <span class="sidebar-span">
                         2. Why are gift cards important to your business?
@@ -991,7 +992,7 @@
                       >
                     </li>
                   </a>
-                  <a href="#common-gift" class="common-gift">
+                  <a href="#common-gift" class="common-gift navigation">
                     <li>
                       <span class="sidebar-span">
                         3. Common Gift Card Trends and Strategies in the
@@ -1096,16 +1097,7 @@
           $(".sidebar-stick").removeAttr("style");
         }
       });
-      // $(window).scroll(function () {
-      //   var scrollDistance = $(window).scrollTop();
-
-      //   $('.article-section').each(function (i) {
-      //     if ($(this).position().top <= scrollDistance) {
-      //             $('.navigation a.active').removeClass('active');
-      //             $('.navigation a').eq(i).addClass('active');
-      //     }
-      //   });
-      // });
+     
     </script>
     <script>
       function sticky_relocate() {
@@ -1193,6 +1185,19 @@
           $(".giftcard").removeClass("active");
           $(".relevance").removeClass("active");
         });
+      });
+      // $(window).scroll(function () {
+      //   var scrollDistance = $(window).scrollTop();
+
+      //   $('.article-section').each(function (i) {
+      //     if ($(this).position().top <= scrollDistance) 
+      //     {
+      //       $('.navigation a.active').removeClass('active');
+           
+      //       $('.navigation a').eq(i).addClass('active');
+      //     }
+      //   });
+
       });
     </script>
   </body>
