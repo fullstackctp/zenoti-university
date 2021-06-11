@@ -668,3 +668,12 @@ footer {
 
 
 /* relevance page */
+.callout{
+  background-color: #8FDAFF;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 1rem 0;
+}
+.gift-hover{
+  cursor: pointer;
+}
