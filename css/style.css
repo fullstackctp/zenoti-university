@@ -17,7 +17,7 @@ ul {
   padding-left: 0px !important;
 }
 p {
-  line-height: 20px;
+  line-height: 1.25rem;
   text-align: left;
   font-family:'Open Sans', sans-serif;
   font-style: normal;
@@ -27,7 +27,10 @@ p {
 }
 /*unversal class*/
 .section-padding-1 {
-  padding: 30px 0;
+  padding: 1.875rem 0;
+}
+.section-padding-2 {
+  padding-top: 1.875rem ;
 }
 /*end universal*/
 /*header*/
@@ -46,7 +49,7 @@ p {
 }
 
 h6.sub-heading {
-  line-height: 20px;
+  line-height: 1.25rem;
   text-align: left;
   font-family:'Open Sans', sans-serif;
   font-style: normal;
@@ -66,11 +69,11 @@ h6.sub-heading {
 
 .global {
   background-color: #ceefed;
-  padding: 15px 20px;
+  padding: 0.938rem 1.25rem;
   border-radius: 7px;
 }
 .global p {
-  line-height: 20px;
+  line-height: 1.25rem;
   text-align: left;
   font-family:'Open Sans', sans-serif;
   font-style: normal;
@@ -81,10 +84,10 @@ h6.sub-heading {
 /*adult*/
 .adult-1 {
   border: 2px solid #bf992c;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   display: flex;
   align-items: flex-start;
-  padding: 10px;
+  padding: 0.625rem;
 }
 .adult-content h6.survey-heading {
   color: #bf992c;
@@ -94,10 +97,10 @@ h6.sub-heading {
 
 .adult-2 {
   border: 2px solid #a3b53c;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   display: flex;
   align-items: flex-start;
-  padding: 10px;
+  padding: 0.625rem;
 }
 .adult-content h6.survey-heading-2 {
   color: #a3b53c;
@@ -108,36 +111,36 @@ h6.sub-heading {
 
 .new-green {
   background-color: #e8f4b5;
-  padding: 65px 111px !important;
-  border-radius: 10px;
+  padding: 4.063rem 111px !important;
+  border-radius: 0.625rem;
   position: relative;
 }
 .new-pink {
   background-color: #ffe1ca;
-  padding: 65px 111px !important;
-  border-radius: 10px;
+  padding: 4.063rem 111px !important;
+  border-radius: 0.625rem;
   position: relative;
 }
 .new-purple {
   background-color: #e3e0fc;
-  padding: 65px 111px !important;
-  border-radius: 10px;
+  padding: 4.063rem 111px !important;
+  border-radius: 0.625rem;
   position: relative;
 }
 .new-blue {
   background-color: #d0ebf7;
-  padding: 65px 80px !important;
-  border-radius: 10px;
+  padding: 4.063rem 80px !important;
+  border-radius: 0.625rem;
   position: relative;
 }
 .new-orange {
   background-color: #ffecca;
-  padding: 65px 110px !important;
-  border-radius: 10px;
+  padding: 4.063rem 10.625rem !important;
+  border-radius: 0.625rem;
   position: relative;
 }
 .gift-hover:hover {
-  box-shadow: 0px 7px 20px #516d132e;
+  box-shadow: 0px 7px 1.25rem #516d132e;
 }
 
 .main-3 h4 {
@@ -177,7 +180,7 @@ h6.sub-heading {
 .side-bar-heading {
   background-color: #000;
   color: #fff;
-  padding: 10px;
+  padding: 0.625rem;
 }
 .side-bar-heading h4 {
   font-size: 13px;
@@ -189,7 +192,7 @@ h6.sub-heading {
 /*question*/
 .question {
   border: 1px solid #eee;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 }
 .question-2-pad {
   padding: 0 11px;
@@ -197,22 +200,22 @@ h6.sub-heading {
 .question-header {
   background-color: #0078d4;
   color: #fff;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  padding: 10px 15px;
+  border-top-left-radius: 0.625rem;
+  border-top-right-radius: 0.625rem;
+  padding: 0.625rem 0.938rem;
 }
 .question-header h2 {
-  font-size: 17px;
+  font-size: 1.063rem;
 }
 
 .question-body {
-  padding: 20px 28.97px;
+  padding: 1.25rem 1.811rem;
 }
 .question-footer {
-  padding: 0 10px;
+  padding: 0 0.625rem;
 }
 .question-footer .tick {
-  padding: 19.6px 28.97px;
+  padding: 1.225rem 1.811rem;
   border-top: 1px solid #eee;
 }
 .question-footer .tick i {
@@ -234,7 +237,7 @@ h6.sub-heading {
 }
 .tickbtn {
   background-color: #0078d4;
-  border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 0.625rem;
 }
 .tickbtn a {
   color: #fff;
@@ -261,7 +264,7 @@ h6.sub-heading {
 }
 .radio-question {
   border-top: 1px solid #eee;
-  padding: 19.6px 28.97px;
+  padding: 1.225rem 1.811rem;
 }
 .radio-question:first-child {
   border: none;
@@ -269,8 +272,8 @@ h6.sub-heading {
 
 /* bottom btn */
 .btn-next-prev {
-  margin-top: 58.98px !important;
-  margin-bottom: 28.98px !important;
+  margin-top: 3.686rem !important;
+  margin-bottom: 1.811rem !important;
 }
 /*sidebar*/
 .your-progress h6 {
@@ -295,7 +298,7 @@ h6.sub-heading {
 }
 #page-wrap {
   width: 600px;
-  margin: 15px auto;
+  margin: 0.938rem auto;
   position: relative;
 }
 
@@ -305,7 +308,7 @@ h6.sub-heading {
 
 .myDiv {
   display: none;
-  padding: 10px;
+  padding: 0.625rem;
 }
 
 .demoClass {
@@ -319,7 +322,7 @@ h6.sub-heading {
 
 .ac-menu ul {
   margin: 0;
-  padding: 10px !important;
+  padding: 0.625rem !important;
   list-style: none;
 }
 
@@ -331,7 +334,7 @@ h6.sub-heading {
 .ac-menu ul a li {
   display: block;
   text-decoration: none;
-  padding: 10px;
+  padding: 0.625rem;
   color: #000;
   font-weight: 600;
 }
@@ -349,7 +352,7 @@ h6.sub-heading {
   background: rgba(0, 120, 212, 1);
 }
 .ac-menu .ac-list > li > a {
-  padding: 10px 15px;
+  padding: 0.625rem 0.938rem;
   background-color: rgba(243, 245, 246, 1);
   color: #000000;
   font-weight: 600;
@@ -357,14 +360,14 @@ h6.sub-heading {
 }
 
 span.accor-time {
-  line-height: 20px;
+  line-height: 1.25rem;
   text-align: left;
-  font-family:'Open Sans', sans-serif;Medium;
+  font-family:'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 0.75rem;
   color: rgba(0, 0, 0, 1);
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }
 a.open span.accor-time,
 .ac-menu .ac-list > li > a:hover span {
@@ -408,14 +411,14 @@ footer {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 2;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   width: 100%;
 }
 .overlay-close {
   position: absolute;
-  right: 32px;
-  top: 34px;
-  font-size: 30px;
+  right: 2rem;
+  top: 2.125rem;
+  font-size:1.875rem;
   font-weight: 100 !important;
   color: #fff;
 }
@@ -425,16 +428,14 @@ footer {
   font-size: 2.982rem;
 }
 .overlay-text {
-  padding: 63px 20px;
+  padding: 3.938rem 1.25rem;
 }
-.overlay-row {
-  padding: 200px 0;
-}
+
 .overlay-p p {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #fff;
   text-align: center;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 .sidebar-span {
@@ -447,24 +448,24 @@ footer {
 /* responsive */
 @media (min-width: 1200px) and (max-width: 1500px) {
   .adult-1 {
-    min-height: 145px;
+    min-height: 9.063rem;
   }
   .adult-2 {
-    min-height: 145px;
+    min-height: 9.063rem;
   }
 }
 @media (min-width: 991px) and (max-width: 1200px) {
   .sidebar-span {
     width: 75%;
     display: inline-block;
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   .new-green,
   .new-pink,
   .new-purple,
   .new-blue,
   .new-orange {
-    padding: 65px 35px !important;
+    padding: 4.063rem 2.188rem !important;
   }
   .adult-1 {
     min-height: 156px;
@@ -478,14 +479,14 @@ footer {
     font-size: 30px;
   }
   .gift-hover {
-    box-shadow: 0px 7px 20px #516d132e;
+    box-shadow: 0px 7px 1.25rem #516d132e;
   }
   .new-green,
   .new-pink,
   .new-purple,
   .new-blue,
   .new-orange {
-    padding: 65px 65px !important;
+    padding: 4.063rem 4.063rem !important;
   }
 }
 @media (min-width: 768px) and (max-width: 836px) {
@@ -501,10 +502,10 @@ footer {
     font-size: 13px;
   }
   h6.sub-heading {
-    font-size: 15px;
+    font-size: 0.938rem;
   }
   .accordion-cos h2.accordion-header button {
-    font-size: 14px !important;
+    font-size: 0.875rem !important;
     line-height: 1.5 !important;
   }
 
@@ -513,20 +514,20 @@ footer {
   .new-purple,
   .new-blue,
   .new-orange {
-    padding: 45px 45px !important;
+    padding: 45px 10px !important;
   }
   .question-radio span {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
   .driving-heading h2 {
     font-size: 2.982rem;
     line-height: 3.578rem;
   }
   .main-box {
-    margin-top: 15px !important;
+    margin-top: 0.938rem !important;
   }
   .millenials {
-    margin-top: 10px !important;
+    margin-top: 0.625rem !important;
   }
   .navbar-brand {
     margin-right: 0px !important;
@@ -535,22 +536,22 @@ footer {
     font-size: 13px;
   }
   .gift-hover {
-    box-shadow: 0px 7px 20px #516d132e;
+    box-shadow: 0px 7px 1.25rem #516d132e;
   }
 }
 @media (min-width: 481px) and (max-width: 637px) {
   p {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
   h6.sub-heading {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   .accordion-cos h2.accordion-header button {
     font-size: 13px !important;
     line-height: 1.5 !important;
   }
   .gift-hover {
-    box-shadow: 0px 7px 20px #516d132e;
+    box-shadow: 0px 7px 1.25rem #516d132e;
   }
 
   .new-green,
@@ -558,37 +559,37 @@ footer {
   .new-purple,
   .new-blue,
   .new-orange {
-    padding: 65px 25px !important;
+    padding: 4.063rem 25px !important;
   }
   .question-radio span {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
   .driving-heading h2 {
     font-size: 1.982rem;
     line-height: 2.578rem;
   }
   .main-box {
-    margin-top: 15px !important;
+    margin-top: 0.938rem !important;
   }
   .millenials {
-    margin-top: 10px !important;
+    margin-top: 0.625rem !important;
   }
   .navbar-brand {
     margin-right: 0px !important;
   }
   .tickbtn a {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
   .gift-hover {
-    box-shadow: 0px 7px 20px #516d132e;
+    box-shadow: 0px 7px 1.25rem #516d132e;
   }
 }
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 31.25rem) and (max-width: 480px) {
   p {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
   h6.sub-heading {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   .accordion-cos h2.accordion-header button {
     font-size: 13px !important;
@@ -596,33 +597,33 @@ footer {
   }
 
   .gift-hover {
-    box-shadow: 0px 7px 20px #516d132e;
+    box-shadow: 0px 7px 1.25rem #516d132e;
   }
   .new-green,
   .new-pink,
   .new-purple,
   .new-blue,
   .new-orange {
-    padding: 65px 65px !important;
+    padding: 4.063rem 4.063rem !important;
   }
   .question-radio span {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
   .driving-heading h2 {
     font-size: 1.982rem;
     line-height: 2.578rem;
   }
   .main-box {
-    margin-top: 15px !important;
+    margin-top: 0.938rem !important;
   }
   .millenials {
-    margin-top: 10px !important;
+    margin-top: 0.625rem !important;
   }
   .navbar-brand {
     margin-right: 0px !important;
   }
   .tickbtn a {
-    font-size: 10px;
+    font-size: 0.625rem;
   }
   .your-progress {
     position: relative;
@@ -631,7 +632,7 @@ footer {
     font-size: 13px;
   }
   .gift-hover {
-    box-shadow: 0px 7px 20px #516d132e;
+    box-shadow: 0px 7px 1.25rem #516d132e;
   }
 }
 
@@ -648,7 +649,7 @@ footer {
   z-index: 10000;
   border-radius: 0 0 0.5em 0.5em;
   min-width: 100%;
-  box-shadow: 0px 7px 20px #516d132e;
+  box-shadow: 0px 7px 1.25rem #516d132e;
 }
 
 
