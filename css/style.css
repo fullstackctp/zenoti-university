@@ -408,7 +408,7 @@ footer {
   left: 0;
   margin-right: 0;
   margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
   z-index: 2;
   cursor: pointer;
   border-radius: 0.625rem;
@@ -495,6 +495,9 @@ footer {
   }
   .adult-2 {
     min-height: 160px;
+  }
+  .driving-heading h2{
+    line-height: 2.578rem;
   }
 }
 @media (min-width: 638px) and (max-width: 767px) {
