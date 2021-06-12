@@ -25,9 +25,14 @@ p {
   font-size: 0.875rem;
   color: rgba(0, 0, 0, 1);
 }
+p:last-child{
+  margin-bottom: 0 !important;
+}
+h4,h5{  margin-bottom: 0 !important;
+}
 /*unversal class*/
 .section-padding-1 {
-  padding: 1.875rem 0;
+  padding: 1.875rem 0 !important; 
 }
 .section-padding-2 {
   padding-top: 1.875rem ;
@@ -408,7 +413,7 @@ footer {
   left: 0;
   margin-right: 0;
   margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
   z-index: 2;
   cursor: pointer;
   border-radius: 0.625rem;
@@ -495,6 +500,9 @@ footer {
   }
   .adult-2 {
     min-height: 160px;
+  }
+  .driving-heading h2{
+    line-height: 2.578rem;
   }
 }
 @media (min-width: 638px) and (max-width: 767px) {
@@ -676,4 +684,28 @@ footer {
 }
 .gift-hover{
   cursor: pointer;
+}
+
+
+/* p padding */
+.physical-1-counti p:last-child{
+  margin-bottom: 0;
+}
+.customize p:last-child{
+  margin-bottom: 0;
+}
+.purchase p:last-child{
+  margin-bottom: 0;
+}
+.calendar p:last-child{
+  margin-bottom: 0;
+}
+.gift-cards p:last-child{
+  margin-bottom: 0;
+}
+.gifting-stat p:last-child{
+  margin-bottom: 0;
+}
+.Negative p:last-child{
+  padding-bottom: 0;
 }
