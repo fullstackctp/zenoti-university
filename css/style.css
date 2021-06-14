@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   scroll-behavior: smooth;
 }
 a {
@@ -19,32 +19,37 @@ ul {
 p {
   line-height: 1.25rem;
   text-align: left;
-  font-family:'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 0.875rem;
   color: rgba(0, 0, 0, 1);
 }
-p:last-child{
+p:last-child {
   margin-bottom: 0 !important;
 }
-h4,h5{  margin-bottom: 0 !important;
+h4,
+h5 {
+  margin-bottom: 0 !important;
 }
 /*unversal class*/
 .section-padding-1 {
-  padding: 1.875rem 0 !important; 
+  padding: 2.188rem 0 !important;
 }
 .section-padding-2 {
-  padding-top: 1.875rem ;
+  padding-top: 2.188rem;
+}
+.section-padding-3 {
+  padding-top: 0.938rem;
 }
 /*end universal*/
 /*header*/
 
 /*Driving growth through Gift Cards*/
 .driving-heading h2 {
-  line-height: 3.578rem;
+  line-height: 3.141rem;
   text-align: left;
-  font-family:'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin-bottom: 30px;
   font-style: normal;
   font-weight: 600;
@@ -56,7 +61,7 @@ h4,h5{  margin-bottom: 0 !important;
 h6.sub-heading {
   line-height: 1.25rem;
   text-align: left;
-  font-family:'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 1rem;
@@ -80,7 +85,7 @@ h6.sub-heading {
 .global p {
   line-height: 1.25rem;
   text-align: left;
-  font-family:'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 0.875rem;
@@ -367,7 +372,7 @@ h6.sub-heading {
 span.accor-time {
   line-height: 1.25rem;
   text-align: left;
-  font-family:'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 0.75rem;
@@ -423,7 +428,7 @@ footer {
   position: absolute;
   right: 2rem;
   top: 2.125rem;
-  font-size:1.875rem;
+  font-size: 1.875rem;
   font-weight: 100 !important;
   color: #fff;
 }
@@ -447,8 +452,6 @@ footer {
   width: 80%;
   display: inline-block;
 }
-
-
 
 /* responsive */
 @media (min-width: 1200px) and (max-width: 1500px) {
@@ -478,10 +481,12 @@ footer {
   .adult-2 {
     min-height: 156px;
   }
+  
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .driving-heading h2 {
-    font-size: 30px;
+    font-size: 1.92rem;
+    line-height: 2.141rem;
   }
   .gift-hover {
     box-shadow: 0px 7px 1.25rem #516d132e;
@@ -501,8 +506,13 @@ footer {
   .adult-2 {
     min-height: 160px;
   }
-  .driving-heading h2{
-    line-height: 2.578rem;
+  .driving-heading h2 {
+    font-size: 1.92rem;
+    line-height: 2.141rem;
+  }
+  /* overlay */
+  .overlay-p {
+    margin-top: 10px;
   }
 }
 @media (min-width: 638px) and (max-width: 767px) {
@@ -528,8 +538,8 @@ footer {
     font-size: 0.75rem;
   }
   .driving-heading h2 {
-    font-size: 2.982rem;
-    line-height: 3.578rem;
+    font-size: 1.92rem;
+    line-height: 2.141rem;
   }
   .main-box {
     margin-top: 0.938rem !important;
@@ -545,6 +555,16 @@ footer {
   }
   .gift-hover {
     box-shadow: 0px 7px 1.25rem #516d132e;
+  }
+  /* overlay text */
+  #overlay1 .overlay-text {
+    padding: 2.68rem 1.25rem;
+  }
+  .overlay-p p {
+    font-size: 0.813rem;
+  }
+  #overlay1 .overlay-close {
+    top: 0.813rem;
   }
 }
 @media (min-width: 481px) and (max-width: 637px) {
@@ -592,7 +612,7 @@ footer {
     box-shadow: 0px 7px 1.25rem #516d132e;
   }
 }
-@media (min-width: 31.25rem) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) {
   p {
     font-size: 0.75rem;
   }
@@ -639,11 +659,18 @@ footer {
   .sidebar-span {
     font-size: 13px;
   }
-  .gift-hover {
-    box-shadow: 0px 7px 1.25rem #516d132e;
+  /* overlay text */
+  #overlay1 .overlay-text {
+    padding: 2.68rem 1.25rem;
+  }
+  .overlay-p p {
+    font-size: 0.813rem;
+  }
+  #overlay1 .overlay-close {
+    top: 0.813rem;
   }
 }
-
+/* end responsive */
 #sticky {
   background-color: #fff;
   color: #fff;
@@ -660,52 +687,45 @@ footer {
   box-shadow: 0px 7px 1.25rem #516d132e;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* relevance page */
-.callout{
-  background-color: #8FDAFF;
+.callout {
+  background-color: #8fdaff;
   border-radius: 5px;
-  padding: 10px 20px;
+  padding: 20px 20px;
   margin: 1rem 0;
+  line-height: 1.5;
 }
-.gift-hover{
+.callout p{
+  font-style: italic;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.gift-hover {
   cursor: pointer;
 }
-
-
+/* motivate */
+.motivate-sub-heading b{
+  font-size: 0.875rem;
+}
 /* p padding */
-.physical-1-counti p:last-child{
+.physical-1-counti p:last-child {
   margin-bottom: 0;
 }
-.customize p:last-child{
+.customize p:last-child {
   margin-bottom: 0;
 }
-.purchase p:last-child{
+.purchase p:last-child {
   margin-bottom: 0;
 }
-.calendar p:last-child{
+.calendar p:last-child {
   margin-bottom: 0;
 }
-.gift-cards p:last-child{
+.gift-cards p:last-child {
   margin-bottom: 0;
 }
-.gifting-stat p:last-child{
+.gifting-stat p:last-child {
   margin-bottom: 0;
 }
-.Negative p:last-child{
+.Negative p:last-child {
   padding-bottom: 0;
 }
