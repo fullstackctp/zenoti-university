@@ -9,6 +9,9 @@
 a {
   text-decoration: none !important;
 }
+a:hover{
+  color: #0078d4;
+}
 body {
   min-height: 100vh;
   overflow-x: hidden;
@@ -728,4 +731,24 @@ footer {
 }
 .Negative p:last-child {
   padding-bottom: 0;
+}
+
+/* additional  */
+.additional ul li{
+  list-style: none;
+}
+.additional ul li a{
+  font-size: 14px;
+  font-weight: 600;
+} 
+
+/* loyal */
+.loyal-pro-influ ul li{
+  list-style: number;
+}
+.loyal-pro-influ ul li{
+  margin-bottom: 0.8rem;
+}
+.loyal-pro-influ ul li:last-child{
+  margin-bottom: 0;
 }
