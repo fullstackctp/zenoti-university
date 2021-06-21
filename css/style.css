@@ -779,3 +779,14 @@ footer {
 ul.new-customer,ul.current-cus-ul{
   list-style: number;
 }
+
+/* drive-sales */
+ul.drive-sales li{
+  list-style: number;
+}
+ul.drive-sale-inner-ul li {
+  list-style: none;
+}
+ul.padding-left-ul{
+  padding-left: 2rem !important;
+}
