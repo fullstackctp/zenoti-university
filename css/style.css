@@ -463,6 +463,115 @@ footer {
   display: inline-block;
 }
 
+
+#sticky {
+  background-color: #fff;
+  color: #fff;
+  border-radius: 0.5ex;
+}
+
+#sticky.stick {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  border-radius: 0 0 0.5em 0.5em;
+  min-width: 100%;
+  box-shadow: 0px 7px 1.25rem #516d132e;
+}
+
+/* relevance page */
+.callout {
+  background-color: #8fdaff;
+  border-radius: 5px;
+  padding: 20px 20px;
+  margin: 1rem 0;
+  line-height: 1.5;
+}
+.callout p{
+  font-style: italic;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.gift-hover {
+  cursor: pointer;
+}
+/* motivate */
+.motivate-sub-heading b{
+  font-size: 0.875rem;
+}
+/* p padding */
+.physical-1-counti p:last-child {
+  margin-bottom: 0;
+}
+.customize p:last-child {
+  margin-bottom: 0;
+}
+.purchase p:last-child {
+  margin-bottom: 0;
+}
+.calendar p:last-child {
+  margin-bottom: 0;
+}
+.gift-cards p:last-child {
+  margin-bottom: 0;
+}
+.gifting-stat p:last-child {
+  margin-bottom: 0;
+}
+.Negative p:last-child {
+  padding-bottom: 0;
+}
+
+/* additional  */
+.additional ul li{
+  list-style: none;
+}
+.additional ul li a{
+  font-size: 14px;
+  font-weight: 600;
+} 
+
+/* loyal */
+.loyal-pro-influ ul li{
+  list-style: number;
+}
+.loyal-pro-influ ul li{
+  margin-bottom: 0.8rem;
+}
+.loyal-pro-influ ul li:last-child{
+  margin-bottom: 0;
+}
+/* additional */
+.additional ul li{
+  margin-bottom: 7px;
+} 
+ul.new-customer,ul.current-cus-ul{
+  list-style: number;
+}
+ul.drive-sale-inner-ul li{  list-style: none;
+}
+ul.list-none  li{
+  list-style: none;
+}
+ul.list-number li{
+  list-style: number;
+}
+ul.list-none li{
+  list-style: none;
+}
+
+
+/*  insta-image*/
+.insta-image img{
+  width: 35rem;
+}
+
+
+
+
+
+
 /* responsive */
 @media (min-width: 1200px) and (max-width: 1500px) {
   .adult-1 {
@@ -692,101 +801,9 @@ footer {
   ul li{
     font-size: 0.75rem !important;
   }
+  /* insta imgae */
+  .insta-image img{
+    width: 100% !important;
+  }
 }
 /* end responsive */
-#sticky {
-  background-color: #fff;
-  color: #fff;
-  border-radius: 0.5ex;
-}
-
-#sticky.stick {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 10000;
-  border-radius: 0 0 0.5em 0.5em;
-  min-width: 100%;
-  box-shadow: 0px 7px 1.25rem #516d132e;
-}
-
-/* relevance page */
-.callout {
-  background-color: #8fdaff;
-  border-radius: 5px;
-  padding: 20px 20px;
-  margin: 1rem 0;
-  line-height: 1.5;
-}
-.callout p{
-  font-style: italic;
-  font-size: 1rem;
-  line-height: 1.6;
-}
-.gift-hover {
-  cursor: pointer;
-}
-/* motivate */
-.motivate-sub-heading b{
-  font-size: 0.875rem;
-}
-/* p padding */
-.physical-1-counti p:last-child {
-  margin-bottom: 0;
-}
-.customize p:last-child {
-  margin-bottom: 0;
-}
-.purchase p:last-child {
-  margin-bottom: 0;
-}
-.calendar p:last-child {
-  margin-bottom: 0;
-}
-.gift-cards p:last-child {
-  margin-bottom: 0;
-}
-.gifting-stat p:last-child {
-  margin-bottom: 0;
-}
-.Negative p:last-child {
-  padding-bottom: 0;
-}
-
-/* additional  */
-.additional ul li{
-  list-style: none;
-}
-.additional ul li a{
-  font-size: 14px;
-  font-weight: 600;
-} 
-
-/* loyal */
-.loyal-pro-influ ul li{
-  list-style: number;
-}
-.loyal-pro-influ ul li{
-  margin-bottom: 0.8rem;
-}
-.loyal-pro-influ ul li:last-child{
-  margin-bottom: 0;
-}
-/* additional */
-.additional ul li{
-  margin-bottom: 7px;
-} 
-ul.new-customer,ul.current-cus-ul{
-  list-style: number;
-}
-ul.drive-sale-inner-ul li{  list-style: none;
-}
-ul.list-none  li{
-  list-style: none;
-}
-ul.list-number li{
-  list-style: number;
-}
-ul.list-none li{
-  list-style: none;
-}
