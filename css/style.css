@@ -568,8 +568,66 @@ ul.list-none li{
 }
 
 
+/* gift card click here effect */
 
+.cursor {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+  animation: cursorAnim .5s infinite alternate;
+  pointer-events: none;
+  z-index: 99;
+  right: 20px;
+  top: 10px;
+  display: none;
+}
 
+.cursor::after {
+content: "";
+width: 20px;
+height: 20px;
+position: absolute;
+border: 8px solid#272727;
+border-radius: 50%;
+opacity: .5;
+top: -1px;
+left: -1px;
+animation: cursorAnim2 .5s infinite alternate;
+}
+
+@keyframes cursorAnim {
+  from {
+      transform: scale(1);
+  }
+  to {
+      transform: scale(.7);
+  }
+}
+
+@keyframes cursorAnim2 {
+  from {
+      transform: scale(1);
+  }
+  to {
+      transform: scale(.4);
+  }
+}
+
+@keyframes cursorAnim3 {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(3);
+  }
+  100% {
+      transform: scale(1);
+      opacity: 0;
+  }
+}
 
 
 /* responsive */
@@ -579,6 +637,9 @@ ul.list-none li{
   }
   .adult-2 {
     min-height: 9.063rem;
+  }
+  .cursor{
+    display: none;
   }
 }
 @media (min-width: 991px) and (max-width: 1200px) {
@@ -600,7 +661,9 @@ ul.list-none li{
   .adult-2 {
     min-height: 156px;
   }
-  
+  .cursor{
+    display: none;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .driving-heading h2 {
@@ -617,6 +680,9 @@ ul.list-none li{
   .new-orange {
     padding: 4.063rem 4.063rem !important;
   }
+  .cursor{
+    display: none;
+  }
 }
 @media (min-width: 768px) and (max-width: 836px) {
   .adult-1 {
@@ -632,6 +698,9 @@ ul.list-none li{
   /* overlay */
   .overlay-p {
     margin-top: 10px;
+  }
+  .cursor{
+    display:block;
   }
 }
 @media (min-width: 638px) and (max-width: 767px) {
@@ -688,6 +757,9 @@ ul.list-none li{
   ul li{
     font-size: 0.8125rem !important;
   }
+  .cursor{
+    display:block;
+  }
 }
 @media (min-width: 481px) and (max-width: 637px) {
   p {
@@ -735,6 +807,9 @@ ul.list-none li{
   }
   ul li{
     font-size: 0.75rem !important;
+  }
+  .cursor{
+    display:block;
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
@@ -804,6 +879,9 @@ ul.list-none li{
   /* insta imgae */
   .insta-image img{
     width: 100% !important;
+  }
+  .cursor{
+    display:block;
   }
 }
 /* end responsive */
