@@ -567,7 +567,9 @@ ul.list-none li{
   width: 35rem;
 }
 
-
+.graph-image img{
+  width: 65rem;
+}
 /* gift card click here effect */
 
 .cursor {
@@ -664,6 +666,12 @@ animation: cursorAnim2 .5s infinite alternate;
   .cursor{
     display: none;
   }
+  .insta-image img{
+    width: 100% !important;
+  }
+  .graph-image img{
+    width: 100%;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .driving-heading h2 {
@@ -683,6 +691,12 @@ animation: cursorAnim2 .5s infinite alternate;
   .cursor{
     display: none;
   }
+  .insta-image img{
+    width: 100% !important;
+  }
+  .graph-image img{
+    width: 100%;
+  }
 }
 @media (min-width: 768px) and (max-width: 836px) {
   .adult-1 {
@@ -701,6 +715,12 @@ animation: cursorAnim2 .5s infinite alternate;
   }
   .cursor{
     display:block;
+  }
+  .insta-image img{
+    width: 100% !important;
+  }
+  .graph-image img{
+    width: 100%;
   }
 }
 @media (min-width: 638px) and (max-width: 767px) {
@@ -760,6 +780,12 @@ animation: cursorAnim2 .5s infinite alternate;
   .cursor{
     display:block;
   }
+  .insta-image img{
+    width: 100% !important;
+  }
+  .graph-image img{
+    width: 100%;
+  }
 }
 @media (min-width: 481px) and (max-width: 637px) {
   p {
@@ -810,6 +836,12 @@ animation: cursorAnim2 .5s infinite alternate;
   }
   .cursor{
     display:block;
+  }
+  .insta-image img{
+    width: 100% !important;
+  }
+  .graph-image img{
+    width: 100%;
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
@@ -879,6 +911,9 @@ animation: cursorAnim2 .5s infinite alternate;
   /* insta imgae */
   .insta-image img{
     width: 100% !important;
+  }
+  .graph-image img{
+    width: 100%;
   }
   .cursor{
     display:block;
