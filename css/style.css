@@ -567,9 +567,6 @@ ul.list-none li{
   width: 35rem;
 }
 
-.graph-image img{
-  width: 65rem;
-}
 /* gift card click here effect */
 
 .cursor {
@@ -584,7 +581,7 @@ ul.list-none li{
   z-index: 99;
   right: 20px;
   top: 10px;
-  display: none;
+  display: block;
 }
 
 .cursor::after {
@@ -640,9 +637,6 @@ animation: cursorAnim2 .5s infinite alternate;
   .adult-2 {
     min-height: 9.063rem;
   }
-  .cursor{
-    display: none;
-  }
 }
 @media (min-width: 991px) and (max-width: 1200px) {
   .sidebar-span {
@@ -662,9 +656,6 @@ animation: cursorAnim2 .5s infinite alternate;
   }
   .adult-2 {
     min-height: 156px;
-  }
-  .cursor{
-    display: none;
   }
   .insta-image img{
     width: 100% !important;
@@ -687,9 +678,6 @@ animation: cursorAnim2 .5s infinite alternate;
   .new-blue,
   .new-orange {
     padding: 4.063rem 4.063rem !important;
-  }
-  .cursor{
-    display: none;
   }
   .insta-image img{
     width: 100% !important;
