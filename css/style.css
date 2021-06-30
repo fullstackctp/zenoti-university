@@ -657,9 +657,7 @@ animation: cursorAnim2 .5s infinite alternate;
   .adult-2 {
     min-height: 156px;
   }
-  .insta-image img{
-    width: 100% !important;
-  }
+ 
   .graph-image img{
     width: 100%;
   }
@@ -682,9 +680,7 @@ animation: cursorAnim2 .5s infinite alternate;
   .new-orange {
     padding: 4.063rem 4.063rem !important;
   }
-  .insta-image img{
-    width: 100% !important;
-  }
+ 
   .graph-image img{
     width: 100%;
   }
@@ -710,9 +706,7 @@ animation: cursorAnim2 .5s infinite alternate;
   .cursor{
     display:block;
   }
-  .insta-image img{
-    width: 100% !important;
-  }
+
   .graph-image img{
     width: 100%;
   }
