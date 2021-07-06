@@ -491,6 +491,7 @@ footer {
   font-style: italic;
   font-size: 0.875rem;
   line-height: 1.6;
+  text-align: center;
 }
 .gift-hover {
   cursor: pointer;
