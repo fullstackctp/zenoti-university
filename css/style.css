@@ -562,7 +562,9 @@ ul.list-number li {
 ul.list-none li {
   list-style: none;
 }
-
+ul.list-radio li {
+  list-style: disc;
+}
 /*  insta-image*/
 .insta-image img {
   width: 35rem;
