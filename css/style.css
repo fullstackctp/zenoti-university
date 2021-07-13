@@ -52,6 +52,9 @@ h5 {
 .section-padding-3 {
   padding-top: 0.938rem;
 }
+.section-padding-4 {
+  padding-top: 0.938rem;
+}
 /*end universal*/
 /*header*/
 
@@ -359,6 +362,65 @@ h6.sub-heading {
   font-weight: 600;
 }
 
+.collapsible p{
+  line-height: 2rem;
+}
+
+.collapsible{
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border-radius: 00.625rem;
+}
+
+ .collapsible:hover {
+  background-color: #555;
+}
+
+ .sign:after {
+  content: '\002B ';
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  float: left;
+  margin-left: 5px;
+  margin-right:10px
+}
+
+.sign{
+      width: 20px;
+    height: 20px;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+    animation: cursorAnim 0.5s infinite alternate;
+    z-index: 99;    
+}
+
+.active:after {
+  content: "\2212 ";
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  float: left;
+  margin-left: 5px;
+  margin-right:10px
+   
+}
+
+.content {
+  display: none;
+  padding: 0 18px;
+  transition: max-height 0.2s ease-out;
+}
+
+
+
 .ac-menu ul a.active li {
   background: rgba(0, 120, 212, 1);
   color: #fff;
@@ -524,9 +586,9 @@ footer {
 }
 
 /* additional  */
-.additional ul li {
+/* .additional ul li {
   list-style: none;
-}
+} */
 .additional ul li a {
   font-size: 14px;
   font-weight: 600;
@@ -639,6 +701,8 @@ ul.list-radio li {
   .adult-2 {
     min-height: 9.063rem;
   }
+ 
+
 }
 @media (min-width: 991px) and (max-width: 1200px) {
   .sidebar-span {
@@ -666,6 +730,8 @@ ul.list-radio li {
   .graph-image img {
     width: 70%;
   }
+ 
+ 
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .driving-heading h2 {
@@ -689,6 +755,19 @@ ul.list-radio li {
   .graph-image img {
     width: 65%;
   }
+   .img-responsive1{
+    width: 100%;
+  }
+
+  .responsive{
+    flex-direction: column;
+  }
+
+  .responsivePadding{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+ 
 }
 @media (min-width: 768px) and (max-width: 836px) {
   .adult-1 {
@@ -715,6 +794,7 @@ ul.list-radio li {
   .graph-image img {
     width: 65%;
   }
+  
 }
 @media (min-width: 638px) and (max-width: 767px) {
   p {
@@ -779,7 +859,17 @@ ul.list-radio li {
   .graph-image img {
     width: 100%;
   }
+   .responsive{
+    flex-direction: column;
+  }
+
+   .responsivePadding{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
 }
+
 @media (min-width: 481px) and (max-width: 637px) {
   p {
     font-size: 0.75rem;
@@ -836,6 +926,14 @@ ul.list-radio li {
   .graph-image img {
     width: 100%;
   }
+   .responsive{
+    flex-direction: column;
+  }
+ .responsivePadding{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  
 }
 @media (min-width: 320px) and (max-width: 480px) {
   p {
