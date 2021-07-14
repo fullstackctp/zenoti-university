@@ -542,19 +542,25 @@ footer {
 }
 
 /* relevance page */
-.callout {
+.impact, .callout {
   background-color: #bbe5ff;
   border-radius: 5px;
   padding: 20px 20px;
   margin: 1rem 0;
   line-height: 1.5;
 }
-.callout p {
+.impact p, .callout p {
   font-style: italic;
   font-size: 0.875rem;
   line-height: 1.6;
   text-align: center;
 }
+
+.impact{
+  padding: 10px 10px;
+
+}
+
 .gift-hover {
   cursor: pointer;
 }
