@@ -69,7 +69,6 @@ $(document).ready(function () {
 });
 });
 
-
 $(document).ready(function () {
 
   $(".slider").click(function () {
@@ -78,9 +77,7 @@ $(document).ready(function () {
     //getting the next element
     $content = $slider.next();
     //open up the content needed - toggle the slide- if visible, slide up, if not slidedown.
-   
-           $content.toggle("slide");
+     $content.toggle("slide");
    
 });
 });
-
