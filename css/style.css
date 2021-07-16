@@ -17,21 +17,20 @@ body {
   overflow-x: hidden;
   font-size: 16px !important;
 }
-h1{
+h1 {
   font-size: 32px !important;
   font-weight: bold !important;
 }
-h2{
-  font-size:  24px !important;
+h2 {
+  font-size: 24px !important;
 }
-h3{
-  font-size:  18.72px !important;
+h3 {
+  font-size: 18.72px !important;
 }
-h4{
-  font-size:  16px !important;
+h4 {
+  font-size: 16px !important;
   font-weight: bold !important;
 }
-
 
 ul {
   padding-left: 0px !important;
@@ -39,7 +38,6 @@ ul {
 ul li {
   font-size: 1em !important;
   margin-bottom: 10px;
-
 }
 ul li:last-child {
   margin-bottom: 0;
@@ -73,7 +71,7 @@ h5 {
 .section-padding-4 {
   padding-top: 0.938rem;
 }
-.pad-60{
+.pad-60 {
   padding: 66px 20px;
 }
 /*end universal*/
@@ -381,11 +379,11 @@ h6.sub-heading {
   font-weight: 600;
 }
 
-.collapsible p{
+.collapsible p {
   line-height: 2rem;
 }
 
-.collapsible{
+.collapsible {
   background-color: #f5f5f5;
   cursor: pointer;
   padding: 18px;
@@ -396,27 +394,31 @@ h6.sub-heading {
   font-size: 15px;
 }
 
- .collapsible:hover {
+.collapsible:hover {
   background-color: #555;
+  color: #fff !important;
+}
+.collapsible:hover p ,.collapsible:hover p.sign:after{
+  color: #fff;
 }
 
- .sign:after {
-  content: '\002B ';
+.sign:after {
+  content: "\002B ";
   color: black;
   font-weight: bold;
   font-size: 25px;
   float: left;
   margin-left: 5px;
-  margin-right:10px
+  margin-right: 10px;
 }
 
-.sign{
-      width: 20px;
-    height: 20px;
-    transition-duration: 200ms;
-    transition-timing-function: ease-out;
-    animation: cursorAnim 0.5s infinite alternate;
-    z-index: 99;    
+.sign {
+  width: 20px;
+  height: 20px;
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+  animation: cursorAnim 0.5s infinite alternate;
+  z-index: 99;
 }
 
 .active:after {
@@ -426,8 +428,7 @@ h6.sub-heading {
   font-weight: bold;
   float: left;
   margin-left: 5px;
-  margin-right:10px
-   
+  margin-right: 10px;
 }
 
 .content {
@@ -435,8 +436,6 @@ h6.sub-heading {
   padding: 0 18px;
   transition: max-height 0.2s ease-out;
 }
-
-
 
 .ac-menu ul a.active li {
   background: rgba(0, 120, 212, 1);
@@ -559,27 +558,27 @@ footer {
 }
 
 /* relevance page */
-.impact, .callout {
+.impact,
+.callout {
   background-color: #bbe5ff;
   padding: 20px 20px;
   margin-bottom: 1rem;
   line-height: 1.5;
 }
-.impact p, .callout p {
+.impact p,
+.callout p {
   line-height: 1.6;
   text-align: center;
-  
 }
 
-.impact{
-   background-color: #00b6ed;
-   color:white;
+.impact {
+  background-color: #00b6ed;
+  color: white;
   padding: 10px 10px;
-
 }
 
-.impact p{
-   color:white;
+.impact p {
+  color: white;
 }
 
 .gift-hover {
@@ -728,11 +727,9 @@ ul.list-radio li {
   .adult-2 {
     min-height: 9.063rem;
   }
-  .pad-60{
+  .pad-60 {
     padding: 53px 20px;
   }
- 
-
 }
 @media (min-width: 991px) and (max-width: 1200px) {
   .sidebar-span {
@@ -760,8 +757,8 @@ ul.list-radio li {
   .graph-image img {
     width: 70%;
   }
- 
-  .pad-60{
+
+  .pad-60 {
     padding: 40px 20px;
   }
 }
@@ -787,22 +784,21 @@ ul.list-radio li {
   .graph-image img {
     width: 65%;
   }
-   .img-responsive1{
+  .img-responsive1 {
     width: 100%;
   }
 
-  .responsive{
+  .responsive {
     flex-direction: column;
   }
-   
-  .responsivePadding{
+
+  .responsivePadding {
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
-  .pad-60{
+  .pad-60 {
     padding: 12px 20px;
   }
- 
 }
 @media (min-width: 768px) and (max-width: 836px) {
   .adult-1 {
@@ -829,10 +825,9 @@ ul.list-radio li {
   .graph-image img {
     width: 65%;
   }
-  .pad-60{
+  .pad-60 {
     padding: 12px 20px;
   }
-  
 }
 @media (min-width: 638px) and (max-width: 767px) {
   p {
@@ -897,20 +892,17 @@ ul.list-radio li {
   .graph-image img {
     width: 100%;
   }
-   .responsive{
+  .responsive {
     flex-direction: column;
   }
 
- 
-
-   .responsivePadding{
+  .responsivePadding {
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
-  .pad-60{
+  .pad-60 {
     padding: 30px 20px;
   }
-
 }
 
 @media (min-width: 481px) and (max-width: 637px) {
@@ -969,18 +961,16 @@ ul.list-radio li {
   .graph-image img {
     width: 100%;
   }
-   .responsive{
+  .responsive {
     flex-direction: column;
   }
- .responsivePadding{
+  .responsivePadding {
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
-  .pad-60{
+  .pad-60 {
     padding: 30px 20px;
   }
- 
-  
 }
 @media (min-width: 320px) and (max-width: 480px) {
   p {
@@ -1056,11 +1046,11 @@ ul.list-radio li {
   .cursor {
     display: block;
   }
- 
-    .responsive{
+
+  .responsive {
     flex-direction: column;
   }
-  .pad-60{
+  .pad-60 {
     padding: 30px 20px;
   }
 }
@@ -1069,4 +1059,3 @@ ul.list-radio li {
 .header-image {
   border-radius: 0.5rem;
 }
-
