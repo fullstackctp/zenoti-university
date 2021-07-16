@@ -43,7 +43,7 @@ ul li:last-child {
   margin-bottom: 0;
 }
 p {
-  line-height: 1.25rem;
+  line-height: 1.6;
   text-align: left;
   font-family: "Open Sans", sans-serif;
   font-style: normal;
@@ -70,9 +70,6 @@ h5 {
 }
 .section-padding-4 {
   padding-top: 0.938rem;
-}
-.pad-60 {
-  padding: 50px 20px;
 }
 /*end universal*/
 /*header*/
@@ -727,9 +724,7 @@ ul.list-radio li {
   .adult-2 {
     min-height: 9.063rem;
   }
-  .pad-60 {
-    padding: 53px 20px;
-  }
+
 }
 @media (min-width: 991px) and (max-width: 1200px) {
   .sidebar-span {
@@ -758,9 +753,7 @@ ul.list-radio li {
     width: 70%;
   }
 
-  .pad-60 {
-    padding: 30px 20px;
-  }
+
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .driving-heading h2 {
@@ -796,9 +789,7 @@ ul.list-radio li {
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
-  .pad-60 {
-    padding: 12px 20px;
-  }
+
 }
 @media (min-width: 768px) and (max-width: 836px) {
   .adult-1 {
@@ -825,9 +816,7 @@ ul.list-radio li {
   .graph-image img {
     width: 65%;
   }
-  .pad-60 {
-    padding: 10px 20px;
-  }
+
 }
 @media (min-width: 638px) and (max-width: 767px) {
   p {
@@ -900,9 +889,7 @@ ul.list-radio li {
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
-  .pad-60 {
-    padding: 30px 20px;
-  }
+
 }
 
 @media (min-width: 481px) and (max-width: 637px) {
@@ -968,9 +955,7 @@ ul.list-radio li {
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
-  .pad-60 {
-    padding: 30px 20px;
-  }
+
 }
 @media (min-width: 320px) and (max-width: 480px) {
   p {
@@ -1050,9 +1035,7 @@ ul.list-radio li {
   .responsive {
     flex-direction: column;
   }
-  .pad-60 {
-    padding: 30px 20px;
-  }
+
 }
 /* end responsive */
 
