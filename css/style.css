@@ -72,7 +72,7 @@ h5 {
   padding-top: 0.938rem;
 }
 .pad-60 {
-  padding: 72px 20px;
+  padding: 50px 20px;
 }
 /*end universal*/
 /*header*/
@@ -759,7 +759,7 @@ ul.list-radio li {
   }
 
   .pad-60 {
-    padding: 40px 20px;
+    padding: 30px 20px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -826,7 +826,7 @@ ul.list-radio li {
     width: 65%;
   }
   .pad-60 {
-    padding: 21px 20px;
+    padding: 10px 20px;
   }
 }
 @media (min-width: 638px) and (max-width: 767px) {
