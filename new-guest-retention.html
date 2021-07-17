@@ -989,115 +989,45 @@
               their next appointment before they leave the shop.
             </p>
             <h3><strong>Click each arrow below to learn more.</strong></h3>
-            <div class="question-radio mt-3">
-              <div class="radio-question" id="radioDivOne">
-                <label>
-                  <input type="radio" name="demo" id="One" value="One" /><span
-                    class="ms-2"
-                  >
-                    What is rebooking?</span
-                  >
-                </label>
-                <div id="showOne" class="myDiv me-3">
-                  <div class="feedback ms-3 mb-2">
-                    <strong style="font-size: 14px"
-                      ><img
-                        src="img/message-icon.svg"
-                        class="img-responsive me-2"
-                      />Feedback:</strong
-                    >
-                  </div>
-                  <div class="feedback-content">
-                    <p class="ms-3 mb-0">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Perferendis quaerat fugiat culpa animi voluptas at
-                      explicabo labore consectetur dignissimos tempora. Libero
-                      praesentium quibusdam tempora molestiae reiciendis, unde,
-                      molestias quam? Commodi.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="radio-question" id="radioDivTwo">
-                <label>
-                  <input type="radio" name="demo" id="Two" value="Two" /><span
-                    class="ms-2"
-                  >
-                    Morbi lectus ligula, tincidunt non quam fermentum.</span
-                  >
-                </label>
-                <div id="showTwo" class="myDiv me2">
-                  <div class="feedback mb-2 ms-3">
-                    <strong style="font-size: 14px"
-                      ><img
-                        src="img/message-icon.svg"
-                        class="img-responsive me-2"
-                      />Feedback:</strong
-                    >
-                  </div>
-                  <div class="feedback-content">
-                    <p class="ms-3 mb-0">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Perferendis quaerat fugiat culpa animi voluptas at
-                      explicabo labore consectetur dignissimos tempora. Libero
-                      praesentium quibusdam tempora molestiae reiciendis, unde,
-                      molestias quam? Commodi.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="radio-question" id="radioDivThree">
-                <label>
-                  <input type="radio" name="demo" id="Three" value="Three" />
-                  <span class="ms-2"
-                    >Sed vitae iaculis ex. Nunc convallis consequat vestibulum.
-                    Integer scelerisque.</span
-                  >
-                </label>
-                <div id="showThree" class="myDiv" id="oneRadio">
-                  <div class="feedback mb-2 ms-3">
-                    <strong style="font-size: 14px"
-                      ><img
-                        src="img/message-icon.svg"
-                        class="img-responsive me-2"
-                      />Feedback:</strong
-                    >
-                  </div>
-                  <div class="feedback-content">
-                    <p class="ms-3 mb-0">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Perferendis quaerat fugiat culpa animi voluptas at
-                      explicabo labore consectetur dignissimos tempora. Libero
-                      praesentium quibusdam tempora molestiae reiciendis, unde,
-                      molestias quam? Commodi.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
             <!-- onclick accordians -->
             <div>
-              <div class="question-radio mt-3 next-elem1">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, vero.</p>
+              <div class="question-radio mt-3 next-elem1 text-center p-2">
+                <p class="text-center mb-0">What is rebooking?</p>
                 <div class="text-center" onclick="showNext(1)">
                   <i class="fas fa-arrow-down"></i>
                 </div>
               </div>
-              <div class="question-radio mt-3 next-elem2 d-none" onclick="showNext(2)">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, vero.</p>
+              <div class="question-radio mt-3 next-elem2 d-none p-2" onclick="showNext(2)">
+                <p class="text-center mb-0">Rebooking (sometimes call prebooking) means a guest booked their next appointment on the same day of the service they just received.</p>
                 <div class="text-center">
                   <i class="fas fa-arrow-down"></i>
                 </div>
               </div>
-              <div class="question-radio mt-3 next-elem3 d-none" onclick="showNext(3)">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, vero.</p>
+              <div class="question-radio mt-3 next-elem3 d-none  p-2" onclick="showNext(3)">
+                <p class="mb-0 row">
+                  <span class="text-center"> To qualify as a rebooked appointment, guests can:</span>
+                  <div class="col-5 offset-4">
+                    <ul class="mt-2" >
+                      <li>
+                        book before they leave your salon or spa,
+                      </li>
+                      <li>
+                        book online when they get home, or
+                      </li>
+                      <li>
+                        book by calling you before the end of the day.
+                      </li>
+                    </ul>
+                  </div>
+                
+                </p>
                 <div class="text-center">
                   <i class="fas fa-arrow-down"></i>
                 </div>
               </div>
-              <div class="question-radio mt-3 next-elem4 d-none">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit explicabo molestiae eos in maxime id facilis, quaerat dolorum reprehenderit similique. Non earum nemo nulla ratione, placeat atque dolorum explicabo facilis?
+              <div class="question-radio mt-3 next-elem4 d-none p-2">
+                <p class="text-center mb-0">
+                  Even with these options, do not leave rebooking to chance! <br>Ensure every guest is offered the convenience of rebooking their next appointment before they go about the rest of their day.
                 </p>
               </div>
             </div>
@@ -1382,26 +1312,6 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
     <script>
-      $(document).ready(function () {
-        $('input[type="radio"]').click(function () {
-          var demovalue = $(this).val();
-          $("div.myDiv").hide();
-          $("#show" + demovalue).show();
-          if ($("#One").is(":checked")) {
-            $("#radioDiv" + demovalue).addClass("demoClass");
-            $("#radioDivTwo").removeClass("demoClass");
-            $("#radioDivThree").removeClass("demoClass");
-          } else if ($("#Two").is(":checked")) {
-            $("#radioDiv" + demovalue).addClass("demoClass");
-            $("#radioDivOne").removeClass("demoClass");
-            $("#radioDivThree").removeClass("demoClass");
-          } else if ($("#Three").is(":checked")) {
-            $("#radioDiv" + demovalue).addClass("demoClass");
-            $("#radioDivOne").removeClass("demoClass");
-            $("#radioDivTwo").removeClass("demoClass");
-          }
-        });
-      });
       function showNext(id) {
           if(id == 1) {
             $('.next-elem2').removeClass('d-none')
