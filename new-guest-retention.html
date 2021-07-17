@@ -1075,6 +1075,32 @@
                 </div>
               </div>
             </div>
+            <!-- onclick accordians -->
+            <div>
+              <div class="question-radio mt-3 next-elem1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, vero.</p>
+                <div class="text-center" onclick="showNext(1)">
+                  <i class="fas fa-arrow-down"></i>
+                </div>
+              </div>
+              <div class="question-radio mt-3 next-elem2 d-none" onclick="showNext(2)">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, vero.</p>
+                <div class="text-center">
+                  <i class="fas fa-arrow-down"></i>
+                </div>
+              </div>
+              <div class="question-radio mt-3 next-elem3 d-none" onclick="showNext(3)">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, vero.</p>
+                <div class="text-center">
+                  <i class="fas fa-arrow-down"></i>
+                </div>
+              </div>
+              <div class="question-radio mt-3 next-elem4 d-none">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit explicabo molestiae eos in maxime id facilis, quaerat dolorum reprehenderit similique. Non earum nemo nulla ratione, placeat atque dolorum explicabo facilis?
+                </p>
+              </div>
+            </div>
             <div class="section-padding-3">
               <h4>Stick to the Script</h4>
               <p class="mt-3">
@@ -1376,6 +1402,17 @@
           }
         });
       });
+      function showNext(id) {
+          if(id == 1) {
+            $('.next-elem2').removeClass('d-none')
+          }
+          if(id == 2) {
+            $('.next-elem3').removeClass('d-none')
+          }
+          if(id == 3) {
+            $('.next-elem4').removeClass('d-none')
+          }
+        }
     </script>
   </body>
 </html>
