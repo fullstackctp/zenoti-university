@@ -296,8 +296,8 @@ h6.sub-heading {
   color: #fff;
 }
 .question-radio {
-  border-top: 1px solid #eee;
   padding-bottom: 0px;
+  background-color: #bbe5ff;
 }
 .radio-question {
   border-top: 1px solid #eee;
@@ -349,7 +349,7 @@ h6.sub-heading {
 }
 
 .demoClass {
-  background: #daf7f4 !important;
+  background: #bbe5ff !important;
 }
 /* accordion */
 .ac-menu .fas {
@@ -715,6 +715,9 @@ ul.list-radio li {
     opacity: 0;
   }
 }
+
+
+/* new pages */
 
 /* responsive */
 @media (min-width: 1200px) and (max-width: 1500px) {
