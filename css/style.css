@@ -718,7 +718,12 @@ ul.list-radio li {
 
 
 /* new pages */
-
+.guest-clickables table tr td a {
+  text-decoration: underline !important;
+}
+.guest-clickables table tr td  a:hover{
+  text-decoration: none !important;
+}
 /* responsive */
 @media (min-width: 1200px) and (max-width: 1500px) {
   .adult-1 {
