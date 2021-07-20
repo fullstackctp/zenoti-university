@@ -6,6 +6,11 @@
   font-family: "Open Sans", sans-serif;
   scroll-behavior: smooth;
 }
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
 a {
   text-decoration: none !important;
 }
@@ -395,7 +400,8 @@ h6.sub-heading {
   background-color: #555;
   color: #fff !important;
 }
-.collapsible:hover p ,.collapsible:hover p.sign:after{
+.collapsible:hover p,
+.collapsible:hover p.sign:after {
   color: #fff;
 }
 
@@ -685,6 +691,32 @@ ul.list-radio li {
   animation: cursorAnim2 0.5s infinite alternate;
 }
 
+.blink-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+  animation: cursorAnim 0.5s infinite alternate;
+  pointer-events: none;
+  z-index: 99;
+  right: 20px;
+  display: block;
+}
+
+.blink-circle::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border: 8px solid#272727;
+  border-radius: 50%;
+  opacity: 0.5;
+  top: -1px;
+  left: -1px;
+  animation: cursorAnim2 0.5s infinite alternate;
+}
+
 @keyframes cursorAnim {
   from {
     transform: scale(1);
@@ -716,12 +748,23 @@ ul.list-radio li {
   }
 }
 
+@keyframes blinkAnim {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 
 /* new pages */
 .guest-clickables table tr td a {
   text-decoration: underline !important;
 }
-.guest-clickables table tr td  a:hover{
+.guest-clickables table tr td a:hover {
   text-decoration: none !important;
 }
 /* responsive */
@@ -732,7 +775,6 @@ ul.list-radio li {
   .adult-2 {
     min-height: 9.063rem;
   }
-
 }
 @media (min-width: 991px) and (max-width: 1200px) {
   .sidebar-span {
@@ -760,8 +802,6 @@ ul.list-radio li {
   .graph-image img {
     width: 70%;
   }
-
-
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .driving-heading h2 {
@@ -797,7 +837,6 @@ ul.list-radio li {
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
-
 }
 @media (min-width: 768px) and (max-width: 836px) {
   .adult-1 {
@@ -824,7 +863,6 @@ ul.list-radio li {
   .graph-image img {
     width: 65%;
   }
-
 }
 @media (min-width: 638px) and (max-width: 767px) {
   p {
@@ -897,7 +935,6 @@ ul.list-radio li {
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
-
 }
 
 @media (min-width: 481px) and (max-width: 637px) {
@@ -963,7 +1000,6 @@ ul.list-radio li {
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
-
 }
 @media (min-width: 320px) and (max-width: 480px) {
   p {
@@ -1043,7 +1079,6 @@ ul.list-radio li {
   .responsive {
     flex-direction: column;
   }
-
 }
 /* end responsive */
 
