@@ -7,6 +7,18 @@
   scroll-behavior: smooth;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
+.bullets {
+  padding-left: 2rem !important;
+}
+
+ol > li {
+  margin: 1rem 0;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
