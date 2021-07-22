@@ -15,6 +15,10 @@
   padding-left: 2rem !important;
 }
 
+.sub-bullets {
+  margin-left: 2rem !important;
+}
+
 ol > li {
   margin: 1rem 0;
 }
