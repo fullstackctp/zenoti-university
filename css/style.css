@@ -19,6 +19,14 @@
   margin-left: 2rem !important;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
+.underline:hover {
+  text-decoration: none;
+}
+
 ol > li {
   margin: 1rem 0;
 }
