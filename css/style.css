@@ -799,6 +799,89 @@ ul.list-radio li {
 .guest-clickables table tr td a:hover {
   text-decoration: none !important;
 }
+
+
+
+/* engage */
+.engage-card{
+  padding: 75px 20px;
+  border: 5px solid #bbe5ff;
+  cursor: pointer;
+}
+.engage-card-2{
+  border: 1px solid #000;
+  cur
+}
+.engage-card-2 .enagage-img{
+  border-bottom: 1px solid #000;
+}
+.enagage-img{
+  padding: 20px;
+}
+.engage-content{
+  padding: 20px;
+}
+.panel {
+	margin: 0 auto;
+
+	position: relative;
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+}
+
+.panel .front,
+.panel .back {
+	text-align: center;
+}
+	
+.panel .front {
+	height: inherit;
+	position: absolute;
+  width: 100%;
+	top: 0;
+	z-index: 900;
+	text-align: center;
+	-webkit-transform: rotateX(0deg) rotateY(0deg);
+	   -moz-transform: rotateX(0deg) rotateY(0deg);
+	-webkit-transform-style: preserve-3d;
+	   -moz-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+	   -moz-backface-visibility: hidden;
+	-webkit-transition: all .4s ease-in-out;
+	   -moz-transition: all .4s ease-in-out;
+		-ms-transition: all .4s ease-in-out;
+		 -o-transition: all .4s ease-in-out;
+			transition: all .4s ease-in-out;
+}
+
+.panel .back {
+	height: inherit;
+	position: relative;
+	top: 0;
+	z-index: 1000;
+	-webkit-transform: rotateY(-180deg);
+	   -moz-transform: rotateY(-180deg);
+	-webkit-transform-style: preserve-3d;
+	   -moz-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+	   -moz-backface-visibility: hidden;
+	-webkit-transition: all .4s ease-in-out;
+	   -moz-transition: all .4s ease-in-out;
+		-ms-transition: all .4s ease-in-out;
+		 -o-transition: all .4s ease-in-out;
+			transition: all .4s ease-in-out;
+}
+.panel.flip .front {
+	z-index: 900;
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+}
+.panel.flip .back {
+	z-index: 1000;
+	-webkit-transform: rotateX(0deg) rotateY(0deg);
+	-moz-transform: rotateX(0deg) rotateY(0deg);
+}
+
 /* responsive */
 @media (min-width: 1200px) and (max-width: 1500px) {
   .adult-1 {
