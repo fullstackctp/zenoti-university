@@ -837,7 +837,7 @@ ul.list-radio li {
 }
 .panel {
   margin: 0 auto;
-
+  z-index: 99;
   position: relative;
   -webkit-perspective: 800px;
   -moz-perspective: 800px;
