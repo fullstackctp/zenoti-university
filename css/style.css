@@ -11,6 +11,10 @@
   color: #000000 !important;
 }
 
+.color-blue {
+  color: blue !important;
+}
+
 .bg-f5f5f5 {
   background-color: #f5f5f5;
 }
@@ -800,98 +804,96 @@ ul.list-radio li {
   text-decoration: none !important;
 }
 
-
-
 /* engage */
-.engage-card{
+.engage-card {
   padding: 75px 20px;
   border: 5px solid #bbe5ff;
   cursor: pointer;
 }
-.engage-card-2{
+.engage-card-2 {
   border: 1px solid #000;
   cursor: pointer;
 }
-.engage-card-2 .enagage-img{
+.engage-card-2 .enagage-img {
   border-bottom: 1px solid #000;
 }
-.enagage-img{
+.enagage-img {
   padding: 20px;
 }
-.engage-content{
+.engage-content {
   padding: 20px;
 }
-.engage-content.engage-min-height{
+.engage-content.engage-min-height {
   min-height: 194px;
 }
-.engage-content.book-min-height{
+.engage-content.book-min-height {
   min-height: 330px;
 }
-.engage-content.service-min-height{
+.engage-content.service-min-height {
   min-height: 410px;
 }
-.engage-content.checkout-min-height{
+.engage-content.checkout-min-height {
   min-height: 305px;
 }
 .panel {
-	margin: 0 auto;
+  margin: 0 auto;
 
-	position: relative;
-	-webkit-perspective: 800px;
-	-moz-perspective: 800px;
+  position: relative;
+  -webkit-perspective: 800px;
+  -moz-perspective: 800px;
 }
 
 .panel .front,
 .panel .back {
-	text-align: center;
+  text-align: center;
 }
-	
+
 .panel .front {
-	height: inherit;
-	position: absolute;
+  height: inherit;
+  position: absolute;
   width: 100%;
-	top: 0;
-	z-index: 900;
-	text-align: center;
-	-webkit-transform: rotateX(0deg) rotateY(0deg);
-	   -moz-transform: rotateX(0deg) rotateY(0deg);
-	-webkit-transform-style: preserve-3d;
-	   -moz-transform-style: preserve-3d;
-	-webkit-backface-visibility: hidden;
-	   -moz-backface-visibility: hidden;
-	-webkit-transition: all .4s ease-in-out;
-	   -moz-transition: all .4s ease-in-out;
-		-ms-transition: all .4s ease-in-out;
-		 -o-transition: all .4s ease-in-out;
-			transition: all .4s ease-in-out;
+  top: 0;
+  z-index: 900;
+  text-align: center;
+  -webkit-transform: rotateX(0deg) rotateY(0deg);
+  -moz-transform: rotateX(0deg) rotateY(0deg);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .panel .back {
-	height: inherit;
-	position: relative;
-	top: 0;
-	z-index: 1000;
-	-webkit-transform: rotateY(-180deg);
-	   -moz-transform: rotateY(-180deg);
-	-webkit-transform-style: preserve-3d;
-	   -moz-transform-style: preserve-3d;
-	-webkit-backface-visibility: hidden;
-	   -moz-backface-visibility: hidden;
-	-webkit-transition: all .4s ease-in-out;
-	   -moz-transition: all .4s ease-in-out;
-		-ms-transition: all .4s ease-in-out;
-		 -o-transition: all .4s ease-in-out;
-			transition: all .4s ease-in-out;
+  height: inherit;
+  position: relative;
+  top: 0;
+  z-index: 1000;
+  -webkit-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 .panel.flip .front {
-	z-index: 900;
-	-webkit-transform: rotateY(180deg);
-	-moz-transform: rotateY(180deg);
+  z-index: 900;
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
 }
 .panel.flip .back {
-	z-index: 1000;
-	-webkit-transform: rotateX(0deg) rotateY(0deg);
-	-moz-transform: rotateX(0deg) rotateY(0deg);
+  z-index: 1000;
+  -webkit-transform: rotateX(0deg) rotateY(0deg);
+  -moz-transform: rotateX(0deg) rotateY(0deg);
 }
 
 /* responsive */
