@@ -810,7 +810,7 @@ ul.list-radio li {
 }
 .engage-card-2{
   border: 1px solid #000;
-  cur
+  cursor: pointer;
 }
 .engage-card-2 .enagage-img{
   border-bottom: 1px solid #000;
@@ -820,6 +820,18 @@ ul.list-radio li {
 }
 .engage-content{
   padding: 20px;
+}
+.engage-content.engage-min-height{
+  min-height: 194px;
+}
+.engage-content.book-min-height{
+  min-height: 330px;
+}
+.engage-content.service-min-height{
+  min-height: 410px;
+}
+.engage-content.checkout-min-height{
+  min-height: 305px;
 }
 .panel {
 	margin: 0 auto;
