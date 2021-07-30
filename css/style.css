@@ -824,7 +824,8 @@ ul.list-radio li {
   padding: 20px;
 }
 .engage-content.engage-min-height {
-  min-height: 194px;
+  min-height: 343px;
+  padding: 95px 20px !important;
 }
 .engage-content.book-min-height {
   min-height: 330px;
@@ -861,7 +862,7 @@ ul.list-radio li {
 }
 
 .panel .back {
-  height: 550px;
+  /* height: 550px; */
   position: relative;
   top: 0;
   z-index: 1000;
