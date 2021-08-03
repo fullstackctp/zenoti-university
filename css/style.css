@@ -938,7 +938,10 @@ ul.list-radio li {
   z-index: 1000;
   transform: rotateX(0deg) rotateY(0deg);
 }
-
+/*  */
+.dollar-img img{
+  width: 50%;
+}
 /* responsive */
 @media (min-width: 1200px) and (max-width: 1500px) {
   .adult-1 {
@@ -1035,6 +1038,9 @@ ul.list-radio li {
   .graph-image img {
     width: 65%;
   }
+  .dollar-img img{
+    width: 75%;
+  }
 }
 @media (min-width: 638px) and (max-width: 767px) {
   p {
@@ -1087,7 +1093,7 @@ ul.list-radio li {
   #overlay1 .overlay-close {
     top: 0.813rem;
   }
-  ul li {
+  ul li , ol li{
     font-size: 0.8125rem !important;
   }
   .cursor {
@@ -1106,6 +1112,9 @@ ul.list-radio li {
   .responsivePadding {
     padding-left: 0px !important;
     padding-right: 0px !important;
+  }
+  .dollar-img img{
+    width: 100%;
   }
 }
 
@@ -1153,7 +1162,7 @@ ul.list-radio li {
   .gift-hover {
     box-shadow: 0px 7px 1.25rem #516d132e;
   }
-  ul li {
+  ul li , ol li{
     font-size: 0.75rem !important;
   }
   .cursor {
@@ -1171,6 +1180,9 @@ ul.list-radio li {
   .responsivePadding {
     padding-left: 0px !important;
     padding-right: 0px !important;
+  }
+  .dollar-img img{
+    width: 100%;
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
@@ -1234,7 +1246,7 @@ ul.list-radio li {
   .section-padding-2 {
     padding-top: 1.563rem !important;
   }
-  ul li {
+  ul li , ol li{
     font-size: 0.75rem !important;
   }
   /* insta imgae */
@@ -1250,6 +1262,9 @@ ul.list-radio li {
 
   .responsive {
     flex-direction: column;
+  }
+  .dollar-img img{
+    width: 100%;
   }
 }
 /* end responsive */
