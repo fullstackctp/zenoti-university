@@ -16,16 +16,16 @@
 <body>
 
   <!-- Expand Your Customer Base and Drive Sales -->
-  <section class="section-padding-2">
+  <section id="top" class="section-padding-2">
     <div class="container">
       <div class="row">
         <div class="col-12">
           <h1 class="mb-md-0 mb-sm-0">
             Expand Your Customer Base and Drive Sales
           </h1>
-          <div class="imgCardleverage section-padding-2 text-center">
+          <!-- <div class="imgCardleverage section-padding-2 text-center">
             <img src="img/6_Expand_Your_Customer_Base_and.jpg" class="img-responsive w-50" />
-          </div>
+          </div> -->
         </div>
       </div>
       <div class="row my-3">
@@ -105,24 +105,22 @@
           </p>
           <div class="row section-padding-3">
             <div class="col-12">
-              <h4>Here’s why expansion of your customer base is vital to your business.</h4>
+              <h4>Click each image to learn why expanding your customer base is vital:</h4>
             </div>
           </div>
           <div class="col-12 my-3">
             <div class="row px-3">
               <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xxl-4 text-center cursor-pointer bg-00b6ed">
                 <div class="p-2">
-                  <div class="pb-3 d-flex align-items-center justify-content-center">
-                    <img src="img/growth_new.png" class="p-3 rounded-circle w-25 img-responsive img-fluid bg-ffffff" />
+                  <div class="d-flex align-items-center justify-content-center"
+                    onclick="showContent('counters_low_retention')">
+                    <img src="img/counters_low_retention.png" class="w-100 img-responsive img-fluid bg-ffffff" />
                   </div>
-                  <h4 class="px-5 text-center text-capitalize">
-                    <b>Expanding Your Base Counters Low Retention Rates</b>
-                  </h4>
                 </div>
               </div>
               <div id="repeatCustomers"
                 class="col-12 col-sm-12 col-md-8 col-lg-8 col-xxl-8 text-center d-flex align-items-center">
-                <div class="p-3 bg-f5f5f5 h-100">
+                <div id="counters_low_retention" class="p-3 bg-f5f5f5 h-100 d-none">
                   <p class="text-justify">
                     With an average retention rate of 30%, it means even if you attracted 100 new
                     clients in the last month, 70 of them won’t be returning for a follow up
@@ -140,18 +138,15 @@
             <div class="row px-3">
               <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xxl-4 text-center cursor-pointer bg-cd809c">
                 <div class="p-2">
-                  <div class="pb-3 d-flex align-items-center justify-content-center">
-                    <img src="img/user-icon-with-dollar.png"
-                      class="p-2 rounded-circle w-25 img-responsive img-fluid bg-ffffff" />
+                  <div class="d-flex align-items-center justify-content-center"
+                    onclick="showContent('grows_your_business')">
+                    <img src="img/grows_your_business.png" class="w-100 img-responsive img-fluid bg-ffffff" />
                   </div>
-                  <h4 class="px-5 text-center text-capitalize">
-                    <b>Acquiring New Clients Grows Your Business</b>
-                  </h4>
                 </div>
               </div>
               <div id="existingGuests"
                 class="col-12 col-sm-12 col-md-8 col-lg-8 col-xxl-8 text-center d-flex align-items-center">
-                <div class="p-3 bg-f5f5f5 h-100">
+                <div id="grows_your_business" class="p-3 bg-f5f5f5 h-100 d-none">
                   <p class="text-justify">
                     Getting new clients is the lifeblood of any business, so if your aim is business
                     growth, then you need to grow your guest base. Even if you have the most loyal
@@ -168,17 +163,14 @@
             <div class="row px-3">
               <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xxl-4 text-center cursor-pointer bg-7f779b">
                 <div class="p-2">
-                  <div class="pb-3 d-flex align-items-center justify-content-center">
-                    <img src="img/double-user-white.png"
-                      class="p-3 rounded-circle w-25 img-responsive img-fluid bg-ffffff" />
+                  <div class="d-flex align-items-center justify-content-center"
+                    onclick="showContent('increases_brand_awareness')">
+                    <img src="img/increases_brand_awareness.png" class="w-100 img-responsive img-fluid bg-ffffff" />
                   </div>
-                  <h4 class="px-5 text-center text-capitalize">
-                    <b>Brand Awareness Increases with Customer Growth</b>
-                  </h4>
                 </div>
               </div>
-              <div id="acquiringNew"
-                class="col-12 col-sm-12 col-md-8 col-lg-8 col-xxl-8 text-center d-flex align-items-center">
+              <div id="increases_brand_awareness"
+                class="col-12 col-sm-12 col-md-8 col-lg-8 col-xxl-8 text-center d-flex align-items-center d-none">
                 <div class="p-3 bg-f5f5f5 h-100">
                   <p class="text-justify">
                     The more guests that experience what your brand offers, the more ambassadors you
@@ -224,7 +216,7 @@
           </p>
           <h3 class="mb-3 mt-5">Step 1: Understand Your Existing Audience</h3>
           <div class="row">
-            <p class="text-justify col-8">
+            <p class="text-justify pt-3 col-sm-12 col-md-12 col-lg-7 col-xxl-7 ">
               In order to build an effective strategy to generate new customers, it’s important to first
               gain
               a comprehensive understanding of who your existing audience is and what drives them.
@@ -236,12 +228,11 @@
               guests inside and out, after all they spend each day interacting with them, so get the whole
               team involved and make it a collaborative, fun process.
             </p>
-            <div class="col-4 text-center">
-              <img src="img/understand-your-existing-audience.png" class="img-responsive" height="200px"
-                width="300px" />
+            <div class="text-center col-sm-12 col-md-12 col-lg-5 col-xxl-5">
+              <img src="img/understand-your-existing-audience.png" class="img-responsive" width="60%" />
             </div>
           </div>
-          <p class="text-justify">
+          <p class="text-justify pt-3">
             While you are researching your current customer base, you will learn what they like about your
             brand and how they prefer to consume information about the brands they do business with. For
             example, they may turn to online resources like Facebook or Instagram, or they may particularly
@@ -256,13 +247,13 @@
             The demographic elements you will want to consider in that strategy include:
           </p>
           <div class="text-center mb-3">
-            <img src="img/demographic-elements.png" class="w-50 img-responsive img-fluid" />
+            <img src="img/demographic-elements.png" class="w-75 img-responsive img-fluid" />
           </div>
           <p class="text-justify">
             Other consumer characteristics important when creating your target market consist of:
           </p>
           <div class="text-center mb-3">
-            <img src="img/consumer-characteristics.png" class="w-50 img-responsive img-fluid" />
+            <img src="img/consumer-characteristics.png" class="w-75 img-responsive img-fluid" />
           </div>
           <h3 class="mb-3 mt-5">Step 2: Understand Your Target Audience</h3>
           <p class="text-justify">
@@ -276,7 +267,7 @@
             Here’s some methods you can use to identify target audience to help you get started...
           </p>
           <div class="text-center mb-3">
-            <img src="img/understand-your-target-audience.png" class="w-50 img-responsive img-fluid" />
+            <img src="img/understand-your-target-audience.png" class="w-75 img-responsive img-fluid" />
           </div>
         </div>
       </div>
@@ -303,8 +294,8 @@
               </a>
             </div>
             <div class="col-10 col-sm-10 col-md-11 col-lg-11 col-xxl-11 d-flex align-items-center">
-              <a class="color-black">
-                <p>1. Using Gift Cards </p>
+              <a class="color-black" href="#using_gift_cards">
+                <h3>1. Using Gift Cards </h3>
               </a>
             </div>
           </div>
@@ -315,8 +306,8 @@
               </a>
             </div>
             <div class="col-10 col-sm-10 col-md-11 col-lg-11 col-xxl-11 d-flex align-items-center">
-              <a class="color-black">
-                <p>2. Creating Marketing Campaigns</p>
+              <a class="color-black" href="#creating_marketing_campaigns">
+                <h3>2. Creating Marketing Campaigns</h3>
               </a>
             </div>
           </div>
@@ -325,8 +316,8 @@
               <a href="#"><img src="img/online-presence.png" class="img-responsive img-fluid" /></a>
             </div>
             <div class="col-10 col-sm-10 col-md-11 col-lg-11 col-xxl-11 d-flex align-items-center">
-              <a class="color-black" href="#">
-                <p>3. Optimizing Your Online Presence </p>
+              <a class="color-black" href="#optimizing_your_online_presence">
+                <h3 class="hover-hyperlink">3. Optimizing Your Online Presence </h3>
               </a>
             </div>
           </div>
@@ -335,18 +326,18 @@
               <a><img src="img/ramping-referrals.png" class="img-responsive img-fluid" /></a>
             </div>
             <div class="col-10 col-sm-10 col-md-11 col-lg-11 col-xxl-11 d-flex align-items-center">
-              <a class="color-black" href="#">
-                <p>4. Ramping Up Your Referrals </p>
+              <a class="color-black" href="#ramping_up_your_referrals">
+                <h3 class="hover-hyperlink">4. Ramping Up Your Referrals </h3>
               </a>
             </div>
           </div>
-          <h3 class="mb-3 mt-5">1. Using Gift Cards</h3>
+          <h3 id="using_gift_cards" class="mb-3 mt-5">1. Using Gift Cards</h3>
           <p class="text-justify">
             Today’s gift is tomorrow’s guest. And today’s gift is, of course, a gift card! Gift card sales
             are a wonderful indicator of future business and a crucial revenue-building tool.
           </p>
           <div class="row section-padding-3">
-            <div class="col-9">
+            <div class="col-sm-12 col-md-12 col-lg-9 col-xxl-9">
               <h3>How crucial?</h3>
               <ul style="padding-left: 2rem !important">
                 <li class="text-justify">
@@ -366,7 +357,7 @@
                 </li>
               </ul>
             </div>
-            <div class="col-3 text-center">
+            <div class="col-sm-12 col-md-12 col-lg-3 col-xxl-3 text-center">
               <img src="img/gift-cards.png" class="w-75 img-responsive img-fluid" />
             </div>
           </div>
@@ -377,9 +368,6 @@
               of guests aged 18 to 34 are more likely to visit a brand they wouldn’t otherwise visit
               because they have received gift card.
             </p>
-            <!-- <div class="col-3 text-center">
-              <img src="img/gift-cards.png" class="w-75 img-responsive img-fluid" />
-            </div> -->
           </div>
           <p class="text-justify">
             And don’t forget the convenience factor of selling your gift cards on your website! Online gift
@@ -398,8 +386,8 @@
                 <div class="blink-circle"></div>
               </div>
               <div class="d-flex align-items-center justify-content-center">
-                <img style="background-color: #ffffff; width: 20% !important;" src="img/search_icon.png"
-                  class="p-3 rounded-circle img-responsive img-fluid " />
+                <img style="width: 20% !important;" src="img/search_icon.png"
+                  class="p-3 bg-ffffff rounded-circle img-responsive img-fluid " />
               </div>
               <h4 class="px-5 pb-5 pt-3 text-center"><b>Take a Closer Look</b></h4>
             </div>
@@ -428,32 +416,32 @@
               </ul>
             </div>
           </div>
-          <div class="w-l-p bg-f5f5f5 p-3 my-3">
+          <div class="w-l-p bg-f5f5f5 p-3 mt-5 mb-3">
             <h3 class="text-00b6ed">USING GIFT CARDS FOR CUSTOMER ACQUISITION</h3>
             <div class="mt-3">
               <div class="d-flex mb-2">
                 <div class="me-2">
                   <i class="fas fa-check"></i>
                 </div>
-                Make gift cards easy to access.
+                <p>Make gift cards easy to access.</p>
               </div>
               <div class="d-flex mb-2">
                 <div class="me-2">
                   <i class="fas fa-check"></i>
                 </div>
-                Offer flexibility in formats.
+                <p>Offer flexibility in formats.</p>
               </div>
               <div class="d-flex mb-2">
                 <div class="me-2">
                   <i class="fas fa-check"></i>
                 </div>
-                Get creative with promotions.
+                <p>Get creative with promotions.</p>
               </div>
               <div class="d-flex mb-2">
                 <div class="me-2">
                   <i class="fas fa-check"></i>
                 </div>
-                Look for new market opportunities.
+                <p>Look for new market opportunities.</p>
               </div>
             </div>
           </div>
@@ -461,591 +449,566 @@
             It’s easy to see how gift cards play a role in expanding your customer base, but they are key to
             your business for many other reasons. Check out below!
           </p>
-
-          <div>
-            <div class="row">
-              <div class="col-3">
-                <h4 class="pt-3 pb-2">
-                  <strong>Click each arrow below to learn more.</strong>
-                </h4>
-              </div>
-            </div>
-            <div class="row m-1 mb-3">
-              <div class="col-2 p-0 bg-00b6ed">
-                <div class="row align-items-center">
-                  <p class="col-6 text-start ps-4  m-0">Attract</p>
-                  <div class="col-6 cursor-pointer" onclick="showMoreSection('new_guest')">
-                    <img src="img/download.png" class="w-75 img-responsive img-fluid rotate-270" />
-                  </div>
-                </div>
-              </div>
-              <div class="col-10">
-                <div id="new_guest" class="p-3 bg-f5f5f5 h-100 d-flex align-items-center d-none">
-                  <p class="text-justify">
-                    New Guests
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="row m-1 mb-3">
-              <div class="col-2 p-0 bg-ccf0fc">
-                <div class="row align-items-center">
-                  <p class="col-6 text-start ps-4  m-0">Grow</p>
-                  <div class="col-6 cursor-pointer" onclick="showMoreSection('brand_awareness')">
-                    <img src="img/download.png" class="w-75 img-responsive img-fluid rotate-270" />
-                  </div>
-                </div>
-              </div>
-              <div class="col-10">
-                <div id="brand_awareness" class="p-3 bg-f5f5f5 h-100 d-flex align-items-center d-none">
-                  <p class=" text-justify">
-                    Brand Awareness
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="row m-1 mb-3">
-              <div class="col-2 p-0 bg-00b6ed" onclick="showRewards()">
-                <div class="row align-items-center">
-                  <p class="col-6 text-start ps-4  m-0">Increase</p>
-                  <div class="col-6 cursor-pointer" onclick="showMoreSection('spend_per_visit')">
-                    <img src="img/download.png" class="w-75 img-responsive img-fluid rotate-270" />
-                  </div>
-                </div>
-              </div>
-              <div class="col-10">
-                <div id="spend_per_visit" class="p-3 bg-f5f5f5 h-100 d-flex align-items-center d-none">
-                  <p class="text-justify">
-                    Spend Per Visit
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="row m-1 mb-3">
-              <div class="col-2 p-0 bg-ccf0fc" onclick="showRewards()">
-                <div class="row align-items-center">
-                  <p class="col-6 text-start ps-4  m-0">Create</p>
-                  <div class="col-6 cursor-pointer" onclick="showMoreSection('new_markets')">
-                    <img src="img/download.png" class="w-75 img-responsive img-fluid rotate-270" />
-                  </div>
-                </div>
-              </div>
-              <div class="col-10">
-                <div id="new_markets" class="p-3 bg-f5f5f5 h-100 d-flex align-items-center d-none">
-                  <p class="text-justify">
-                    New Markets
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="row m-1 mb-3">
-              <div class="col-2 p-0 bg-00b6ed" onclick="showRewards()">
-                <div class="row align-items-center">
-                  <p class="col-6 text-start ps-4  m-0">Build</p>
-                  <div class="col-6 cursor-pointer" onclick="showMoreSection('new_partnerships')">
-                    <img src="img/download.png" class="w-75 img-responsive img-fluid rotate-270" />
-                  </div>
-                </div>
-              </div>
-              <div class="col-10">
-                <div id="new_partnerships" class="p-3 bg-f5f5f5 h-100 d-flex align-items-center d-none">
-                  <p class="text-justify">
-                    New Partnerships
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="row m-1 mb-3">
-              <div class="col-2 p-0 bg-ccf0fc" onclick="showRewards()">
-                <div class="row align-items-center">
-                  <p class="col-6 text-start ps-4  m-0">Win Back</p>
-                  <div class="col-6 cursor-pointer" onclick="showMoreSection('unhappy_clients')">
-                    <img src="img/download.png" class="w-75 img-responsive img-fluid rotate-270" />
-                  </div>
-                </div>
-              </div>
-              <div class="col-10">
-                <div id="unhappy_clients" class="p-3 bg-f5f5f5 h-100 d-flex align-items-center d-none">
-                  <p class="text-justify">
-                    Unhappy Clients
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-
-          <h3 class="mb-3 mt-5">2. Create Marketing Campaigns</h3>
-          <p class="text-justify">
-            If you’ve ever had a guest tell you the following, it’s probably time to look at ways to improve
-            your marketing.
-          </p>
-          <p class="text-center">
-            <i>“Oh, I didn’t know you were located here.”</i> — OR— <i>"I had no idea you offered that!”</i>
-          </p>
-          <p class="text-justify">
-            Marketing is a tried-and-true way to grow your guest base and make your brand stand out from the
-            crowd! While it can be expensive, if you invest wisely the returns you see can far out way the
-            initial costs.
-          </p>
-          <div class="row">
-            <p class="text-justify col-9">
-              Marketing comes in both print and digital forms, with digital marketing growing increasingly
-              each
-              year. There are countless channels for you to use to reach your guests, such as websites,
-              search
-              engines, social media, email, and text, to name a few.
-            </p>
-            <div class="col-3 text-center">
-              <img src="img/marketing-compaigns.png" class="w-75 img-responsive img-fluid" />
-            </div>
-          </div>
-          <p class="text-justify">
-            In addition to multiple marketing channels, there are multiple marketing tactics you can use to
-            attract new guests.
-          </p>
-
           <div>
             <div class="row">
               <div class="col-12">
                 <h4 class="pt-3 pb-2">
-                  <strong>Click each arrow below to reveal effective marketing tactics:</strong>
+                  <strong>Click each arrow to learn about the benefits of gift cards.</strong>
                 </h4>
               </div>
             </div>
-            <div class="row m-1 mb-3 bg-8d85a5">
-              <div class="col-1 p-0 cursor-pointer" onclick="showMoreSection('section_2')">
-                <img src="img/download.png" class="w-75 img-responsive img-fluid" />
+            <div class="row mt-1 mb-3 mx-5">
+              <div class="row p-0 m-0 col-sm-12 col-md-12 col-lg-6 col-xxl-6 justify-content-center">
+                <div class="aerrow-box bg-00b6ed" onclick="showContent('attract')">
+                  <p class="text-center pt-3">
+                    Attract
+                  </p>
+                  <div class="text-center">
+                    <img src="img/down_aerrow_blue.png" width="50%">
+                  </div>
+                </div>
+                <div class="aerrow-box bg-cd809c" onclick="showContent('grow')">
+                  <p class="text-center pt-3">
+                    Grow
+                  </p>
+                  <div class="text-center">
+                    <img src="img/down_aerrow_pink.png" width="50%">
+                  </div>
+                </div>
+                <div class="aerrow-box bg-7f779b" onclick="showContent('increase')">
+                  <p class="text-center pt-3">
+                    Increase
+                  </p>
+                  <div class="text-center">
+                    <img src="img/down_aerrow_voilet.png" width="50%">
+                  </div>
+                </div>
+                <div class="aerrow-box-content row justify-content-center align-items-center d-none">
+                  <p class="text-center pt-3">
+                    New Guests
+                  </p>
+                </div>
+                <div class="aerrow-box-content row justify-content-center align-items-center d-none">
+                  <p class="text-center pt-3">
+                    Brand
+                    Awareness
+                  </p>
+                </div>
+                <div class="aerrow-box-content row justify-content-center align-items-center d-none">
+                  <p class="text-center pt-3">
+                    Spend
+                    Per Visit
+                  </p>
+                </div>
               </div>
-              <div class="col-11 p-0 d-flex align-items-center">
-                <p>Share introductory pricing for first-time guests. </p>
-              </div>
-            </div>
-            <div id="section_2" class="row m-1 mb-3 bg-b7b3c7 d-none">
-              <div class="col-1 p-0 cursor-pointer" onclick="showMoreSection('section_3')">
-                <img src="img/download.png" class="w-75 img-responsive img-fluid" />
-              </div>
-              <div class="col-11 p-0 d-flex align-items-center">
-                <p>Create exclusive offers for those new to your salon or spa.</p>
-              </div>
-            </div>
-            <div id="section_3" class="row m-1 mb-3 bg-8d85a5 d-none">
-              <div class="col-1 p-0 cursor-pointer" onclick="showMoreSection('section_4')">
-                <img src="img/download.png" class="w-75 img-responsive img-fluid" />
-              </div>
-              <div class="col-11 p-0 d-flex align-items-center">
-                <p>Promote BOGO and seasonal gift card offers.</p>
-              </div>
-            </div>
-            <div id="section_4" class="row m-1 mb-3 bg-b7b3c7 d-none">
-              <div class="col-1 p-0 cursor-pointer" onclick="showMoreSection('section_5')">
-                <img src="img/download.png" class="w-75 img-responsive img-fluid" />
-              </div>
-              <div class="col-11 p-0 d-flex align-items-center">
-                <p>Highlight your top-notch providers or brand differentiators.</p>
-              </div>
-            </div>
-            <div id="section_5" class="row m-1 mb-3 bg-8d85a5 d-none">
-              <div class="col-1 p-0 cursor-pointer" onclick="showMoreSection('section_6')">
-                <img src="img/download.png" class="w-75 img-responsive img-fluid" />
-              </div>
-              <div class="col-11 p-0 d-flex align-items-center">
-                <p>Showcase your service menu and product assortment.</p>
-              </div>
-            </div>
-            <div id="section_6" class="row m-1 mb-3 bg-b7b3c7 d-none">
-              <div class="col-1 p-0 cursor-pointer" onclick="showMoreSection('section_7')">
-                <img src="img/download.png" class="w-75 img-responsive img-fluid" />
-              </div>
-              <div class="col-11 p-0 d-flex align-items-center">
-                <p>Emphasize your convenient location.</p>
-              </div>
-            </div>
-            <div id="section_7" class="row m-1 mb-3 bg-8d85a5 d-none">
-              <div class="col-1 p-0">
-                <img src="img/smiley.png" class="w-75 img-responsive img-fluid" />
-              </div>
-              <div class="col-11 p-0 d-flex align-items-center">
-                <p>Show how you value your guests with perks and promotions.</p>
-              </div>
-            </div>
-          </div>
-
-          <p class="text-justify">
-            Your goal is to market what a guest wants. If there is a demand, you should be able to supply.
-            Let's take the COVID-19 pandemic as an example. This unique and unprecedented situation
-            drastically increased global demand for safe, touchless technology solutions that enabled
-            businesses to stay open and serving guests. The brands that were able to not only successfully
-            implement these solutions, but also promote them so existing and potential guests were aware of
-            them, were the businesses who ensured success through COVID.
-          </p>
-          <p class="text-justify bg-f5f5f5 p-3">
-            By marketing a solution to a problem and highlighting what set them apart from competitors, in
-            this case touchless technology, new guests opted for these service providers as a safe option
-            for their needs.
-          </p>
-          <h3 class="mb-3 mt-5">3. Optimizing Your Online Presence</h3>
-          <p class="text-justify">
-            It’s 10:00pm and you’re wide-awake thinking about all the things you need to get done this week.
-            Suddenly, you realize you desperately need a pedicure. But you’ve not been able to find a
-            regular spot that wows you.
-          </p>
-          <p class="text-justify">
-            What do you do?
-          </p>
-          <div class="text-center mb-3">
-            <img src="img/optimize-online-presense.png" class="w-50 img-responsive img-fluid" />
-          </div>
-          <p class="text-justify">
-            That experience, from the moment you picked up your phone, was dictated completely by the
-            brand’s online presence.
-          </p>
-          <div class="row">
-            <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xxl-9 section-padding-3">
-              <p class="text-justify">
-                An online presence covers everything from your website, your guest mobile app, your
-                engagement on social media, your communication channels, their accessibility, layout,
-                imagery, and so much more.
-              </p>
-              <p class="text-justify">
-                Your online identity should be consistent with all your other branding in order to
-                create a positive and consistent experience that evokes the type of reputation you hope
-                to hold and the type of clientele that you want to attract.
-              </p>
-            </div>
-            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xxl-3 d-flex align-items-center">
-              <div class="callout">
-                <p class="mb-0">
-                  <strong>
-                    Zenoti reports that 29% of first-time guests make their appointment using online
-                    booking, and 50-80% of their appointments come from self-service booking
-                    solutions.
-                  </strong>
-                </p>
+              <div class="row p-0 m-0 col-sm-12 col-md-12 col-lg-6 col-xxl-6 justify-content-center">
+                <div class="aerrow-box bg-00b6ed col-4" onclick="showContent('create')">
+                  <p class="text-center pt-3">
+                    Create
+                  </p>
+                  <div class="text-center">
+                    <img src="img/down_aerrow_blue.png" width="50%">
+                  </div>
+                </div>
+                <div class="aerrow-box bg-cd809c" onclick="showContent('build')">
+                  <p class="text-center pt-3">
+                    Build
+                  </p>
+                  <div class="text-center">
+                    <img src="img/down_aerrow_pink.png" width="50%">
+                  </div>
+                </div>
+                <div class="aerrow-box bg-7f779b" onclick="showContent('win_back')">
+                  <p class="text-center pt-3">
+                    Win Back
+                  </p>
+                  <div class="text-center">
+                    <img src="img/down_aerrow_voilet.png" width="50%">
+                  </div>
+                </div>
+                <div id="create"
+                  class="aerrow-box-content bg-00b6ed row justify-content-center align-items-center d-none">
+                  <p class="text-center pt-3">
+                    New Markets
+                  </p>
+                </div>
+                <div class="aerrow-box-content bg-00b6ed row justify-content-center align-items-center d-none">
+                  <p class="text-center pt-3">
+                    New Partnerships
+                  </p>
+                </div>
+                <div class="aerrow-box-content bg-00b6ed row justify-content-center align-items-center d-none">
+                  <p class="text-center pt-3">
+                    Unhappy
+                    Clients
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="row">
+            <h3 id="creating_marketing_campaigns" class="mb-3 mt-5">2. Create Marketing Campaigns</h3>
             <p class="text-justify">
-              Research shows many first-time guests booking their appointment online, and 46% of
-              appointments are booked outside of typical business hours. Having a strong online presence
-              not only ensures potential guests can find your brand, it means they can also book an
-              appointment for themselves—making it easy and convenient for them to try your business.
-              Plus, Zenoti customers are seeing higher average ticket prices from appointments that are
-              booked online – revenue you certainly don’t want to miss out on!
+              If you’ve ever had a guest tell you the following, it’s probably time to look at ways to improve
+              your marketing.
             </p>
-
-          </div>
-          <div class="row">
-            <div class="col-9">
-              <p class="text-justify mt-3">
-                Modern guests take their time when choosing which brand to visit. Accessing your website enables
-                them to browse without feeling as if they are imposing on a receptionist. And the reality is,
-                your front desk team is probably unable to spend ten minutes speaking with every guest that
-                calls to book.
-              </p>
-            </div>
-            <div class="col-3 text-center">
-              <img src="img/online-presence.png" class="w-75 img-responsive img-fluid" />
-            </div>
-          </div>
-
-          <div class="row section-padding-3">
-            <div class="col-12">
-              <p>With this in mind, your website still needs to replicate the same extraordinary
-                experience the guest would get when speaking with the front desk or entering your
-                center. Consider your website:</p>
-              <ul style="padding-left: 2rem !important">
-                <li>
-                  What does the guest see?
-                </li>
-                <li>
-                  Is there an obvious flow?
-                </li>
-                <li>
-                  Is the user experience intuitive?
-                </li>
-                <li>
-                  Is the content clear and descriptive?
-                </li>
-                <li>
-                  Can an online guest find what they are looking for?
-                </li>
-              </ul>
-            </div>
-          </div>
-          <p class="text-justify bg-f5f5f5 p-3">
-            If your website does not have a great guest experience, chances are they will not take the time
-            to learn what their in-person experience will be.
-            </br>
-            </br>
-            Finally, keep in mind that different generations have different opinions and behaviors when it
-            comes to using the internet. Perhaps teenagers aren’t your target demographic currently, but
-            they are your future business. So, remember that the services and programs that are offered now
-            will affect your ability to gain their loyalty.
-          </p>
-          <p class="text-justify">
-            <i>For more information on how to leverage web presence, explore our online booking course.</i>
-          </p>
-          <h3 class="mb-3 mt-5">4. Ramping Up Your Referrals</h3>
-          <p class="text-justify">
-            You've built a brand you are passionate about and that represents your values and beliefs.
-            Therefore, it’s only natural your salon or spa would attract an audience of like-minded
-            individuals who love to visit because they are also aligned with your brand values and ethos.
-          </p>
-          <p class="text-justify">
-            What if there was an easy way to encourage other like-minded individuals to visit, since there’s
-            a good chance they’ll also love what you offer?
-          </p>
-          <p class="text-justify">
-            With a referral strategy you can do exactly that! All you need to do is establish a program that
-            taps into your existing guests’ network of family and friends.
-          </p>
-          <p class="text-justify">
-            First things first, what are the benefits of guest referrals?
-          </p>
-
-
-          <div>
+            <p class="text-center">
+              <i>“Oh, I didn’t know you were located here.”</i> — OR— <i>"I had no idea you offered that!”</i>
+            </p>
+            <p class="text-justify">
+              Marketing is a tried-and-true way to grow your guest base and make your brand stand out from the
+              crowd! While it can be expensive, if you invest wisely the returns you see can far out way the
+              initial costs.
+            </p>
             <div class="row">
-              <div class="col-3">
-                <h4 class="pt-3 pb-2">
-                  <strong>Click each arrow below to learn more.</strong>
-                </h4>
-              </div>
-            </div>
-            <div class="row m-1 mb-3">
-              <div class="col-2 p-0 bg-00b6ed">
-                <div class="row align-items-center">
-                  <p class="col-6 text-right  m-0">54%</p>
-                  <div class="col-6 cursor-pointer" onclick="showMoreSection('word-of-mouth')">
-                    <img src="img/download.png" class="w-75 img-responsive img-fluid rotate-270" />
-                  </div>
-                </div>
-              </div>
-              <div class="col-10">
-                <div id="word-of-mouth" class="p-3 bg-f5f5f5 h-100 d-flex align-items-center d-none">
-                  <p class="text-justify">
-                    Word-of-mouth increases marketing efficiency by up to 54% (Wharton University).
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="row m-1 mb-3">
-              <div class="col-2 p-0 bg-ccf0fc">
-                <div class="row align-items-center">
-                  <p class="col-6 text-right  m-0">4X</p>
-                  <div class="col-6 cursor-pointer" onclick="showMoreSection('referred')">
-                    <img src="img/download.png" class="w-75 img-responsive img-fluid rotate-270" />
-                  </div>
-                </div>
-              </div>
-              <div class="col-10">
-                <div id="referred" class="p-3 bg-f5f5f5 h-100 d-flex align-items-center d-none">
-                  <p class=" text-justify">
-                    Referred guests are 4 times more likely to refer others to the same business
-                    (Wharton University).
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="row m-1 mb-3">
-              <div class="col-2 p-0 bg-00b6ed">
-                <div class="row align-items-center">
-                  <p class="col-6 text-right  m-0">16%</p>
-                  <div class="col-6 cursor-pointer" onclick="showMoreSection('guests')">
-                    <img src="img/download.png" class="w-75 img-responsive img-fluid rotate-270" />
-                  </div>
-                </div>
-              </div>
-              <div class="col-10">
-                <div id="guests" class="p-3 bg-f5f5f5 h-100 d-flex align-items-center d-none">
-                  <p class="text-justify">
-                    Guests referred by a friend or other guests have a 16% higher lifetime value
-                    than non-referred guests (SaaSquatch).
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="row m-1 mb-3">
-              <div class="col-2 p-0 bg-ccf0fc">
-                <div class="row align-items-center">
-                  <p class="col-6 text-right  m-0">37%</p>
-                  <div class="col-6 cursor-pointer" onclick="showMoreSection('referred_guests')">
-                    <img src="img/download.png" class="w-75 img-responsive img-fluid rotate-270" />
-                  </div>
-                </div>
-              </div>
-              <div class="col-10">
-                <div id="referred_guests" class="p-3 bg-f5f5f5 h-100 d-flex align-items-center d-none">
-                  <p class="text-justify">
-                    Referred guests have a 37% higher guest retention rate than those who weren’t
-                    referred by someone (Think with Google).
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="row m-1 mb-3">
-              <div class="col-2 p-0 bg-00b6ed" onclick="showRewards()">
-                <div class="row align-items-center">
-                  <p class="col-6 text-right  m-0">65%</p>
-                  <div class="col-6 cursor-pointer" onclick="showMoreSection('of_all')">
-                    <img src="img/download.png" class="w-75 img-responsive img-fluid rotate-270" />
-                  </div>
-                </div>
-              </div>
-              <div class="col-10">
-                <div id="of_all" class="p-3 bg-f5f5f5 h-100 d-flex align-items-center d-none">
-                  <p class="text-justify">
-                    65% of all new business comes from referrals (The New York Times).
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="row section-padding-2">
-            <p class="text-justify col-9">
-              While there are basic ways to ask your clientele for referrals (hello, business cards!), there are more
-              efficient and effective ways to launch a lucrative referral program. A successful referral program should
-              include the following.
-            </p>
-            <div class="col-3 text-center">
-              <img src="img/ramping-referrals.png" class="w-50 img-responsive img-fluid" />
-            </div>
-          </div>
-
-
-
-          <div class="row">
-            <div class="col-12 section-padding-2">
-              <h4>
-                <strong>Click the (+) to learn more about each scenario.</strong>
-              </h4>
-              <div class="content-gifting section-padding-3">
-                <div class="collapsible" style="display: flex">
-                  <p class="sign" style="margin-right: 10px"></p>
-                  <p>Make It Easy to Refer</p>
-                </div>
-                <div class="content">
-                  <div class="content-gifting section-padding-3">
-                    <div class="responsive mt-3 mb-3" style="display: flex">
-                      <div class="col-sm-12 col-md-12 col-lg-12 mb-3" style="padding-right: 1rem">
-                        <p class="text-justify">
-                          Offer multiple touchpoints for guests to choose from, such as
-                          WhatsApp, email, or Facebook.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="content-gifting section-padding-3">
-                  <div class="collapsible" style="display: flex">
-                    <p class="sign" style="margin-right: 10px"></p>
-                    <p>Target Your Loyal Guests</p>
-                  </div>
-                  <div class="content">
-                    <div class="content-gifting section-padding-3">
-                      <div class="responsive mt-3 mb-3" style="display: flex">
-                        <div class="col-sm-12 col-md-12 col-lg-12 mb-3" style="padding-right: 1rem">
-                          <p>
-                            Segment your guests based on spend, visits, and frequency to
-                            identify those who are most loyal.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="content-gifting section-padding-3">
-                  <div class="collapsible" style="display: flex">
-                    <p class="sign" style="margin-right: 10px"></p>
-                    <p>Market Across Multiple Channels</p>
-                  </div>
-                  <div class="content">
-                    <div class="content-gifting section-padding-3">
-                      <div class="responsive mt-3 mb-3" style="display: flex">
-                        <div class="col-sm-12 col-md-12 col-lg-12 mb-3" style="padding-right: 1rem">
-                          <p>
-                            Make use of marketing across your store, mobile app, webstore,
-                            email campaigns, text messaging, and social media.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="content-gifting section-padding-3">
-                  <div class="collapsible" style="display: flex">
-                    <p class="sign" style="margin-right: 10px"></p>
-                    <p>Prompt for Referrals at the Right Time</p>
-                  </div>
-                  <div class="content">
-                    <div class="content-gifting section-padding-3">
-                      <div class="responsive mt-3 mb-3" style="display: flex">
-                        <div class="col-sm-12 col-md-12 col-lg-12 mb-3" style="padding-right: 1rem">
-                          <p>
-                            Capitalize on the right moments to ask for a referral, such as
-                            after a positive review or experience.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="content-gifting section-padding-3">
-                  <div class="collapsible" style="display: flex">
-                    <p class="sign" style="margin-right: 10px"></p>
-                    <p>Include Double-Sided Incentives</p>
-                  </div>
-                  <div class="content">
-                    <div class="content-gifting section-padding-3">
-                      <div class="responsive mt-3 mb-3" style="display: flex">
-                        <div class="col-sm-12 col-md-12 col-lg-12 mb-3" style="padding-right: 1rem">
-                          <p>
-                            Offer incentives to both the referrer and the referee.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-
-
-          <div class="row my-5">
-            <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xxl-9 section-padding-3">
-              <p class="text-justify">
-                Implementing a referral program may be an easy solution for an expensive problem. If
-                your guests are thinking about referring their friends and family, then give them a push
-                to do so! It’s not just one extra guest you can expect to meet, it’s almost triple that
-                since research shows that every referrer makes an average of 2.68 referrals. Don’t
-                forget, the guests referred to your business will spend more in their lifetime of
-                conducting business with you than guests who were not referred.
+              <p class="text-justify col-12">
+                Marketing comes in both print and digital forms, with digital marketing growing increasingly
+                each
+                year. There are countless channels for you to use to reach your guests, such as websites,
+                search
+                engines, social media, email, and text, to name a few.
               </p>
             </div>
-            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xxl-3 d-flex align-items-center">
-              <div class="callout">
-                <p class="mb-0">
-                  <strong>
-                    “Do what you do so well that they will want to see it again and bring their
-                    friends.” - Walt Disney
-                  </strong>
+            <p class="text-justify">
+              In addition to multiple marketing channels, there are multiple marketing tactics you can use to
+              attract new guests.
+            </p>
+            <div>
+              <div class="row">
+                <div class="col-12">
+                  <h4 class="pt-3 pb-2">
+                    <strong>Click each arrow below to reveal effective marketing tactics:</strong>
+                  </h4>
+                </div>
+              </div>
+              <div class="row m-1 mb-3 bg-00b6ed">
+                <div class="col-3 col-sm-2 col-md-1 col-lg-1 col-xl-1 p-0 cursor-pointer text-center"
+                  onclick="showMoreSection('section_2')">
+                  <img src="img/down_aerrow_blue.png" class="w-75 p-3 img-responsive img-fluid" />
+                </div>
+                <div class="col-9 col-sm-10 col-md-11 col-lg-11 col-xl-11 p-0 d-flex align-items-center">
+                  <p>Share introductory pricing for first-time guests. </p>
+                </div>
+              </div>
+              <div id="section_2" class="row m-1 mb-3 bg-cd809c d-none">
+                <div class="col-3 col-sm-2 col-md-1 col-lg-1 col-xl-1 p-0 cursor-pointer text-center"
+                  onclick="showMoreSection('section_3')">
+                  <img src="img/down_aerrow_pink.png" class="w-75 p-3 img-responsive img-fluid" />
+                </div>
+                <div class="col-9 col-sm-10 col-md-11 col-lg-11 col-xl-11 p-0 d-flex align-items-center">
+                  <p>Create exclusive offers for those new to your salon or spa.</p>
+                </div>
+              </div>
+              <div id="section_3" class="row m-1 mb-3 bg-7f779b d-none">
+                <div class="col-3 col-sm-2 col-md-1 col-lg-1 col-xl-1 p-0 cursor-pointer text-center"
+                  onclick="showMoreSection('section_4')">
+                  <img src="img/down_aerrow_voilet.png" class="w-75 p-3 img-responsive img-fluid" />
+                </div>
+                <div class="col-9 col-sm-10 col-md-11 col-lg-11 col-xl-11 p-0 d-flex align-items-center">
+                  <p>Promote BOGO and seasonal gift card offers.</p>
+                </div>
+              </div>
+              <div id="section_4" class="row m-1 mb-3 bg-00b6ed d-none">
+                <div class="col-3 col-sm-2 col-md-1 col-lg-1 col-xl-1 p-0 cursor-pointer text-center"
+                  onclick="showMoreSection('section_5')">
+                  <img src="img/down_aerrow_blue.png" class="w-75 p-3 img-responsive img-fluid" />
+                </div>
+                <div class="col-9 col-sm-10 col-md-11 col-lg-11 col-xl-11 p-0 d-flex align-items-center">
+                  <p>Highlight your top-notch providers or brand differentiators.</p>
+                </div>
+              </div>
+              <div id="section_5" class="row m-1 mb-3 bg-cd809c d-none">
+                <div class="col-3 col-sm-2 col-md-1 col-lg-1 col-xl-1 p-0 cursor-pointer text-center"
+                  onclick="showMoreSection('section_6')">
+                  <img src="img/down_aerrow_pink.png" class="w-75 p-3 img-responsive img-fluid" />
+                </div>
+                <div class="col-9 col-sm-10 col-md-11 col-lg-11 col-xl-11 p-0 d-flex align-items-center">
+                  <p>Showcase your service menu and product assortment.</p>
+                </div>
+              </div>
+              <div id="section_6" class="row m-1 mb-3 bg-7f779b d-none">
+                <div class="col-3 col-sm-2 col-md-1 col-lg-1 col-xl-1 p-0 cursor-pointer text-center"
+                  onclick="showMoreSection('section_7')">
+                  <img src="img/down_aerrow_voilet.png" class="w-75 p-3 img-responsive img-fluid" />
+                </div>
+                <div class="col-9 col-sm-10 col-md-11 col-lg-11 col-xl-11 p-0 d-flex align-items-center">
+                  <p>Emphasize your convenient location.</p>
+                </div>
+              </div>
+              <div id="section_7" class="row m-1 mb-3 bg-00b6ed d-none">
+                <div class="col-3 col-sm-2 col-md-1 col-lg-1 col-xl-1 p-0 text-center">
+                  <img src="img/smiley_filled_new.png" class="w-75 p-1 img-responsive img-fluid" />
+                </div>
+                <div class="col-9 col-sm-10 col-md-11 col-lg-11 col-xl-11 p-0 d-flex align-items-center">
+                  <p>Show how you value your guests with perks and promotions.</p>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-5 justify-content-center">
+              <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
+                <p class="text-justify">
+                  <b>Your goal is to market what a guest wants.</b> If there is a demand, you should be able to supply.
+                </p>
+                <p class="text-justify">
+                  Let's take the COVID-19 pandemic as an example. This unique and unprecedented situation
+                  drastically increased global demand for safe, touchless technology solutions that enabled
+                  businesses to stay open and serving guests. The brands that were able to not only successfully
+                  implement these solutions, but also promote them so existing and potential guests were aware of
+                  them, were the businesses who ensured success through COVID.
                 </p>
               </div>
+              <div class="text-center col-6 col-sm-10 col-md-8 col-lg-2 col-xl-2">
+                <img src="img/pink_speaker_new.png" width="75%" class="bg-cd809c p-3">
+              </div>
             </div>
-          </div>
-          <div class="text-center mb-3">
-            <img src="img/drive-sales-12.png" class="w-75 img-responsive img-fluid" />
+            <div class="w-l-p bg-f5f5f5 p-3 my-3">
+              <h3 class="text-00b6ed">LET PROSPECTS KNOW WHAT SETS YOU APART</h3>
+              <p class="text-justify">
+                By marketing a solution to a problem and highlighting what set them apart from competitors, in
+                this case touchless technology, new guests opted for these service providers as a safe option
+                for their needs.
+              </p>
+            </div>
+            <h3 id="optimizing_your_online_presence" class="mb-3 mt-5">3. Optimizing Your Online Presence</h3>
+            <p class="text-justify">
+              It’s 10:00pm and you’re wide-awake thinking about all the things you need to get done this week.
+              Suddenly, you realize you desperately need a pedicure. But you’ve not been able to find a
+              regular spot that wows you.
+            </p>
+            <p class="text-justify">
+              What do you do?
+            </p>
+            <div class="text-center my-5">
+              <h3 class="text-justify color-00b6ed my-3">
+                #1: You reach for your phone or laptop and search for “pedicures near me”.
+              </h3>
+              <h3 class="text-justify color-cd809c my-3">
+                #2: You check the ratings and click on one of the listings.
+              </h3>
+              <h3 class="text-justify color-8d85a5 my-3">
+                #3: How easy is it to find the types of pedicure offered?
+              </h3>
+              <h3 class="text-justify color-00b6ed my-3">
+                #4: Can you find prices or information about their service providers?
+              </h3>
+              <h3 class="text-justify color-cd809c my-3">
+                #5: What about the pictures? Does it look like a place you want to visit?
+              </h3>
+              <h3 class="text-justify color-8d85a5 my-3">
+                #6: You decide to visit this shop. But wait, there’s no “Book Now” button!
+              </h3>
+            </div>
+            <p class="text-justify">
+              That experience, from the moment you picked up your phone, was dictated completely by the
+              brand’s online presence.
+            </p>
+            <p class="text-justify">
+              An online presence covers everything from your website, your guest mobile app, your
+              engagement on social media, your communication channels, their accessibility, layout,
+              imagery, and so much more.
+            </p>
+            <p class="text-justify">
+              Your online identity should be consistent with all your other branding in order to
+              create a positive and consistent experience that evokes the type of reputation you hope
+              to hold and the type of clientele that you want to attract.
+            </p>
+            <div class="w-l-p bg-f5f5f5 p-3 my-3">
+              <h3 class="text-00b6ed">GUESTS WANT TO BOOK WHEN THEY WANT TO BOOK!</h3>
+              <p class="text-justify">
+                Zenoti reports that 29% of first-time guests make their appointment using online booking, and 50-80% of
+                their appointments come from self-service booking solutions.
+              </p>
+            </div>
+            <div class="row justify-content-center">
+              <div class=" col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                <p class="text-justify  mt-3">
+                  Research shows many first-time guests booking their appointment online, and 46% of
+                  appointments are booked outside of typical business hours. Having a strong online presence
+                  not only ensures potential guests can find your brand, it means they can also book an
+                  appointment for themselves—making it easy and convenient for them to try your business.
+                  Plus, Zenoti customers are seeing higher average ticket prices from appointments that are
+                  booked online – revenue you certainly don’t want to miss out on!
+                </p>
+                <p class="text-justify">
+                  Modern guests take their time when choosing which brand to visit. Accessing your website enables
+                  them to browse without feeling a s if they are imposing on a receptionist. And the reality is,
+                  your front desk team is probably unable to spend ten minutes speaking with every guest that
+                  calls to book.
+                </p>
+              </div>
+              <div class="col-6 col-sm-12 col-md-3 col-lg-3 col-xl-3 text-center">
+                <img src="img/book_clock_new.png" class="w-75 img-responsive img-fluid" />
+              </div>
+            </div>
+            <div class="row section-padding-3">
+              <div class="col-12">
+                <p>With this in mind, your website still needs to replicate the same extraordinary
+                  experience the guest would get when speaking with the front desk or entering your
+                  center. Consider your website:</p>
+                <ul style="padding-left: 2rem !important">
+                  <li>
+                    What does the guest see?
+                  </li>
+                  <li>
+                    Is there an obvious flow?
+                  </li>
+                  <li>
+                    Is the user experience intuitive?
+                  </li>
+                  <li>
+                    Is the content clear and descriptive?
+                  </li>
+                  <li>
+                    Can an online guest find what they are looking for?
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p class="text-justify">
+              If your website does not have a great guest experience, chances are they will not take the time
+              to learn what their in-person experience will be.
+            </p>
+            <p class="text-justify bg-f5f5f5 p-3">
+              Finally, keep in mind that different generations have different opinions and behaviors when it
+              comes to using the internet. Perhaps teenagers aren’t your target demographic currently, but
+              they are your future business. So, remember that the services and programs that are offered now
+              will affect your ability to gain their loyalty.
+              </br>
+              </br>
+              <i>For more information on how to leverage web presence, explore our online booking course.</i>
+            </p>
+            <h3 id="ramping_up_your_referrals" class="mb-3 mt-5">4. Ramping Up Your Referrals</h3>
+            <p class="text-justify">
+              You've built a brand you are passionate about and that represents your values and beliefs.
+              Therefore, it’s only natural your salon or spa would attract an audience of like-minded
+              individuals who love to visit because they are also aligned with your brand values and ethos.
+            </p>
+            <p class="text-justify">
+              What if there was an easy way to encourage other like-minded individuals to visit, since there’s
+              a good chance they’ll also love what you offer?
+            </p>
+            <p class="text-justify">
+              With a referral strategy you can do exactly that! All you need to do is establish a program that
+              taps into your existing guests’ network of family and friends.
+            </p>
+            <p class="text-justify">
+              First things first, what are the benefits of guest referrals?
+            </p>
+            <div>
+              <div class="row">
+                <div class="col-12">
+                  <h4 class="pt-3 pb-2">
+                    <strong>Click each arrow below to learn more.</strong>
+                  </h4>
+                </div>
+              </div>
+              <div class="row m-1 mb-3">
+                <div class="row p-0 m-0 col-12 justify-content-center">
+                  <div class="aerrow-box bg-00b6ed cursor-pointer" onclick="showContent('content_1')">
+                    <p class="text-center pt-3">
+                      54%
+                    </p>
+                    <div class="text-center">
+                      <img src="img/down_aerrow_blue.png" width="50%">
+                    </div>
+                  </div>
+                  <div class="aerrow-box bg-cd809c cursor-pointer" onclick="showContent('content_2')">
+                    <p class="text-center pt-3">
+                      4X
+                    </p>
+                    <div class="text-center">
+                      <img src="img/down_aerrow_pink.png" width="50%">
+                    </div>
+                  </div>
+                  <div class="aerrow-box bg-7f779b cursor-pointer" onclick="showContent('content_3')">
+                    <p class="text-center pt-3">
+                      16%
+                    </p>
+                    <div class="text-center">
+                      <img src="img/down_aerrow_voilet.png" width="50%">
+                    </div>
+                  </div>
+                  <div class="aerrow-box bg-00b6ed cursor-pointer" onclick="showContent('content_4')">
+                    <p class="text-center pt-3">
+                      37%
+                    </p>
+                    <div class="text-center">
+                      <img src="img/down_aerrow_blue.png" width="50%">
+                    </div>
+                  </div>
+                  <div class="aerrow-box bg-cd809c cursor-pointer" onclick="showContent('content_5')">
+                    <p class="text-center pt-3">
+                      65%
+                    </p>
+                    <div class="text-center">
+                      <img src="img/down_aerrow_pink.png" width="50%">
+                    </div>
+                  </div>
+                </div>
+                <div class="row p-0 m-0 col-12 justify-content-center">
+                  <div class="aerrow-box-content row justify-content-center align-items-center d-none">
+                    <p id="content_1" class="text-center pt-3 d-none">
+                      Word-of-mouth increases marketing efficiency by up to 54%.
+                    </p>
+                  </div>
+                  <div id="content_2" class="aerrow-box-content row justify-content-center align-items-center d-none">
+                    <p class="text-center pt-3">
+                      Referred guests are 4 times more likely to refer others.
+                    </p>
+                  </div>
+                  <div id="content_3" class="aerrow-box-content row justify-content-center align-items-center d-none">
+                    <p class="text-center pt-3">
+                      Referred guests have a 16% higher lifetime value.
+                    </p>
+                  </div>
+                  <div id="content_4" class="aerrow-box-content row justify-content-center align-items-center d-none">
+                    <p class="text-center pt-3">
+                      Referred guests have a 16% higher lifetime value.
+                    </p>
+                  </div>
+                  <div id="content_5" class="aerrow-box-content row justify-content-center align-items-center d-none">
+                    <p class="text-center pt-3">
+                      65% of all new business comes from referrals.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row section-padding-2">
+              <p class="text-justify col-12">
+                While there are basic ways to ask your clientele for referrals (hello, business cards!), there are
+                more
+                efficient and effective ways to launch a lucrative referral program. A successful referral program
+                should
+                include the following.
+              </p>
+            </div>
+            <div class="row">
+              <div class="col-12 section-padding-2">
+                <h4>
+                  <strong>Click the (+) to learn more about each scenario.</strong>
+                </h4>
+                <div class="content-gifting section-padding-3">
+                  <div class="collapsible" style="display: flex">
+                    <p class="sign" style="margin-right: 10px"></p>
+                    <p>Make It Easy to Refer</p>
+                  </div>
+                  <div class="content">
+                    <div class="content-gifting section-padding-3">
+                      <div class="responsive mt-3 mb-3" style="display: flex">
+                        <div class="col-sm-12 col-md-12 col-lg-12 mb-3" style="padding-right: 1rem">
+                          <p class="text-justify">
+                            Offer multiple touchpoints for guests to choose from, such as
+                            WhatsApp, email, or Facebook.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="content-gifting section-padding-3">
+                    <div class="collapsible" style="display: flex">
+                      <p class="sign" style="margin-right: 10px"></p>
+                      <p>Target Your Loyal Guests</p>
+                    </div>
+                    <div class="content">
+                      <div class="content-gifting section-padding-3">
+                        <div class="responsive mt-3 mb-3" style="display: flex">
+                          <div class="col-sm-12 col-md-12 col-lg-12 mb-3" style="padding-right: 1rem">
+                            <p>
+                              Segment your guests based on spend, visits, and frequency to
+                              identify those who are most loyal.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="content-gifting section-padding-3">
+                    <div class="collapsible" style="display: flex">
+                      <p class="sign" style="margin-right: 10px"></p>
+                      <p>Market Across Multiple Channels</p>
+                    </div>
+                    <div class="content">
+                      <div class="content-gifting section-padding-3">
+                        <div class="responsive mt-3 mb-3" style="display: flex">
+                          <div class="col-sm-12 col-md-12 col-lg-12 mb-3" style="padding-right: 1rem">
+                            <p>
+                              Make use of marketing across your store, mobile app, webstore,
+                              email campaigns, text messaging, and social media.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="content-gifting section-padding-3">
+                    <div class="collapsible" style="display: flex">
+                      <p class="sign" style="margin-right: 10px"></p>
+                      <p>Prompt for Referrals at the Right Time</p>
+                    </div>
+                    <div class="content">
+                      <div class="content-gifting section-padding-3">
+                        <div class="responsive mt-3 mb-3" style="display: flex">
+                          <div class="col-sm-12 col-md-12 col-lg-12 mb-3" style="padding-right: 1rem">
+                            <p>
+                              Capitalize on the right moments to ask for a referral, such as
+                              after a positive review or experience.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="content-gifting section-padding-3">
+                    <div class="collapsible" style="display: flex">
+                      <p class="sign" style="margin-right: 10px"></p>
+                      <p>Include Double-Sided Incentives</p>
+                    </div>
+                    <div class="content">
+                      <div class="content-gifting section-padding-3">
+                        <div class="responsive mt-3 mb-3" style="display: flex">
+                          <div class="col-sm-12 col-md-12 col-lg-12 mb-3" style="padding-right: 1rem">
+                            <p>
+                              Offer incentives to both the referrer and the referee.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row my-5">
+              <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xxl-9 section-padding-3 mb-3">
+                <p class="text-justify">
+                  Implementing a referral program may be an easy solution for an expensive problem. If
+                  your guests are thinking about referring their friends and family, then give them a push
+                  to do so! It’s not just one extra guest you can expect to meet, it’s almost triple that
+                  since research shows that every referrer makes an average of 2.68 referrals. Don’t
+                  forget, the guests referred to your business will spend more in their lifetime of
+                  conducting business with you than guests who were not referred.
+                </p>
+              </div>
+              <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xxl-3 d-flex align-items-center">
+                <div class="callout">
+                  <p class="mb-0">
+                    <strong>
+                      “Do what you do so well that they will want to see it again and bring their
+                      friends.” - Walt Disney
+                    </strong>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="text-center mb-3">
+              <img src="img/drive_sales_new.png" class="w-75 img-responsive img-fluid" />
+              <p class="image-caption">
+                <b>Only 3% of salons have a defined referral program but over 80% say that most of their busidness comes
+                  from referrals.</b>
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
   </section>
 
   <!-- Key Takeaways  -->
@@ -1121,6 +1084,11 @@
       $(name).hasClass('d-none')
         ? $(name).removeClass('d-none')
         : $(name).addClass('d-none');
+    }
+
+    function showContent(sectionName) {
+      let name = `#${sectionName}`;
+      $(name).removeClass('d-none');
     }
 
   </script>

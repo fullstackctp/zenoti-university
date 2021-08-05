@@ -7,6 +7,41 @@
   scroll-behavior: smooth;
 }
 
+.image-caption {
+  margin: 0 25% !important;
+  text-align: justify !important;
+}
+
+.color-00b6ed {
+  color: #00b6ed;
+}
+
+.color-cd809c {
+  color: #cd809c;
+}
+
+.color-8d85a5 {
+  color: #8d85a5;
+}
+
+.aerrow-box {
+  height: 150px !important;
+  width: 150px !important;
+  margin: 1rem 3rem 0 0 !important;
+}
+
+.aerrow-box-content {
+  min-height: 150px !important;
+  width: 150px !important;
+  margin: 1rem 3rem 0 0 !important;
+  background-color: #e7e6e6 !important;
+  padding: 0.5rem !important;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
 .hover-hyperlink:hover {
   color: blue !important;
   text-decoration: underline !important;
