@@ -7,6 +7,11 @@
   scroll-behavior: smooth;
 }
 
+.hover-hyperlink:hover {
+  color: blue !important;
+  text-decoration: underline !important;
+}
+
 .border_pink {
   border: 1px solid pink;
 }
