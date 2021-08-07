@@ -44,7 +44,7 @@
   width: 400px;
   height: 400px;
   perspective: 1000px;
-  overflow: auto !important;
+  /* overflow: auto !important; */
 }
 
 .flip-card-inner {
