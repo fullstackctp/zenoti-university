@@ -7,6 +7,26 @@
   scroll-behavior: smooth;
 }
 
+.bg-bf6e4b {
+  background-color: #bf6e4b;
+}
+
+.bg-ecd3c9 {
+  background-color: #ecd3c9;
+}
+
+.border-cca34b {
+  border: 1px solid #cca34b;
+}
+
+.border-25847b {
+  border: 1px solid #25847b;
+}
+
+.bg-25847b {
+  background-color: #25847b;
+}
+
 .bg-33ad6a {
   background-color: #33ad6a !important;
 }
@@ -14,7 +34,6 @@
 .bg-c2e7d3 {
   background-color: #c2e7d3 !important;
 }
-
 
 .make-flip {
   transform: rotateY(180deg);
@@ -25,6 +44,7 @@
   width: 400px;
   height: 400px;
   perspective: 1000px;
+  overflow: auto !important;
 }
 
 .flip-card-inner {
