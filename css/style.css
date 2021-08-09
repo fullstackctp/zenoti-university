@@ -43,6 +43,12 @@
   background-color: #c2e7d3 !important;
 }
 
+.color-cd8096 {
+  color: #cd8096;
+}
+.color-7f779b {
+  color: #7f779b;
+}
 .make-flip {
   transform: rotateY(180deg);
 }
@@ -799,6 +805,10 @@ footer {
   display: inline-block;
 }
 
+.w-80 {
+width: 80% !important;
+}
+
 #sticky {
   background-color: #fff;
   color: #fff;
@@ -958,7 +968,19 @@ ul.list-radio li {
   right: 20px;
   display: block;
 }
+.z-index-1{
+  z-index: 1;
+}
 
+.pb-6 {
+  padding-bottom: 60px !important;
+}
+.w-23{
+  width: 23% !important;
+}
+.pt-6 {
+  padding-top: 60px !important;
+}
 .blink-circle::after {
   content: "";
   width: 20px;
@@ -1112,6 +1134,9 @@ ul.list-radio li {
   }
   .adult-2 {
     min-height: 9.063rem;
+  }
+  .w-23{
+    width: 16% !important;
   }
 }
 @media (min-width: 991px) and (max-width: 1200px) {
