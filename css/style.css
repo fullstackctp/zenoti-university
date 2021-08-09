@@ -7,6 +7,14 @@
   scroll-behavior: smooth;
 }
 
+.bg-404040 {
+  background-color: #404040;
+}
+
+.bg-bbe5ff {
+  background-color: #bbe5ff;
+}
+
 .bg-bf6e4b {
   background-color: #bf6e4b;
 }
@@ -226,7 +234,7 @@
 }
 
 .text-justify {
-  text-align: justify;
+  text-align: justify !important;
 }
 
 .content-new {
@@ -764,9 +772,9 @@ footer {
 }
 .overlay-close {
   position: absolute;
-  right: 2rem;
-  top: 2.125rem;
-  font-size: 1.875rem;
+  right: 1rem;
+  top: 1rem;
+  font-size: 1.5rem;
   font-weight: 100 !important;
   color: #fff;
 }
