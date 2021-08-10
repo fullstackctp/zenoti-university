@@ -57,12 +57,14 @@
   transform: rotateY(180deg);
 }
 
-.flip-card {
-  background-color: transparent;
+.flip-card-size {
   width: 400px;
   height: 400px;
+}
+
+.flip-card {
+  background-color: transparent;
   perspective: 1000px;
-  /* overflow: auto !important; */
 }
 
 .flip-card-inner {
@@ -1473,9 +1475,18 @@ ul.list-radio li {
   .right-aerrow-img-size {
     width: 75% !important;
   }
+
+  .flip-card-size {
+    width: 300px !important;
+    height: 300px !important;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 637px) {
+  .flip-card-size {
+    width: 350px !important;
+    height: 350px !important;
+  }
 }
 
 @media (min-width: 638px) and (max-width: 767px) {
