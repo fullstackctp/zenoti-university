@@ -1485,8 +1485,8 @@ ul.list-radio li {
 
 @media (min-width: 481px) and (max-width: 637px) {
   .flip-card-size {
-    width: 350px !important;
-    height: 350px !important;
+    width: 320px !important;
+    height: 320px !important;
   }
 }
 
@@ -1503,4 +1503,8 @@ ul.list-radio li {
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
+  .flip-card-size {
+    width: 450px !important;
+    height: 450px !important;
+  }
 }
