@@ -1675,14 +1675,25 @@ ul.list-radio li {
   float: left;
   width: 100%;
 } */
-.tabs-li{
+/* .tabs-li{
   border-top-left-radius: 10%;
   border-top-right-radius: 10%;
-  margin-left:10px;
-}
-li:first-child .anchor-a {
+  
+} */
+li:first-child {
   border-right: 0;
   border-top-left-radius: 6px;
+}
+
+.tabs-li{
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left:10px;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  margin-top: 10px;
 }
 li:last-child .anchor-a {
   border-top-right-radius: 6px;
