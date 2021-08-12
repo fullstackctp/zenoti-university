@@ -1548,11 +1548,23 @@ ul.list-radio li {
 }
 
 .heart-card-image{
-  background-image: url('../img/heart-card.png');
+  background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('../img/heart-card.png');
   background-repeat: no-repeat;
   background-position: center;
 }
-
+.right-aerrow-img-size{
+  width: 50%;
+}
+.image_box{
+  max-width: 10% !important;
+  min-width: 10% !important;
+}
+.purple_smile_class{
+  width: 50%;
+}
+.vertical-center{
+  margin-top: 10%;
+}
 /* Media queries */
 @media (min-width: 0px) and (max-width: 320px) {
   .flip-card-size1 {
@@ -1563,12 +1575,14 @@ ul.list-radio li {
 
 @media (min-width: 320px) and (max-width: 480px) {
   .right-aerrow-img-size {
-    width: 75% !important;
+    width: 80% !important;
   }
   .heart-card{
     width: 100% !important;
   }
-
+  .vertical-center{
+    margin-top: 20%;
+  }
   #first_p{
     font-size: 80px;
     /* transform: translateY(340%); */
@@ -1598,6 +1612,14 @@ ul.list-radio li {
     width: 200px !important;
     height: 200px !important;
   }
+
+  .image_box{
+    max-width: 30% !important;
+    min-width: 30% !important;
+  }
+  .anchor-a{
+    font-size: 9px;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 637px) {
@@ -1612,6 +1634,16 @@ ul.list-radio li {
   .heart-card{
     width: 80% !important;
   }
+  .right-aerrow-img-size {
+    width: 80% !important;
+  }
+  .image_box{
+    max-width: 15% !important;
+    min-width: 15% !important;
+  }
+  .vertical-center{
+    margin-top: 25%;
+  }
 }
 
 @media (min-width: 638px) and (max-width: 767px) {
@@ -1622,15 +1654,15 @@ ul.list-radio li {
   .heart-card{
     width: 80% !important;
   }
-}
-
-@media (min-width: 768px) and (max-width: 836px) {
-  .flip-card-size1 {
-    width: 300px !important;
-    height: 300px !important;
+  .right-aerrow-img-size {
+    width: 70% !important;
   }
-  .heart-card{
-    width: 60% !important;
+  .image_box{
+    max-width: 15% !important;
+    min-width: 15% !important;
+  }
+  .vertical-center{
+    margin-top: 25%;
   }
 }
 
@@ -1642,6 +1674,10 @@ ul.list-radio li {
   .heart-card{
     width: 60% !important;
   }
+  .image_box{
+    max-width: 15% !important;
+    min-width: 15% !important;
+  }
 }
 
 @media (min-width: 991px) and (max-width: 1200px) {
@@ -1651,6 +1687,10 @@ ul.list-radio li {
   }
   .heart-card{
     width: 40% !important;
+  }
+  .image_box{
+    max-width: 10% !important;
+    min-width: 10% !important;
   }
 }
 
@@ -1703,7 +1743,7 @@ li:last-child .anchor-a {
   /* border: 1px solid #cecfd5; */
   color: black;
   display: block;
-  font-weight: 600;
+  /* font-weight: 600; */
   padding: 10px 0;
   text-align: center;
   text-decoration: none;
