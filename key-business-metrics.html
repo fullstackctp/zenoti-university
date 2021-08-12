@@ -242,7 +242,7 @@
           <div class="text-center w-100">
             <img src="img/graph-chart.png" class="img-responsive img-fluid w-80" />
           </div>
-          <p>As you can imagine, collections from services will be the bulk of your revenue.
+          <p class="mt-3">As you can imagine, collections from services will be the bulk of your revenue.
             The more services you sell, the more successful your team can be. But your business growth is about more
             than just services.
             Having collection insights for each category shown below will help you analyze these important business
@@ -263,7 +263,7 @@
 
                 <div class="col-2 tabs-li bg-00b6ed"> <a class="anchor-a" href="#tab-5">Packages</a></div>
               </div>
-              <div class="tabs-stage bg-fff6DB ">
+              <div class="tabs-stage bg-fff6DB d-none">
                 <div id="tab-1">
                   <p>Service sales are your bread and butter. If your service collections are trending down, you may
                     want to analyze your service mix.
@@ -387,10 +387,12 @@
             It’s a numbers game. The more guests you retain, the more collections you earn.</p>
 
           <div class="callout">
+            <p>
             <strong>
               Guest retention is measured by the percentage of new and repeat guests that had a service and are booked
               to return within a certain timeframe (typically 90 days).
             </strong>
+            </p>
           </div>
           <p class="text-justify"> You can measure the success of your retention efforts by taking a closer look at the
             following metrics:</p>
@@ -496,11 +498,11 @@
                             self-serve technology available with Zenoti.</p>
                           <div class="w-100" style="text-align-last: center;">
                             <img src="img/pie_graph.png" class="img-responsive img-fluid w-80" />
-                            <h6>*For an in-depth look at these metrics, you can click Learn More to launch the
-                              Self-Service Booking dashboard.</h6>
+                            <p>*For an in-depth look at these metrics, you can click Learn More to launch the
+                              Self-Service Booking dashboard.</p>
 
                           </div>
-                          <p class='text-justify'>Self-service booking is a business metric that deserves your
+                          <p class='text-justify mt-3'>Self-service booking is a business metric that deserves your
                             attention, as the benefits are many—not only for your guests—but also for your business.</p>
                         </div>
                       </div>
@@ -581,8 +583,8 @@
 
                     <div class="w-100" style="text-align-last: center;">
                       <img src="img/pie_graph.png" class="img-responsive img-fluid w-80" />
-                      <h6>*For an in-depth look at these metrics, you can click Learn More to launch the Self-Service
-                        Booking dashboard.</h6>
+                      <p>*For an in-depth look at these metrics, you can click Learn More to launch the Self-Service
+                        Booking dashboard.</p>
 
                     </div>
                     <p class='text-justify'>The personal nature of this business results in guests having definite
@@ -663,7 +665,16 @@
 
           <div class="col-12 my-3">
             <div class="row px-3">
-              <h4 class="mb-3">Click the arrow to reveal suggestions for increasing new guest visits.</h4>
+              <p class="mb-3"><b>Click the arrow to reveal suggestions for increasing new guest visits.</b></p>
+              <div
+              class="col-4 col-sm-2 col-md-2 col-lg-2 col-xxl-2 border-00b6ed text-center cursor-pointer bg-b3eafa d-flex align-items-center">
+              <div class="pt-3 pb-3">
+                <div class="d-flex align-items-center justify-content-center"
+                  onclick="showContent('counters_low_retention')">
+                  <img src="img/blue_arrow.png" class="upper_arrow" />
+                </div>
+              </div>
+            </div>
               <div id="counters_low_retention"
                 class="col-8 col-sm-10 col-md-10 col-lg-10 col-xxl-10 border-00b6ed-noleft text-center bg-b3eafa d-flex d-none align-items-center">
                 <div class="p-3 h-100">
@@ -672,20 +683,20 @@
                   </p>
                 </div>
               </div>
-              <div
-                class="col-4 col-sm-2 col-md-2 col-lg-2 col-xxl-2 border-00b6ed text-center cursor-pointer bg-b3eafa d-flex align-items-center">
-                <div class="pt-3 pb-3">
-                  <div class="d-flex align-items-center justify-content-center"
-                    onclick="showContent('counters_low_retention')">
-                    <img src="img/blue_arrow.png" class="upper_arrow" />
-                  </div>
-                </div>
-              </div>
+       
             </div>
           </div>
 
           <div class="col-12 my-3">
             <div class="row px-3">
+              <div
+              class="col-4 col-sm-2 col-md-2 col-lg-2 col-xxl-2 border-cd809c-2px text-center cursor-pointer bg-fod9e2 d-flex align-items-center">
+              <div class="pt-3 pb-3">
+                <div class="d-flex align-items-center justify-content-center" onclick="showContent('invest')">
+                  <img src="img/pink_arrow.png" class="upper_arrow" />
+                </div>
+              </div>
+            </div>
               <div id="invest"
                 class="col-8 col-sm-10 col-md-10 col-lg-10 col-xxl-10 border-cd809c-2px-noleft text-center bg-fod9e2 d-flex d-none align-items-center">
                 <div class="p-3 h-100">
@@ -694,19 +705,20 @@
                   </p>
                 </div>
               </div>
-              <div
-                class="col-4 col-sm-2 col-md-2 col-lg-2 col-xxl-2 border-cd809c-2px text-center cursor-pointer bg-fod9e2 d-flex align-items-center">
-                <div class="pt-3 pb-3">
-                  <div class="d-flex align-items-center justify-content-center" onclick="showContent('invest')">
-                    <img src="img/pink_arrow.png" class="upper_arrow" />
-                  </div>
-                </div>
-              </div>
+         
             </div>
           </div>
 
           <div class="col-12 my-3">
             <div class="row px-3">
+              <div
+              class="col-4 col-sm-2 col-md-2 col-lg-2 col-xxl-2 border-7f779b-2px text-center cursor-pointer bg-d9d7e1 d-flex align-items-center">
+              <div class="pt-2 pb-2">
+                <div class="d-flex align-items-center justify-content-center" onclick="showContent('smile')">
+                  <img src="img/purple_smile.png" class="upper_arrow" />
+                </div>
+              </div>
+            </div>
               <div id="smile"
                 class="col-8 col-sm-10 col-md-10 col-lg-10 col-xxl-10 border-7f779b-2px-noleft text-center bg-d9d7e1 d-flex d-none align-items-center">
                 <div class="p-3 h-100">
@@ -716,14 +728,7 @@
                   </p>
                 </div>
               </div>
-              <div
-                class="col-4 col-sm-2 col-md-2 col-lg-2 col-xxl-2 border-7f779b-2px text-center cursor-pointer bg-d9d7e1 d-flex align-items-center">
-                <div class="pt-2 pb-2">
-                  <div class="d-flex align-items-center justify-content-center" onclick="showContent('smile')">
-                    <img src="img/purple_smile.png" class="upper_arrow" />
-                  </div>
-                </div>
-              </div>
+          
             </div>
           </div>
 
@@ -843,17 +848,8 @@
 
           <div class="col-12 my-3">
             <div class="row px-3">
-              <h4 class="mb-3">Click the arrow to reveal other ways monitoring utilization
-                can help you manage your business.</h4>
-              <div id="second_blue_arrow"
-                class="col-8 col-sm-10 col-md-10 col-lg-10 col-xxl-10 border-00b6ed-noleft text-center bg-b3eafa d-flex d-none align-items-center">
-                <div class="p-3 h-100">
-                  <p class="text-justify">
-                    Analyzing hiring needs.
-                  </p>
-                </div>
-              </div>
-              <div onclick="showContent('second_blue_arrow')"
+              <p class="mb-3"><b>Click the arrow to reveal other ways monitoring utilization can help you manage your business.</b></p>
+                <div onclick="showContent('second_blue_arrow')"
                 class="col-4 col-sm-2 justify-content-center col-md-2 col-lg-2 col-xxl-2 image_box border-00b6ed text-center cursor-pointer bg-b3eafa d-flex align-items-center">
                 <div>
                   <div class="d-flex align-items-center justify-content-center">
@@ -861,11 +857,28 @@
                   </div>
                 </div>
               </div>
+                <div id="second_blue_arrow"
+                class="col-8 col-sm-10 col-md-10 col-lg-10 col-xxl-10 border-00b6ed-noleft text-center bg-b3eafa d-flex d-none align-items-center">
+                <div class="p-3 h-100">
+                  <p class="text-justify">
+                    Analyzing hiring needs.
+                  </p>
+                </div>
+              </div>
+          
             </div>
           </div>
 
           <div class="col-12 my-3">
             <div class="row px-3">
+              <div onclick="showContent('second_pink_arrow')"
+              class="col-4 col-sm-2 justify-content-center col-md-2 col-lg-2 col-xxl-2 image_box border-cd809c-2px text-center cursor-pointer bg-fod9e2 d-flex align-items-center">
+              <div class="">
+                <div class="d-flex align-items-center justify-content-center">
+                  <img src="img/second_pink_arrow.png" class="right-aerrow-img-size" width="100%" />
+                </div>
+              </div>
+            </div>
               <div id="second_pink_arrow"
                 class="col-8 col-sm-10 col-md-10 col-lg-10 col-xxl-10 border-cd809c-2px-noleft text-center bg-fod9e2 d-flex d-none align-items-center">
                 <div class="p-3 h-100">
@@ -874,19 +887,20 @@
                   </p>
                 </div>
               </div>
-              <div onclick="showContent('second_pink_arrow')"
-                class="col-4 col-sm-2 justify-content-center col-md-2 col-lg-2 col-xxl-2 image_box border-cd809c-2px text-center cursor-pointer bg-fod9e2 d-flex align-items-center">
-                <div class="">
-                  <div class="d-flex align-items-center justify-content-center">
-                    <img src="img/second_pink_arrow.png" class="right-aerrow-img-size" width="100%" />
-                  </div>
-                </div>
-              </div>
+           
             </div>
           </div>
 
           <div class="col-12 my-3">
             <div class="row px-3">
+              <div onclick="showContent('second_purple_arrow')"
+              class="col-4 col-sm-2 justify-content-center col-md-2 col-lg-2 col-xxl-2 image_box border-7f779b-2px text-center cursor-pointer bg-d9d7e1 d-flex align-items-center">
+              <div class="">
+                <div class="d-flex align-items-center justify-content-center">
+                  <img src="img/second_purple_arrow.png" class="right-aerrow-img-size" width="100%" />
+                </div>
+              </div>
+            </div>
               <div id="second_purple_arrow"
                 class="col-8 col-sm-10 col-md-10 col-lg-10 col-xxl-10 border-7f779b-2px-noleft text-center bg-d9d7e1 d-flex d-none align-items-center">
                 <div class="p-3 h-100">
@@ -895,19 +909,20 @@
                   </p>
                 </div>
               </div>
-              <div onclick="showContent('second_purple_arrow')"
-                class="col-4 col-sm-2 justify-content-center col-md-2 col-lg-2 col-xxl-2 image_box border-7f779b-2px text-center cursor-pointer bg-d9d7e1 d-flex align-items-center">
-                <div class="">
-                  <div class="d-flex align-items-center justify-content-center">
-                    <img src="img/second_purple_arrow.png" class="right-aerrow-img-size" width="100%" />
-                  </div>
-                </div>
-              </div>
+           
             </div>
           </div>
 
           <div class="col-12 my-3">
             <div class="row px-3">
+              <div onclick="showContent('second_blue_arrow2')"
+              class="col-4 col-sm-2 col-md-2 justify-content-center col-lg-2 col-xxl-2 image_box border-00b6ed text-center cursor-pointer bg-b3eafa d-flex align-items-center">
+              <div class="">
+                <div class="d-flex align-items-center justify-content-center">
+                  <img src="img/second_blue_arrow.png" class="right-aerrow-img-size" width="100%" />
+                </div>
+              </div>
+            </div>
               <div id="second_blue_arrow2"
                 class="col-8 col-sm-10 col-md-10 col-lg-10 col-xxl-10 border-00b6ed-noleft text-center bg-b3eafa d-flex d-none align-items-center">
                 <div class="p-3 h-100">
@@ -916,19 +931,20 @@
                   </p>
                 </div>
               </div>
-              <div onclick="showContent('second_blue_arrow2')"
-                class="col-4 col-sm-2 col-md-2 justify-content-center col-lg-2 col-xxl-2 image_box border-00b6ed text-center cursor-pointer bg-b3eafa d-flex align-items-center">
-                <div class="">
-                  <div class="d-flex align-items-center justify-content-center">
-                    <img src="img/second_blue_arrow.png" class="right-aerrow-img-size" width="100%" />
-                  </div>
-                </div>
-              </div>
+           
             </div>
           </div>
 
           <div class="col-12 my-3">
             <div class="row px-3">
+              <div onclick="showContent('purple_smile')"
+              class="col-4 col-sm-2 col-md-2 col-lg-2 col-xxl-2 image_box border-7f779b-2px text-center cursor-pointer bg-d9d7e1 d-flex align-items-center">
+              <div class="pt-2 pb-2">
+                <div class="d-flex align-items-center justify-content-center">
+                  <img src="img/purple_smile.png" class="purple_smile_class" />
+                </div>
+              </div>
+            </div>
               <div id="purple_smile"
                 class="col-8 col-sm-10 col-md-10 col-lg-10 col-xxl-10 border-7f779b-2px-noleft text-center bg-d9d7e1 d-flex d-none align-items-center">
                 <div class="p-3 h-100">
@@ -937,14 +953,7 @@
                   </p>
                 </div>
               </div>
-              <div onclick="showContent('purple_smile')"
-                class="col-4 col-sm-2 col-md-2 col-lg-2 col-xxl-2 image_box border-7f779b-2px text-center cursor-pointer bg-d9d7e1 d-flex align-items-center">
-                <div class="pt-2 pb-2">
-                  <div class="d-flex align-items-center justify-content-center">
-                    <img src="img/purple_smile.png" class="purple_smile_class" />
-                  </div>
-                </div>
-              </div>
+         
             </div>
           </div>
 
@@ -1093,8 +1102,8 @@
 
     // Show the first tab by default
     $('.tabs-stage div').hide();
-    $('.tabs-stage div:first').show();
-    $('.tabs-nav div:first').addClass('tab-active');
+    // $('.tabs-stage div:first').show();
+    // $('.tabs-nav div:first').addClass('tab-active');
 
     // Change tab class and display content
     $('.tabs-nav a').on('click', function (event) {
@@ -1103,6 +1112,8 @@
       $(this).parent().addClass('tab-active');
       $('.tabs-stage div').hide();
       $($(this).attr('href')).show();
+
+      $('.tabs-stage').removeClass('d-none');
     });
     function toggleCloserLook() {
       $('#closerLook').hasClass('d-none')

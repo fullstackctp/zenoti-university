@@ -82,7 +82,7 @@
 .border-7f779b-2px-noleft {
   border-top: 2px solid #7f779b;
   border-bottom: 2px solid #7f779b;
-  border-left: 2px solid #7f779b;
+  border-right: 2px solid #7f779b;
 }
 
 .border-cd809c {
@@ -94,7 +94,7 @@
 }
 .border-cd809c-2px-noleft{
 
-  border-left: 2px solid #cd809c;
+  border-right: 2px solid #cd809c;
   border-top: 2px solid #cd809c;
   border-bottom: 2px solid #cd809c;
 }
@@ -218,7 +218,7 @@ background-color:#d9d7e1 ;
   
   border-top: #00b6ed 2px solid;
 
-border-left: #00b6ed 2px solid;
+border-right: #00b6ed 2px solid;
 
 border-bottom: #00b6ed 2px solid;
 }
@@ -1607,7 +1607,7 @@ ul.list-radio li {
 }
 
 .heart-card-image{
-  background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('../img/heart-card.png');
+  background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,.8)), url('../img/heart-card.png');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1683,7 +1683,7 @@ ul.list-radio li {
     min-width: 30% !important;
   }
   .anchor-a{
-    font-size: 9px;
+    font-size: 11px;
   }
   .upper_arrow{
     width:50%
