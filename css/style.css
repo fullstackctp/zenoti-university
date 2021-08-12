@@ -73,12 +73,30 @@
   border: 2px solid #7f779b;
 }
 
+.border-00b6ed-left{
+  border-top: #00b6ed 2px solid;
+  border-left: #00b6ed 2px solid;
+  border-right: #00b6ed 2px solid;
+}
+
+.border-7f779b-2px-noleft {
+  border-top: 2px solid #7f779b;
+  border-bottom: 2px solid #7f779b;
+  border-left: 2px solid #7f779b;
+}
+
 .border-cd809c {
   border: 5px solid #cd809c;
 }
 
 .border-cd809c-2px {
   border: 2px solid #cd809c;
+}
+.border-cd809c-2px-noleft{
+
+  border-left: 2px solid #cd809c;
+  border-top: 2px solid #cd809c;
+  border-bottom: 2px solid #cd809c;
 }
 
 .bg-d9d7e1{
@@ -195,21 +213,14 @@ background-color:#d9d7e1 ;
 .border-00b6ed {
   border: #00b6ed 2px solid;
 }
+
 .border-00b6ed-noleft {
   
   border-top: #00b6ed 2px solid;
 
 border-left: #00b6ed 2px solid;
 
-border-right: #00b6ed 2px solid;
-}
-
-.border-00b6ed-left {
-border-top: #00b6ed 2px solid;
-
-border-left: #00b6ed 2px solid;
-
-border-right: #00b6ed 2px solid;
+border-bottom: #00b6ed 2px solid;
 }
 
 .border-00b6ed-right {
@@ -1788,7 +1799,6 @@ ul.list-radio li {
 }
 /* .tabs-nav .tabs-li {
   float: left;
-  width: 100%;
 } */
 /* .tabs-li{
   border-top-left-radius: 10%;
@@ -1805,7 +1815,7 @@ li:first-child {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  margin-left:10px;
+  margin-left:5px;
   border-top-left-radius: 10%;
   border-top-right-radius: 10%;
   margin-top: 10px;
@@ -1832,6 +1842,10 @@ li:last-child .anchor-a {
   border-bottom-color: transparent;
   /* color: #2db34a; */
   cursor: default;
+}
+.tab-active {
+  
+  font-weight: 600;
 }
 .tabs-stage {
   border: 1px solid #cecfd5;
