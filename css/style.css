@@ -1612,6 +1612,7 @@ ul.list-radio li {
   background-repeat: no-repeat;
   background-position: center;
   text-align: -webkit-center;
+  text-align: -moz-center;
 }
 .right-aerrow-img-size{
   width: 50%;
