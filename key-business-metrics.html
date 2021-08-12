@@ -74,7 +74,7 @@
   <section class="section-padding-2 mb-3">
     <div class="container">
       <div class="row">
-        <div class="col-12 row">
+        <div class="col-12 row m-0">
           <h2 class="mb-3">3 Reasons Why Business Metrics Matter</h2>
           <p class="text-justify">
             To really use these metrics as the business drivers that they are, it’s essential to understand WHY they
@@ -86,7 +86,7 @@
               <h4><b>Click each arrow to reveal 3 reasons why business metrics matter:</b></h4>
             </div>
           </div>
-          <div class="col-12 col-lg-4 col-xxl-4 my-3">
+          <div class="col-12 col-lg-4 col-xxl-4 my-3 p-0">
             <div class="row">
               <div class="col-12 text-center cursor-pointer d-flex justify-content-center">
                 <div class="p-2">
@@ -119,7 +119,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-4 col-xxl-4 my-3">
+          <div class="col-12 col-lg-4 col-xxl-4 my-3 p-0">
             <div class="row">
               <div class="col-12 text-center cursor-pointer d-flex justify-content-center">
                 <div class="p-2">
@@ -140,7 +140,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-4 col-xxl-4 my-3">
+          <div class="col-12 col-lg-4 col-xxl-4 my-3 p-0">
             <div class="row">
               <div class="col-12 text-center cursor-pointer d-flex justify-content-center">
                 <div class="p-2">
@@ -405,7 +405,7 @@
                   <p class="sign" style="margin-right: 10px"></p>
                   <p>Existing Guest Visits</p>
                 </div>
-                <div class="content">
+                <div class="content p-0">
                   <div class="content-gifting section-padding-3">
                     <div class="responsive mt-3 mb-3" style="display: flex">
                       <div class="col-sm-12 col-md-12 col-lg-12 mb-3" style="padding-right: 1rem">
@@ -433,7 +433,7 @@
                     <p class="sign" style="margin-right: 10px"></p>
                     <p>Rebooking</p>
                   </div>
-                  <div class="content">
+                  <div class="content p-0">
                     <div class="content-gifting section-padding-3">
                       <div class="responsive mt-3 mb-3" style="display: flex">
                         <div class="col-sm-12 col-md-12 col-lg-12 mb-3" style="padding-right: 1rem">
@@ -474,7 +474,7 @@
                     <p class="sign" style="margin-right: 10px"></p>
                     <p>Self-Service Booking</p>
                   </div>
-                  <div class="content">
+                  <div class="content p-0">
                     <div class="content-gifting section-padding-3">
                       <div class="responsive mt-3 mb-3" style="display: flex">
                         <div class="col-sm-12 col-md-12 col-lg-12 mb-3" style="padding-right: 1rem">
@@ -569,7 +569,7 @@
               <p class="sign" style="margin-right: 10px"></p>
               <p>Feedback</p>
             </div>
-            <div class="content">
+            <div class="content p-0">
               <div class="content-gifting section-padding-3">
                 <div class="responsive mt-3 mb-3" style="display: flex">
                   <div class="col-sm-12 col-md-12 col-lg-12 mb-3" style="padding-right: 1rem">
@@ -1094,12 +1094,12 @@
     // Show the first tab by default
     $('.tabs-stage div').hide();
     $('.tabs-stage div:first').show();
-    $('.tabs-nav li:first').addClass('tab-active');
+    $('.tabs-nav div:first').addClass('tab-active');
 
     // Change tab class and display content
     $('.tabs-nav a').on('click', function (event) {
       event.preventDefault();
-      $('.tabs-nav li').removeClass('tab-active');
+      $('.tabs-nav div').removeClass('tab-active');
       $(this).parent().addClass('tab-active');
       $('.tabs-stage div').hide();
       $($(this).attr('href')).show();
