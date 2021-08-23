@@ -1256,6 +1256,32 @@ ul.list-radio li {
   width: 50%;
 }
 /* responsive */
+
+@media (min-width: 1000px) and (max-width: 1200px)  {
+  #repeatCustomers{
+    min-height: 550px;
+  }
+  #existingGuests{
+    
+    min-height: 550px;
+  }
+  #increases_brand_awareness{
+    min-height: 550px;
+  }
+}
+@media (min-width: 1200px) {
+  #repeatCustomers{
+    min-height: 500px;
+  }
+  #existingGuests{
+    
+    min-height: 500px;
+  }
+  #increases_brand_awareness{
+    min-height: 500px;
+  }
+}
+
 @media (min-width: 1200px) and (max-width: 1500px) {
   .adult-1 {
     min-height: 9.063rem;
