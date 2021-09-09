@@ -189,7 +189,7 @@
             <strong>Click (+) to see Lily’s impression of each website.</strong>
           </h4>
           <div class="content-gifting section-padding-3">
-            <div class="collapsible d-flex bg-33ad6a">
+            <div class="collapsible-purple d-flex bg-33ad6a">
               <p class="sign" style="margin-right: 10px"></p>
               <p>Salon Website #1</p>
             </div>
@@ -210,7 +210,7 @@
             </div>
 
             <div class="content-gifting section-padding-3">
-              <div class="collapsible d-flex bg-c2e7d3">
+              <div class="collapsible-purple d-flex bg-c2e7d3">
                 <p class="sign" style="margin-right: 10px"></p>
                 <p>Salon Website #2</p>
               </div>
@@ -230,7 +230,7 @@
             </div>
 
             <div class="content-gifting section-padding-3">
-              <div class="collapsible d-flex bg-33ad6a">
+              <div class="collapsible-purple d-flex bg-33ad6a">
                 <p class="sign" style="margin-right: 10px"></p>
                 <p>Salon Website #3</p>
               </div>
@@ -252,7 +252,7 @@
             </div>
 
             <div class="content-gifting section-padding-3">
-              <div class="collapsible d-flex bg-c2e7d3">
+              <div class="collapsible-purple d-flex bg-c2e7d3">
                 <p class="sign" style="margin-right: 10px"></p>
                 <p>Salon Website #4</p>
               </div>
@@ -700,89 +700,61 @@
           <strong>Click each arrow below to see how Lily reflected on her visit:</strong>
         </h4>
       </div>
-      <!--  -->
-      <div class="row">
-        <div class="col-12">
-          <div class="col-12 my-3">
-            <div class="row px-3">
-              <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xxl-4 text-center cursor-pointer bg-bf6e4b">
-                <div class="p-2">
-                  <div class="d-flex align-items-center justify-content-center"
-                    onclick="showContent('counters_low_retention')">
-                    <img src="img/rate_light_brown_new.png"
-                      class="img-responsive img-fluid bg-ffffff right-aerrow-img-size" width="100%" />
+
+      
+            <!-- Flip cards -->
+            <div class="row">
+              <div
+                class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 d-flex align-items-center justify-content-center mt-3">
+                <div class="flip-card flip-card-size">
+                  <div id="c_10" class="flip-card-inner">
+                    <div class="flip-card-front cursor-pointer" onclick="flipCard('c_10')">
+                      <img src="./img/start_new.png" class="bg-bf6e4b p-5" width="100%" />
+                    </div>
+                    <div class="flip-card-back d-flex align-items-center cursor-pointer" onclick="flipCard('c_10')">
+                      <p class="text-justify p-3">
+                        As Lily walks to her car, she receives a notification asking her to RATE her experience and provide feedback. Lily gives five stars and comments that both Chloe and Andrea provided wonderful services and made her feel very comfortable and welcomed.
+                    
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div id="repeatCustomers"
-                class="col-12 col-sm-12 col-md-8 col-lg-8 col-xxl-8 text-center d-flex align-items-center">
-                <div id="counters_low_retention" class="p-3 bg-f5f5f5 h-100 d-none">
-                  <p class="text-justify">
-                    As Lily walks to her car, she receives a notification asking her to rate her experience and provide
-                    feedback. Lily gives five stars and comments that both Chloe and Andrea provided wonderful services
-                    and made her feel very comfortable and welcomed.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 my-3">
-            <div class="row px-3">
-              <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xxl-4 text-center cursor-pointer bg-ecd3c9">
-                <div class="p-2">
-                  <div class="d-flex align-items-center justify-content-center"
-                    onclick="showContent('grows_your_business')">
-                    <img src="img/rebook_light_brown.png"
-                      class="img-responsive img-fluid bg-ffffff right-aerrow-img-size" width="100%" />
+              <div
+                class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 d-flex align-items-center justify-content-center mt-3">
+                <div class="flip-card flip-card-size">
+                  <div id="c_11" class="flip-card-inner">
+                    <div class="flip-card-front cursor-pointer" onclick="flipCard('c_11')">
+                      <img src="img/refresh_new.png" class="bg-bf6e4b p-5" width="100%" />
+                    </div>
+                    <div class="flip-card-back d-flex align-items-center cursor-pointer" onclick="flipCard('c_11')">
+                      <p class="text-justify p-3">
+                        While Chloe was cutting Lily’s hair, she shared that to keep her style looking its best, she should have it trimmed every 8 weeks. Lily did a quick schedule check and was able to REBOOK with Chloe while still in the chair, saving Lily from having to think about it later.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div id="existingGuests"
-                class="col-12 col-sm-12 col-md-8 col-lg-8 col-xxl-8 text-center d-flex align-items-center">
-                <div id="grows_your_business" class="p-3 bg-f5f5f5 h-100 d-none">
-                  <p class="text-justify">
-                    While Chloe was cutting Lily’s hair, she shared that to keep her style looking its best, she should
-                    have it trimmed every 8 weeks. Lily did a quick schedule check and was able to rebook with Chloe
-                    while still in the chair, saving Lily from having to think about it later.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 my-3">
-            <div class="row px-3">
-              <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xxl-4 text-center cursor-pointer bg-bf6e4b">
-                <div class="p-2">
-                  <div class="d-flex align-items-center justify-content-center"
-                    onclick="showContent('increases_brand_awareness')">
-                    <img src="img/refer_light_brown.png"
-                      class="img-responsive img-fluid bg-ffffff right-aerrow-img-size" width="100%" />
+              <div
+                class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 d-flex align-items-center justify-content-center mt-3">
+                <div class="flip-card flip-card-size">
+                  <div id="c_12" class="flip-card-inner">
+                    <div class="flip-card-front cursor-pointer" onclick="flipCard('c_12')">
+                      <img src="img/people_new.png" class="bg-bf6e4b p-5" width="100%" />
+                    </div>
+                    <div class="flip-card-back d-flex align-items-center cursor-pointer" onclick="flipCard('c_12')">
+                      <p class="text-justify p-3">
+                        Lily happily REFERS her friends and family to the salon. Using the salon’s mobile app, she can send them her unique link for booking an appointment. Once her referrals complete a service at the salon, Lily earns loyalty points that she can redeem for future services or product purchases.
+                       </p>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div id="increases_brand_awareness"
-                class="col-12 col-sm-12 col-md-8 col-lg-8 col-xxl-8 text-center d-flex align-items-center d-none">
-                <div class="p-3 bg-f5f5f5 h-100">
-                  <p class="text-justify">
-                    Lily loves the experience at her salon. She’s a member of their loyalty program and gets points for
-                    the services she receives and the products she purchases. Lily uses the salon’s mobile app to track
-                    the points she earns and redeems.
-                    <br>
-                    <br>
-                    Lily happily refers her friends and family to the salon. Using the app, she can send them her unique
-                    link for booking an appointment. Once her referrals go to the salon and complete a service, Lily
-                    earns even more loyalty points.
-                  </p>
-                </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
+            <!-- Flip cards end -->
   </section>
 
-  <section class="bg-f5f5f5 mt-5 mb-3 pb-3">
+  <section class="bg-f5f5f5 mb-3 pb-3">
     <div class="driving-content mb-3 section-padding-3 col-sm-12 col-md-12 col-lg-12 col-xxl-12">
       <div class="did-you container">
         <h3>Reflect Review:</h3>

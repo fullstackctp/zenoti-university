@@ -213,7 +213,7 @@
 }
 
 .border-00b6ed {
-  border: #00b6ed 2px solid;
+  border: #00b6ed 1px solid;
 }
 
 .border-00b6ed-noleft {
@@ -291,7 +291,7 @@
 .border-collapse {
   border-collapse: collapse;
 }
-.bg-f9f8f8{
+.bg-f9f8f8 {
   background-color: #f9f8f8;
 }
 .border-unset {
@@ -314,7 +314,7 @@
 }
 
 .bg-lightGrey {
-  background-color: lightgrey;
+  background-color: #f5f5f5;
 }
 
 .bg-00b6ed {
@@ -332,6 +332,9 @@
 .bg-7f779b {
   background-color: #7f779b;
 }
+.bg-b8eacf {
+  background-color: #b8eacf;
+}
 
 .bg-ccf0fc {
   background-color: #ccf0fc;
@@ -348,8 +351,8 @@
   color: #ffffff;
 }
 
-.text-0d6efd{
-  color: #0d6efd;;
+.text-0d6efd {
+  color: #0d6efd;
 }
 
 .text-00b6ed {
@@ -781,6 +784,38 @@ h6.sub-heading {
 
 .collapsible {
   background-color: #f5f5f5;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+.collapsible-purple {
+  background-color: #7f779b;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapsible-33ad6a {
+  background-color: #33ad6a;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapsible-b8eacf {
+  background-color: #b8eacf;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -1270,27 +1305,25 @@ ul.list-radio li {
 }
 /* responsive */
 
-@media (min-width: 1000px) and (max-width: 1200px)  {
-  #repeatCustomers{
+@media (min-width: 1000px) and (max-width: 1200px) {
+  #repeatCustomers {
     min-height: 550px;
   }
-  #existingGuests{
-    
+  #existingGuests {
     min-height: 550px;
   }
-  #increases_brand_awareness{
+  #increases_brand_awareness {
     min-height: 550px;
   }
 }
 @media (min-width: 1200px) {
-  #repeatCustomers{
+  #repeatCustomers {
     min-height: 500px;
   }
-  #existingGuests{
-    
+  #existingGuests {
     min-height: 500px;
   }
-  #increases_brand_awareness{
+  #increases_brand_awareness {
     min-height: 500px;
   }
 }
@@ -1630,6 +1663,28 @@ ul.list-radio li {
   width: 30% !important;
   cursor: pointer;
 }
+
+.blur-text {
+  filter: blur(6px);
+  -webkit-filter: blur(6px);
+  cursor: pointer;
+}
+
+/* .icon-card-image-1 {
+  background-image: url('../img/pen1_green.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 100%; 
+} */
+
+
+.program-card {
+  width: 50% !important;
+  cursor: pointer;
+}
 .heart-card-height {
   min-height: 200px !important;
   justify-content: center;
@@ -1639,12 +1694,22 @@ ul.list-radio li {
 }
 
 .heart-card-image {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../img/heart-card.png");
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url("../img/heart-card.png");
   background-repeat: no-repeat;
   background-position: center;
   text-align: -webkit-center;
   text-align: -moz-center;
 }
+
+.normal-card {
+  text-align: -webkit-center;
+  text-align: -moz-center;
+}
+
 .right-aerrow-img-size {
   width: 50%;
 }
@@ -1675,6 +1740,9 @@ ul.list-radio li {
     width: 50% !important;
   }
   .heart-card {
+    width: 100% !important;
+  }
+  .program-card {
     width: 100% !important;
   }
   #first_p {
@@ -1735,6 +1803,10 @@ ul.list-radio li {
   .heart-card {
     width: 80% !important;
   }
+  .program-card {
+    width: 80% !important;
+    cursor: pointer;
+  }
   .right-aerrow-img-size {
     width: 50% !important;
   }
@@ -1762,6 +1834,9 @@ ul.list-radio li {
   .heart-card {
     width: 80% !important;
   }
+  .program-card {
+    width: 80% !important;
+  }
   .right-aerrow-img-size {
     width: 70% !important;
   }
@@ -1785,6 +1860,10 @@ ul.list-radio li {
   .heart-card {
     width: 60% !important;
   }
+
+  .program-card {
+    width: 60% !important;
+  }
   .image_box {
     /* max-width: 15% !important; */
     min-width: 15% !important;
@@ -1802,6 +1881,7 @@ ul.list-radio li {
   .heart-card {
     width: 40% !important;
   }
+
   .image_box {
     /* max-width: 10% !important; */
     min-width: 10% !important;
