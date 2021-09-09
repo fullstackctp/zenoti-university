@@ -1669,16 +1669,30 @@ ul.list-radio li {
   -webkit-filter: blur(6px);
   cursor: pointer;
 }
-
-/* .icon-card-image-1 {
-  background-image: url('../img/pen1_green.png');
+.icon-card {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-  height: 100%; 
-} */
+  background-size: 50%; 
+}
+.icon-card-image-1 {
+  background-image: url('../img/pen1_green.png');
+}
+.icon-card-image-2 {
+  background-image: url('../img/pen2_green.png');
+}
+.icon-card-image-3 {
+  background-image: url('../img/small_right_green.png');
+}
+.icon-card-image-4 {
+  background-image: url('../img/right_transparent_green.png');
+}
+.icon-card-image-5 {
+  background-image: url('../img/cross2_green.png');
+}
+.icon-card-image-6 {
+  background-image: url('../img/cross_transparent_green.png');
+}
 
 
 .program-card {
