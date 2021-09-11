@@ -67,6 +67,39 @@ $(document).ready(function () {
     //open up the content needed - toggle the slide- if visible, slide up, if not slidedown.
       $content.slideToggle(50);
 });
+$(".collapsible-purple").click(function () {
+  $collapsible = $(this);
+  if($(this).children().first().hasClass( "active" )) 
+    {$(this).children().first().removeClass("active")}
+  else
+    $(this).children().first().addClass("active")
+  //getting the next element
+  $content = $collapsible.next();
+  //open up the content needed - toggle the slide- if visible, slide up, if not slidedown.
+    $content.slideToggle(50);
+});
+$(".collapsible-33ad6a").click(function () {
+  $collapsible = $(this);
+  if($(this).children().first().hasClass( "active" )) 
+    {$(this).children().first().removeClass("active")}
+  else
+    $(this).children().first().addClass("active")
+  //getting the next element
+  $content = $collapsible.next();
+  //open up the content needed - toggle the slide- if visible, slide up, if not slidedown.
+    $content.slideToggle(50);
+});
+$(".collapsible-b8eacf").click(function () {
+  $collapsible = $(this);
+  if($(this).children().first().hasClass( "active" )) 
+    {$(this).children().first().removeClass("active")}
+  else
+    $(this).children().first().addClass("active")
+  //getting the next element
+  $content = $collapsible.next();
+  //open up the content needed - toggle the slide- if visible, slide up, if not slidedown.
+    $content.slideToggle(50);
+});
 });
 
 $(document).ready(function () {
