@@ -120,6 +120,9 @@
 .bg-fod9e2 {
   background-color: #f0d9e2;
 }
+.responsive-height{
+  height: 250px !important;
+}
 
 .color-cd8096 {
   color: #cd8096;
@@ -1709,6 +1712,14 @@ ul.list-radio li {
   background-image: url('../img/cross_transparent_green.png');
 }
 
+.container-inner-fullwidth {
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  height: 500px;
+  margin-top: 20px;
+  left: 50%;
+}
 
 .program-card {
   width: 50% !important;
@@ -1762,6 +1773,9 @@ ul.list-radio li {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+  .responsive-height{
+    height: 350px !important;
+  }
   .purple_smile_class {
     width: 50%;
   }
