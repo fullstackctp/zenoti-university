@@ -1,0 +1,50 @@
+/*  FONT */
+
+.font-48px {
+  font-size: 48px !important;
+}
+
+.font-38px {
+  font-size: 38px !important;
+}
+
+.font-29px {
+  font-size: 29px !important;
+}
+
+.font-21px {
+  font-size: 21px !important;
+}
+
+
+/* PADDING */
+
+.pl-3 {
+  padding-left: 1rem !important;
+}
+
+.pl-5 {
+  padding-left: 3rem !important;
+}
+
+.pt-2rem {
+  padding-top: 2rem !important;
+}
+
+.pr-2rem {
+  padding-right: 2rem !important;
+}
+
+.pb-2rem {
+  padding-bottom: 2rem !important;
+}
+
+.pl-2rem {
+  padding-left: 2rem !important;
+}
+
+/* MIN HEIGHT */
+
+.min-h-15rem {
+  min-height: 15rem !important;
+}

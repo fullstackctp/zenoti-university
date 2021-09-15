@@ -24,13 +24,18 @@
 }
 
 .bg-bbe5ff {
-  background-color: #bbe5ff;
+  background-color: #bbe5ff !important;
 }
 .anchor-tag {
   color: black;
 }
+
 .bg-fff6DB {
   background-color: #fff6db;
+}
+
+.bg-f5f5f5 {
+  background-color: #f5f5f5 !important;
 }
 
 #first_p {
@@ -120,7 +125,7 @@
 .bg-fod9e2 {
   background-color: #f0d9e2;
 }
-.responsive-height{
+.responsive-height {
   height: 250px !important;
 }
 
@@ -317,7 +322,7 @@
 }
 
 .bg-lightGrey {
-  background-color: #f5f5f5 !important; 
+  background-color: #f5f5f5 !important;
 }
 
 .bg-00b6ed {
@@ -818,16 +823,16 @@ h6.sub-heading {
 }
 
 .min-w-50 {
- min-width: 50px;
+  min-width: 50px;
 }
 
-.right-paranthese-order-list  {
+.right-paranthese-order-list {
   counter-reset: list;
 }
-.right-paranthese-order-list  > li {
+.right-paranthese-order-list > li {
   list-style: none;
 }
-.right-paranthese-order-list  > li:before {
+.right-paranthese-order-list > li:before {
   content: counter(list) ") ";
   counter-increment: list;
 }
@@ -1691,25 +1696,25 @@ ul.list-radio li {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-size: 50%; 
+  background-size: 50%;
 }
 .icon-card-image-1 {
-  background-image: url('../img/pen1_green.png');
+  background-image: url("../img/pen1_green.png");
 }
 .icon-card-image-2 {
-  background-image: url('../img/pen2_green.png');
+  background-image: url("../img/pen2_green.png");
 }
 .icon-card-image-3 {
-  background-image: url('../img/small_right_green.png');
+  background-image: url("../img/small_right_green.png");
 }
 .icon-card-image-4 {
-  background-image: url('../img/right_transparent_green.png');
+  background-image: url("../img/right_transparent_green.png");
 }
 .icon-card-image-5 {
-  background-image: url('../img/cross2_green.png');
+  background-image: url("../img/cross2_green.png");
 }
 .icon-card-image-6 {
-  background-image: url('../img/cross_transparent_green.png');
+  background-image: url("../img/cross_transparent_green.png");
 }
 
 .container-inner-fullwidth {
@@ -1773,7 +1778,7 @@ ul.list-radio li {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-  .responsive-height{
+  .responsive-height {
     height: 350px !important;
   }
   .purple_smile_class {
