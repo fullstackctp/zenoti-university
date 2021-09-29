@@ -1093,9 +1093,9 @@ footer {
   cursor: pointer;
 }
 /* motivate */
-.motivate-sub-heading b {
+/* .motivate-sub-heading b {
   font-size: 0.875rem;
-}
+} */
 /* p padding */
 .physical-1-counti p:last-child {
   margin-bottom: 0;
