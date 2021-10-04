@@ -1824,6 +1824,9 @@ ul.list-radio li {
 .upper_arrow {
   width: 25%;
 }
+.width-50 {
+  width: 50%;
+}
 /* Media queries */
 @media (min-width: 0px) and (max-width: 320px) {
   .flip-card-size1 {
@@ -1832,6 +1835,9 @@ ul.list-radio li {
   }
   .responsive-width {
     width: 100% !important;
+  }
+  .width-50 {
+    width: 30%;
   }
 }
 
@@ -1844,6 +1850,9 @@ ul.list-radio li {
     position: absolute;
     top: -25px;
     left: -25px;
+  }
+  .width-50 {
+    width: 30%;
   }
   .cut-div {
     clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 0% 10%);
@@ -1916,6 +1925,10 @@ ul.list-radio li {
   .responsive-width {
     width: 100% !important;
   }
+  .width-50 {
+    width: 35%;
+  }
+  
   .purple_smile_class {
     width: 50%;
   }
