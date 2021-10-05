@@ -780,6 +780,10 @@ h6.sub-heading {
   font-size: 1.2em;
 }
 
+.text_underline {
+  text-decoration: underline !important;
+}
+
 .ac-menu ul {
   margin: 0;
   padding: 0.625rem !important;
