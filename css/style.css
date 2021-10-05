@@ -12,7 +12,7 @@
 }
 
 .bg-text-b4d2ff {
- background-color: #b4d2ff;
+  background-color: #b4d2ff;
 }
 
 .text-1em {
@@ -1802,11 +1802,7 @@ ul.list-radio li {
 }
 
 .heart-card-image {
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0.8),
-      rgba(255, 255, 255, 0.8)
-    ),
-    url("../img/heart-card.png");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../img/heart-card.png");
   background-repeat: no-repeat;
   background-position: center;
   text-align: -webkit-center;
@@ -1833,6 +1829,10 @@ ul.list-radio li {
   width: 25%;
 }
 
+.blur_width {
+  width: 70%;
+}
+
 .vice_width {
   width: 50%;
 }
@@ -1855,10 +1855,13 @@ ul.list-radio li {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+  .blur_width {
+    width: 100%;
+  }
   .vice_width {
     width: 100%;
   }
-  
+
   .responsive-width {
     width: 100% !important;
   }
@@ -1945,7 +1948,9 @@ ul.list-radio li {
   .width-50 {
     width: 35%;
   }
-  
+  .blur_width {
+    width: 100%;
+  }
   .purple_smile_class {
     width: 50%;
   }
@@ -1990,6 +1995,9 @@ ul.list-radio li {
   .responsive-width {
     width: 100% !important;
   }
+  .blur_width {
+    width: 100%;
+  }
   .round-callout {
     width: 120px;
     top: -10px;
@@ -2032,6 +2040,9 @@ ul.list-radio li {
   }
   .round-icon {
     width: 150px;
+  }
+  .blur_width {
+    width: 100%;
   }
   .purple_smile_class {
     width: 40%;
