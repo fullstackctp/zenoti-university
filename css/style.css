@@ -11,6 +11,10 @@
   color: #000000 !important;
 }
 
+.bg-text-b4d2ff {
+ background-color: #b4d2ff;
+}
+
 .text-1em {
   font-size: 1em !important;
 }
@@ -1824,6 +1828,11 @@ ul.list-radio li {
 .upper_arrow {
   width: 25%;
 }
+
+.vice_width {
+  width: 50%;
+}
+
 .width-50 {
   width: 50%;
 }
@@ -1842,6 +1851,10 @@ ul.list-radio li {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+  .vice_width {
+    width: 100%;
+  }
+  
   .responsive-width {
     width: 100% !important;
   }
