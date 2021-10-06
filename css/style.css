@@ -1836,6 +1836,9 @@ ul.list-radio li {
 .vice_width {
   width: 50%;
 }
+.vice_width_25 {
+  width: 25%;
+}
 
 .width-50 {
   width: 50%;
@@ -1855,6 +1858,9 @@ ul.list-radio li {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+  .vice_width_25 {
+    width: 100%;
+  }
   .blur_width {
     width: 100%;
   }
