@@ -1840,6 +1840,10 @@ ul.list-radio li {
   width: 25%;
 }
 
+.vice_width_75 {
+  width: 75%;
+}
+
 .width-50 {
   width: 50%;
 }
@@ -1865,6 +1869,9 @@ ul.list-radio li {
     width: 100%;
   }
   .vice_width {
+    width: 100%;
+  }
+  .vice_width_75 {
     width: 100%;
   }
 
