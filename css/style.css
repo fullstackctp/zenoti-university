@@ -1077,6 +1077,20 @@ footer {
   line-height: 1.5;
 }
 
+.callout-B8EACF{
+  background-color: #B8EACF;
+  padding: 20px 20px;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.callout-B9D6FF{
+  background-color: #B9D6FF;
+  padding: 20px 20px;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
 .impact p,
 .callout p {
   line-height: 1.6;
@@ -1391,6 +1405,9 @@ ul.list-radio li {
   #increases_brand_awareness {
     min-height: 550px;
   }
+  .custom-indent{
+    padding-left: 2rem !important;
+  }
 }
 @media (min-width: 1200px) {
   #repeatCustomers {
@@ -1401,6 +1418,9 @@ ul.list-radio li {
   }
   #increases_brand_awareness {
     min-height: 500px;
+  }
+  .custom-indent{
+    padding-left: 2rem !important;
   }
 }
 
@@ -1413,6 +1433,9 @@ ul.list-radio li {
   }
   .w-23 {
     width: 16% !important;
+  }
+  .custom-indent{
+    padding-left: 2rem !important;
   }
 }
 @media (min-width: 991px) and (max-width: 1200px) {
@@ -1440,6 +1463,9 @@ ul.list-radio li {
   }
   .graph-image img {
     width: 70%;
+  }
+  .custom-indent{
+    padding-left: 2rem !important;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1476,6 +1502,9 @@ ul.list-radio li {
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
+  .custom-indent{
+    padding-left: 2rem !important;
+  }
 }
 @media (min-width: 768px) and (max-width: 836px) {
   .adult-1 {
@@ -1504,6 +1533,9 @@ ul.list-radio li {
   }
   .dollar-img img {
     width: 75%;
+  }
+  .custom-indent{
+    padding-left: 2rem !important;
   }
 }
 @media (min-width: 638px) and (max-width: 767px) {
@@ -1580,6 +1612,9 @@ ul.list-radio li {
   }
   .dollar-img img {
     width: 100%;
+  }
+  .custom-indent{
+    padding-left: 2rem !important;
   }
 }
 
@@ -1859,6 +1894,10 @@ ul.list-radio li {
   .width-50 {
     width: 30%;
   }
+  .gift-logo{
+    width: 135px;
+    height: auto;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -1952,6 +1991,11 @@ ul.list-radio li {
   .round-icon {
     width: 80px;
   }
+
+  .gift-logo{
+    width: 120px;
+    height: auto;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 637px) {
@@ -2002,6 +2046,10 @@ ul.list-radio li {
   .round-icon {
     width: 80px;
   }
+  .gift-logo{
+    width: 200px;
+    height: auto;
+  }
 }
 
 @media (min-width: 638px) and (max-width: 768px) {
@@ -2045,6 +2093,10 @@ ul.list-radio li {
   .round-icon {
     width: 200px;
   }
+  .gift-logo{
+    width: 220px;
+    height: auto;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -2078,6 +2130,10 @@ ul.list-radio li {
   .upper_arrow {
     width: 40%;
   }
+  .gift-logo{
+    width: 220px;
+    height: auto;
+  }
 }
 
 @media (min-width: 991px) and (max-width: 1200px) {
@@ -2096,6 +2152,10 @@ ul.list-radio li {
     /* max-width: 10% !important; */
     min-width: 10% !important;
   }
+  .gift-logo{
+    width: 140px;
+    height: auto;
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
@@ -2109,6 +2169,10 @@ ul.list-radio li {
   }
   .heart-card {
     width: 40% !important;
+  }
+  .gift-logo{
+    width: 150px;
+    height: auto;
   }
 }
 
@@ -2185,6 +2249,13 @@ li:last-child .anchor-a {
   font-weight: unset !important;
 }
 
-.custom-indent{
-  padding-left: 2rem !important;
+
+.border-aqua{
+  border: #00b6ed 2px solid;
+}
+
+.resonse-font{
+    font-size: 5rem !important;
+    color: white;
+    font-family: system-ui;
 }
