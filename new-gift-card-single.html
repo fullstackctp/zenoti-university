@@ -38,6 +38,20 @@
                 <b>Maximizing your gift card sales to grow your customer base
                   and increase your revenue!</b>
               </p>
+              <div class="container w-75" style="position: relative;">
+                <img src="./img/blue-round-magnify.png" class="img-fluid img-responsive my-1 round-callout"
+                  style="z-index: 1;" alt="">
+                <div class="callout-7fdaf6 my-5 py-5 cut-div row">
+                  <div class="col-xl-1 col-lg-1 col-sm-1"></div>
+                  <div class="col-xl-11 col-lg-11 col-sm-11">
+                    <p class="text-center text-justify">
+                      <b>Gift card sales</b> continue to grow impressively year over year. And digital gift cards are
+                      the fastest growing segment!
+                    </p>
+                  </div>
+                </div>
+              </div>
+
               <h3>What you’ll learn:</h3>
               <ul class="mb-0" style="padding-left: 3rem !important">
                 <li class="text-justify">
@@ -52,7 +66,7 @@
                 </li>
               </ul>
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-3 responsivePadding mt-3">
+            <!-- <div class="col-sm-12 col-md-12 col-lg-3 responsivePadding mt-3">
               <p class="mb-4 text-justify" style="
                     background-color: #bbe5ff;
                     overflow-wrap: break-word;
@@ -66,7 +80,7 @@
                   spa needs to sell gift cards and how to do it.
                 </b>
               </p>
-            </div>
+            </div> -->
 
             <div class="
                   driving-content
@@ -292,7 +306,7 @@
               <h4><b>Click the (+) to learn more about each scenario.</b></h4>
 
               <div class="content-gifting section-padding-3">
-                <div class="collapsible" style="display: flex">
+                <div class="collapsible bg-00b6ed" style="display: flex">
                   <p class="sign text-justify" style="margin-right: 10px"></p>
                   <p class="text-justify">
                     Attract New Guests with a BOGO Promotion
@@ -369,7 +383,7 @@
 
             <!-- Bulk Buy Strategy  -->
             <div class="section-padding-2">
-              <div class="collapsible" style="display: flex">
+              <div class="collapsible bg-bbe5ff" style="display: flex">
                 <p class="sign text-justify" style="margin-right: 10px"></p>
                 <p>
                   Promote to Local Businesses for New Marketing Opportunities
@@ -417,7 +431,7 @@
             </div>
             <!-- Scenario 3 -->
             <div class="col-12 section-padding-2">
-              <div class="collapsible" style="display: flex">
+              <div class="collapsible bg-00b6ed" style="display: flex">
                 <p class="sign text-justify" style="margin-right: 10px"></p>
                 <p class="text-justify">
                   Win Back an Unhappy Guest with a Complimentary Gift Card
@@ -453,7 +467,7 @@
             </div>
             <!-- Scenario 4 -->
             <div class="col-12 section-padding-2">
-              <div class="collapsible" style="display: flex">
+              <div class="collapsible bg-bbe5ff" style="display: flex">
                 <p class="sign text-justify" style="margin-right: 10px"></p>
                 <p class="text-justify">
                   Provide Convenience with Digital Gift Cards
@@ -531,109 +545,129 @@
               <h4 class="mt-3"><b>Click an image to learn more.</b></h4>
               <div class="main-3 article-section section-padding-2" id="giftcard">
                 <div class="row" style="justify-content: center">
-                  <div class="
-                        col-sm-12 col-md-12 col-lg-5 col-xxl-5
-                        mb-3
-                        trigger1
-                        position-relative
-                      ">
-                    <div class="cursor"></div>
-                    <div class="new-green gift-hover" id="">
-                      <div class="third-card-img text-center">
-                        <img src="img/digital_card_1x.png" class="img-responsive" />
-                      </div>
-                      <h4 class="text-center mt-3">
-                        <b>Physical Gift Cards</b>
-                      </h4>
-                      <div id="overlay1" style="border-radius: 0px">
-                        <div class="overlay-i">
-                          <i class="fas fa-times overlay-close" id="close1"></i>
-                          <div class="pt-5">
-                            <div class="overlay-p">
-                              <p class="text-justify px-3">
-                                The right visuals are everything. Attractive
-                                gift cards placed at the checkout counter can
-                                encourage purchases. Some salons go a step
-                                further and offer beautiful envelopes and bags
-                                to carry the gift card, along with information
-                                or promotional offers. These gift packages,
-                                which often carry the salon or spa name and
-                                logo can serve as great marketing tools,
-                                especially when these gifts are given at an
-                                event.
-                              </p>
-                            </div>
-                          </div>
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 mb-5">
+                    <div class="text-center cursor-pointer" onclick="toggle('content_first')">
+                      <div class="p-2 bg-cd809c">
+                        <div class="d-flex flex-row-reverse">
+                          <div class="blink-circle"></div>
                         </div>
+                        <div class="d-flex align-items-center justify-content-center" style="min-height: 100px">
+                          <img src="img/digital_card_1x.png" class="
+                                bg-ffffff
+                                rounded-circle
+                                img-responsive img-fluid
+                                w-25
+                                p-3
+                              " style="min-width: 100px" />
+                        </div>
+                        <h4 class="px-5 pb-5 pt-3 text-center">
+                          <b>Physical Gift Cards</b>
+                        </h4>
+                      </div>
+                    </div>
+                    <div id="content_first" class="mt-3 text-center cursor-pointer d-none">
+                      <div class="bg-404040 p-2 py-3" style="min-height: 12.5rem;">
+                        <div class="d-flex flex-row-reverse" onclick="toggle('content_first')">
+                          <p class="text-white text-justify"><strong>x</strong></p>
+                        </div>
+                        <p class="text-white text-justify px-3">
+                          The right visuals are everything. Attractive
+                          gift cards placed at the checkout counter can
+                          encourage purchases. Some salons go a step
+                          further and offer beautiful envelopes and bags
+                          to carry the gift card, along with information
+                          or promotional offers. These gift packages,
+                          which often carry the salon or spa name and
+                          logo can serve as great marketing tools,
+                          especially when these gifts are given at an
+                          event.
+                        </p>
                       </div>
                     </div>
                   </div>
-                  <div class="
-                        col-sm-12 col-md-12 col-lg-5 col-xxl-5
-                        trigger2
-                        position-relative
-                      ">
-                    <div class="cursor"></div>
-                    <div class="new-pink gift-hover">
-                      <div class="third-card-img text-center">
-                        <img src="img/physical_card_1x.png" class="img-responsive" />
-                      </div>
-                      <h4 class="text-center mt-3">
-                        <b>Digital Gift Cards</b>
-                      </h4>
-                      <div id="overlay2" style="border-radius: 0px">
-                        <div class="overlay-i">
-                          <i class="fas fa-times overlay-close" id="close2"></i>
-                          <div class="pt-5">
-                            <div class="overlay-p">
-                              <p class="text-justify px-3">
-                                On the other hand, digital gift cards offer
-                                convenience and have become a very significant
-                                portion of sales of gift cards overall. One of
-                                Zenoti’s top customers implemented a digital
-                                gift card program and found that within 3
-                                months,<b style="font-style: italic">
-                                  52% of gift cards were being purchased
-                                  online.</b>
-                              </p>
-                            </div>
-                          </div>
+
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 mb-5">
+                    <div class="text-center cursor-pointer" onclick="toggle('content_second')">
+                      <div class="p-2 bg-00b6ed">
+                        <div class="d-flex flex-row-reverse">
+                          <div class="blink-circle"></div>
                         </div>
+                        <div class="d-flex align-items-center justify-content-center" style="min-height: 100px">
+                          <img src="img/physical_card_1x.png" class="
+                                bg-ffffff
+                                rounded-circle
+                                img-responsive img-fluid
+                                w-25
+                                p-3
+                              " style="min-width: 100px" />
+                        </div>
+                        <h4 class="px-5 pb-5 pt-3 text-center">
+                          <b>Digital Gift Card</b>
+                        </h4>
+                      </div>
+                    </div>
+                    <div id="content_second" class="mt-3 text-center cursor-pointer d-none">
+                      <div class="bg-404040 p-2 py-3" style="min-height: 12.5rem;">
+                        <div class="d-flex flex-row-reverse" onclick="toggle('content_second')">
+                          <p class="text-white text-justify"><strong>x</strong></p>
+                        </div>
+                        <p class="text-white text-justify px-3">
+                          On the other hand, digital gift cards offer
+                          convenience and have become a very significant
+                          portion of sales of gift cards overall. One of
+                          Zenoti’s top customers implemented a digital
+                          gift card program and found that within 3
+                          months,
+                          52% of gift cards were being purchased
+                          online.
+                        </p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
               <!-- end cards -->
-              <div class="
-                    physical-1-counti
-                    inner-fullwidth-template
-                    section-padding-3
-                    mt-3
-                    md-3
-                  " style="background-color: #f5f5f5; padding: 1rem">
+              <section class="my-3 bg-lightGrey">
                 <div class="container">
-                  <p class="text-justify">
-                    Millennials are particularly attracted to digital gift
-                    cards, with
-                    <b>55% interested in giving one, and 67% interested in
-                      receiving one.</b>
-                  </p>
-                  <p class="text-justify">
-                    Digital gift cards are not only easy to buy on your
-                    computer or phone, they also make it convenient for the
-                    recipient to redeem using an app or card reader to speed
-                    up the checkout process.
-                  </p>
-                  <p class="text-justify">
-                    Gift cards purchased online can also be personalized and
-                    customized in more ways than a physical one, including
-                    gifting a service or product rather than a dollar amount
-                    and sharing a note or sentiment. This customization is one
-                    of the reasons digital gift cards are more versatile.
-                  </p>
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="w-l-p bg-f5f5f5 my-3">
+                        <h3 class="text-00b6ed">WHY DIGITAL?</h3>
+                        <div class="mt-3 bullets">
+                          <div class="d-flex mb-2">
+                            <div class="me-2">
+                              <i class="fas fa-check"></i>
+                            </div>
+                            <p class="text-justify">Millennials are particularly attracted to digital gift
+                              cards, with
+                              <b>55% interested in giving one, and 67% interested in
+                                receiving one.</b></p>
+                          </div>
+                          <div class="d-flex mb-2">
+                            <div class="me-2">
+                              <i class="fas fa-check"></i>
+                            </div>
+                            <p class="text-justify">Digital gift cards are not only easy to buy on your
+                              computer or phone, they also make it convenient for the
+                              recipient to redeem using an app or card reader to speed
+                              up the checkout process.</p>
+                          </div>
+                          <div class="d-flex mb-2">
+                            <div class="me-2">
+                              <i class="fas fa-check"></i>
+                            </div>
+                            <p class="text-justify">Gift cards purchased online can also be personalized and
+                              customized in more ways than a physical one, including
+                              gifting a service or product rather than a dollar amount
+                              and sharing a note or sentiment. This customization is one
+                              of the reasons digital gift cards are more versatile.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </section>
               <!-- 2.	Customize Your Cards -->
               <div class="customize section-padding-2">
                 <h3>Customize Your Cards</h3>
@@ -680,7 +714,7 @@
                 </p>
                 <div class="col-12 section-padding-2">
                   <h4 class="mb-3"><b>Click the (+) to learn more</b></h4>
-                  <div class="collapsible" style="display: flex">
+                  <div class="collapsible bg-00b6ed" style="display: flex">
                     <p class="sign text-justify" style="margin-right: 10px"></p>
                     <p class="text-justify">Put Gift Cards Front-and-Center Online</p>
                   </div>
@@ -701,7 +735,7 @@
                 </div>
 
                 <div class="col-12 section-padding-2">
-                  <div class="collapsible" style="display: flex">
+                  <div class="collapsible bg-bbe5ff" style="display: flex">
                     <p class="sign text-justify" style="margin-right: 10px"></p>
                     <p class="text-justify">
                       Encourage Gift Card Purchases at the Front Desk
@@ -738,31 +772,31 @@
                         padding-left: 2rem;
                       ">
                     <p class="col-4 text-center color-00b6ed text-justify">
-                      Mother’s Day
+                      <b>Mother’s Day</b>
                     </p>
                     <p class="col-4 text-center color-00b6ed text-justify">
-                      Valentine’s Day
+                      <b>Valentine’s Day</b>
                     </p>
                     <p class="col-4 text-center color-00b6ed text-justify">
-                      Father’s Day
+                      <b>Father’s Day</b>
                     </p>
                     <p class="col-4 text-center color-cd8096 text-justify">
-                      Birthdays
+                      <b>Birthdays</b>
                     </p>
                     <p class="col-4 text-center color-cd8096 text-justify">
-                      Christmas
+                    <b>Christmas</b>
                     </p>
                     <p class="col-4 text-center color-cd8096 text-justify">
-                      Graduation
+                      <b>Graduation</b>
                     </p>
                     <p class="col-4 text-center color-7f779b text-justify">
-                      Anniversaries
+                      <b>Anniversaries</b>
                     </p>
                     <p class="col-4 text-center color-7f779b text-justify">
-                      Just Because
+                      <b>Just Because</b>
                     </p>
                     <p class="col-4 text-center color-7f779b text-justify">
-                      Friendship
+                      <b>Friendship</b>
                     </p>
                   </div>
                   <!-- <div class=" col-12 col-sm-12 col-md-12 col-lg-3">
@@ -780,8 +814,64 @@
                   <h4 class="mb-3">
                     <b>Click an image below to learn more:</b>
                   </h4>
-
-                  <div class="
+                  <div class=" section-padding-2" >
+                    <div class="row" style="justify-content: center">
+                      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 mb-5">
+                        <div class="text-center cursor-pointer" onclick="toggle('content_holiday')">
+                          
+                            <div class="d-flex align-items-center justify-content-center" style="min-height: 100px">
+                              <img src="img/microsoftteams-image__15_.png" class="
+                                    img-responsive img-fluid w-50"  />
+                            </div>
+                        </div>
+                        <div id="content_holiday" class="mt-3 text-center cursor-pointer d-none">
+                          <div class="bg-f5f5f5 p-2 py-3" >
+                            <div class="d-flex flex-row-reverse" onclick="toggle('content_holiday')">
+                              <p class="text-justify"><strong>x</strong></p>
+                            </div>
+                            <p class="text-justify px-3">
+                              ‘Tis the season, so why not hold a holiday gifting
+                              party? Invite clients (and their besties) to shrink
+                              their shopping list with gift cards for friends and
+                              family. Get festive! Wine them, dine them, and sell
+                              those cards.
+                              <br />
+                              <br />
+                              Need another reason to party? Zenoti customers that
+                              offer gift cards have a 180% jump in gift card revenue
+                              during holiday months -- so plan ahead for these
+                              events.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+    
+                      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 mb-5">
+                        <div class="text-center cursor-pointer" onclick="toggle('content_guest')">
+                            <div class="d-flex align-items-center justify-content-center" style="min-height: 100px">
+                              <img src="img/microsoftteams-image__14_.png" class="
+                                    img-responsive img-fluid w-50" />
+                            </div>
+                        </div>
+                        <div id="content_guest" class="mt-3 text-center cursor-pointer d-none">
+                          <div class="bg-f5f5f5 p-2 py-3" style="min-height: 14.5rem;">
+                            <div class="d-flex flex-row-reverse" onclick="toggle('content_guest')">
+                              <p class="text-justify"><strong>x</strong></p>
+                            </div>
+                            <p class=" text-justify px-3">
+                              Other popular gift giving occasions involve days that
+                        are personal and special to the recipient – these
+                        include birthdays and wedding anniversaries. Salons
+                        and spas that can leverage their customer information
+                        to create personalized offers for these occasions can
+                        increase their gift card sales.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <div class="
                         col-12 col-sm-12 col-md-4 col-lg-4 col-xxl-4
                         text-center
                         cursor-pointer
@@ -822,8 +912,8 @@
                         events.
                       </p>
                     </div>
-                  </div>
-                </div>
+                  </div> -->
+                <!-- </div>
                 <div class="row mt-3">
                   <div class="
                         col-12 col-sm-12 col-md-4 col-lg-4 col-xxl-4
@@ -861,7 +951,7 @@
                         increase their gift card sales.
                       </p>
                     </div>
-                  </div>
+                  </div> -->
                 </div>
 
                 <div class="col-12 mt-3 mb-3 section-padding-4">
@@ -897,7 +987,56 @@
                 </div>
               </div>
               <!-- 5.5.	Motivate Your Staff -->
-              <div class="motivate section-padding-2 inner-fullwidth-template"
+              <section class="my-3 bg-lightGrey">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="w-l-p bg-f5f5f5 my-3">
+                        <h3 class="text-00b6ed">Motivate Your Staff</h3>
+                        <p class="mb-0 text-justify">
+                          Here are some great ways to increase motivation:
+                        </p>
+                        <p class="mb-0 text-justify">
+                          Get your staff on board with your gift card program by
+                          involving them!
+                        </p>
+                        
+                        <div class="mt-3 bullets">
+                          <div class="d-flex mb-2">
+                            <div class="me-2">
+                              <i class="fas fa-check"></i>
+                            </div>
+                            <p class="text-justify"><b>Establish Metrics:&nbsp;</b></span>Share clear sales goals
+                              for the program so employees
+                              know what to work toward.</p>
+                          </div>
+                          <div class="d-flex mb-2">
+                            <div class="me-2">
+                              <i class="fas fa-check"></i>
+                            </div>
+                            <p class="text-justify"><b>Set Up for Success with Training:&nbsp;</b></span>Help them
+                              gain confidence about the new program and
+                              ensure they understand exactly how the program works,
+                              including what the gift cards can and can’t be used for.</p>
+                          </div>
+                          <div class="d-flex mb-2">
+                            <div class="me-2">
+                              <i class="fas fa-check"></i>
+                            </div>
+                            <p class="text-justify"><b>Show Employees What’s in it for Them:&nbsp;</b></span>How
+                              does your staff benefit when customers purchase and
+                              redeem gift cards? This includes personal benefits (such
+                              as a friendly sales competition) or team benefits in
+                              higher revenue. Everyone wins when there are more
+                              customers and a stronger business!</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!-- <div class="motivate section-padding-2 inner-fullwidth-template"
                 style="background-color: #f5f5f5; padding: 1rem !important">
                 <div class="container">
                   <h3 class="mb-3">Motivate Your Staff</h3>
@@ -930,7 +1069,7 @@
                     </li>
                   </ul>
                 </div>
-              </div>
+              </div> -->
               <!-- Key Takeaways  -->
               <div class="takeways section-padding-2">
                 <h2 class="mb-0">Key Takeaways</h2>
@@ -1239,11 +1378,12 @@
             <div class="additional section-padding-3 px-4">
               <ul class="mb-0 color-blue">
                 <li class="underline text-justify">
-                  <a target="_blank" href="https://go.zenoti.com/zu/zenoti-gift-cards-datasheet-for-salons-and-spas.pdf">Zenoti Gift Cards Datasheet for Salons and Spas</a>
+                  <a target="_blank"
+                    href="https://go.zenoti.com/zu/zenoti-gift-cards-datasheet-for-salons-and-spas.pdf">Zenoti Gift
+                    Cards Datasheet for Salons and Spas</a>
                 </li>
                 <li class="underline text-justify">
-                  <a target="_blank"
-                    href="https://go.zenoti.com/zu/blushes-case-study.pdf">Blushes Case Study</a>
+                  <a target="_blank" href="https://go.zenoti.com/zu/blushes-case-study.pdf">Blushes Case Study</a>
                 </li>
               </ul>
             </div>

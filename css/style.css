@@ -1393,6 +1393,17 @@ ul.list-radio li {
 .dollar-img img {
   width: 50%;
 }
+.green-square {
+  height: 100px;
+  width: 100px;
+  background-color: #DBF4E7;
+  border: 8px solid #45B578;
+}
+.blue-square {
+  height: 100px;
+  width: 100px;
+  border: 8px solid #00B5ED;
+}
 /* responsive */
 
 @media (min-width: 1000px) and (max-width: 1200px) {
@@ -1422,6 +1433,9 @@ ul.list-radio li {
   .custom-indent{
     padding-left: 2rem !important;
   }
+  .font-reduce{
+    font-size: 15px;
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
@@ -1436,6 +1450,9 @@ ul.list-radio li {
   }
   .custom-indent{
     padding-left: 2rem !important;
+  }
+  .font-reduce{
+    font-size: 15px;
   }
 }
 @media (min-width: 991px) and (max-width: 1200px) {
@@ -1685,6 +1702,17 @@ ul.list-radio li {
   .dollar-img img {
     width: 100%;
   }
+  .green-square {
+    height: 50px;
+    width: 50px;
+    background-color: #DBF4E7;
+    border: 8px solid #45B578;
+  }
+  .blue-square {
+    height: 50px;
+    width: 50px;
+    border: 8px solid #00B5ED;
+  }
 }
 @media (min-width: 320px) and (max-width: 480px) {
   p {
@@ -1898,6 +1926,17 @@ ul.list-radio li {
     width: 135px;
     height: auto;
   }
+  .green-square {
+    height: 65px;
+    width: 65px;
+    background-color: #DBF4E7;
+    border: 5px solid #45B578;
+  }
+  .blue-square {
+    height: 65px ;
+    width: 65px;
+    border: 5px solid #00B5ED;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -1996,6 +2035,18 @@ ul.list-radio li {
     width: 120px;
     height: auto;
   }
+
+  .green-square {
+    height: 70px;
+    width: 70px;
+    background-color: #DBF4E7;
+    border: 6px solid #45B578;
+  }
+  .blue-square {
+    height: 70px;
+    width: 70px;
+    border: 6px solid #00B5ED;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 637px) {
@@ -2050,6 +2101,17 @@ ul.list-radio li {
     width: 200px;
     height: auto;
   }
+  .green-square {
+    height: 70px;
+    width: 70px;
+    background-color: #DBF4E7;
+    border: 6px solid #45B578;
+  }
+  .blue-square {
+    height: 70px;
+    width: 70px;
+    border: 6px solid #00B5ED;
+  }
 }
 
 @media (min-width: 638px) and (max-width: 768px) {
@@ -2097,6 +2159,17 @@ ul.list-radio li {
     width: 220px;
     height: auto;
   }
+  .green-square {
+    height: 75px;
+    width: 75px;
+    background-color: #DBF4E7;
+    border: 8px solid #45B578;
+  }
+  .blue-square {
+    height: 75px;
+    width: 75px;
+    border: 8px solid #00B5ED;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -2134,6 +2207,17 @@ ul.list-radio li {
     width: 220px;
     height: auto;
   }
+  .green-square {
+    height: 80px;
+    width: 80px;
+    background-color: #DBF4E7;
+    border: 6px solid #45B578;
+  }
+  .blue-square {
+    height: 80px;
+    width: 80px;
+    border: 6px solid #00B5ED;
+  }
 }
 
 @media (min-width: 991px) and (max-width: 1200px) {
@@ -2156,6 +2240,17 @@ ul.list-radio li {
     width: 140px;
     height: auto;
   }
+  .green-square {
+    height: 80px;
+    width: 80px;
+    background-color: #DBF4E7;
+    border: 8px solid #45B578;
+  }
+  .blue-square {
+    height: 80px;
+    width: 80px;
+    border: 6px solid #00B5ED;
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
@@ -2173,6 +2268,23 @@ ul.list-radio li {
   .gift-logo{
     width: 150px;
     height: auto;
+  }
+  .green-square {
+    height: 85px;
+    width: 85px;
+    background-color: #DBF4E7;
+    border: 8px solid #45B578;
+  }
+  .green-square {
+    height: 100px;
+    width: 100px;
+    background-color: #DBF4E7;
+    border: 8px solid #45B578;
+  }
+  .blue-square {
+    height: 100px;
+    width: 100px;
+    border: 8px solid #00B5ED;
   }
 }
 
@@ -2258,4 +2370,29 @@ li:last-child .anchor-a {
     font-size: 5rem !important;
     color: white;
     font-family: system-ui;
+}
+
+/* .green-square {
+  height: 100px;
+  width: 100px;
+  background-color: #DBF4E7;
+  border: 8px solid #45B578;
+} */
+
+/* .blue-square {
+  height: 100px;
+  width: 100px;
+  border: 8px solid #00B5ED;
+} */
+.bg-DDF2FF{
+  background-color: #DDF2FF;
+}
+.bg-00B5ED{
+  background-color:#00B5ED;
+}
+.try-again-text{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
 }
