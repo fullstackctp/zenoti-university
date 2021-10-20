@@ -342,10 +342,10 @@
 }
 
 .bg-7f779b {
-  background-color: #7f779b;
+  background-color: #7f779b !important;
 }
 .bg-b8eacf {
-  background-color: #b8eacf;
+  background-color: #b8eacf !important;
 }
 
 .bg-ccf0fc {
@@ -1394,15 +1394,15 @@ ul.list-radio li {
   width: 50%;
 }
 .green-square {
-  height: 100px;
-  width: 100px;
+  height: 85px;
+  width: 85px;
   background-color: #DBF4E7;
-  border: 8px solid #45B578;
+  border: 7px solid #45B578;
 }
 .blue-square {
-  height: 100px;
-  width: 100px;
-  border: 8px solid #00B5ED;
+  height: 85px;
+  width: 85px;
+  border: 7px solid #00B5ED;
 }
 /* responsive */
 
@@ -1706,12 +1706,15 @@ ul.list-radio li {
     height: 50px;
     width: 50px;
     background-color: #DBF4E7;
-    border: 8px solid #45B578;
+    border: 6px solid #45B578;
   }
   .blue-square {
     height: 50px;
     width: 50px;
-    border: 8px solid #00B5ED;
+    border: 6px solid #00B5ED;
+  }
+  .icon-width{
+    width: 7rem !important;
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
@@ -1795,6 +1798,9 @@ ul.list-radio li {
   }
   .dollar-img img {
     width: 100%;
+  }
+  .icon-width{
+    width: 6rem !important;
   }
 }
 /* end responsive */
@@ -1936,6 +1942,9 @@ ul.list-radio li {
     height: 65px ;
     width: 65px;
     border: 5px solid #00B5ED;
+  }
+  .icon-width{
+    width: 6rem !important;
   }
 }
 
@@ -2163,12 +2172,12 @@ ul.list-radio li {
     height: 75px;
     width: 75px;
     background-color: #DBF4E7;
-    border: 8px solid #45B578;
+    border: 6px solid #45B578;
   }
   .blue-square {
     height: 75px;
     width: 75px;
-    border: 8px solid #00B5ED;
+    border: 6px solid #00B5ED;
   }
 }
 
@@ -2244,12 +2253,12 @@ ul.list-radio li {
     height: 80px;
     width: 80px;
     background-color: #DBF4E7;
-    border: 8px solid #45B578;
+    border: 7px solid #45B578;
   }
   .blue-square {
     height: 80px;
     width: 80px;
-    border: 6px solid #00B5ED;
+    border: 7px solid #00B5ED;
   }
 }
 
@@ -2270,21 +2279,15 @@ ul.list-radio li {
     height: auto;
   }
   .green-square {
-    height: 85px;
-    width: 85px;
-    background-color: #DBF4E7;
-    border: 8px solid #45B578;
-  }
-  .green-square {
     height: 100px;
     width: 100px;
     background-color: #DBF4E7;
-    border: 8px solid #45B578;
+    border: 7px solid #45B578;
   }
   .blue-square {
     height: 100px;
     width: 100px;
-    border: 8px solid #00B5ED;
+    border: 7px solid #00B5ED;
   }
 }
 
@@ -2372,18 +2375,6 @@ li:last-child .anchor-a {
     font-family: system-ui;
 }
 
-/* .green-square {
-  height: 100px;
-  width: 100px;
-  background-color: #DBF4E7;
-  border: 8px solid #45B578;
-} */
-
-/* .blue-square {
-  height: 100px;
-  width: 100px;
-  border: 8px solid #00B5ED;
-} */
 .bg-DDF2FF{
   background-color: #DDF2FF;
 }
