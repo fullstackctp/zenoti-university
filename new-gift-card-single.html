@@ -16,7 +16,13 @@
 
 <body>
   <!-- Driving growth through Gift Cards -->
+  
   <section class="section-padding-2">
+    <button type="button" class="btn btn-outline-bn back-btn" style="margin-left: 17px;" onclick="goBack()">
+      <i class="fas fa-chevron-left me-4" style="font-size: 13px;">
+      </i
+      >back
+    </button>
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-12 col-xxl-12">
@@ -1403,6 +1409,9 @@
     function showContent(sectionName) {
       let name = `#${sectionName}`;
       $(name).removeClass("d-none");
+    }
+    function goBack(){
+      window.history.back();
     }
   </script>
   <script src="js/jquery.js"></script>

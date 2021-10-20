@@ -18,6 +18,11 @@
 
   <body>
     <section class="pt-5">
+      <button type="button" class="btn btn-outline-bn back-btn" style="margin-left: 17px;" onclick="goBack()">
+        <i class="fas fa-chevron-left me-4" style="font-size: 13px;">
+        </i
+        >back
+      </button>
       <div class="container">
         <h1 class="font-48px m-0">
           Gain Customers and Grow Revenue with Gift Cards
@@ -232,6 +237,9 @@
             let name = `#${sectionName}`;
             $(name).removeClass('d-none');
         }
+        function goBack(){
+      window.history.back();
+    }
     </script>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>

@@ -18,6 +18,11 @@
 <body>
   <!-- 1. intro -->
   <section class="section-padding-2">
+    <button type="button" class="btn btn-outline-bn back-btn" style="margin-left: 17px;" onclick="goBack()">
+      <i class="fas fa-chevron-left me-4" style="font-size: 13px;">
+      </i
+      >back
+    </button>
     <div class="container">
       <div class="row driving-heading mb-3">
         <div class="col-12">
@@ -662,7 +667,11 @@
     </div>
   </section>
   <!-- end Additional References -->
-
+<script>
+function goBack(){
+  window.history.back();
+}
+</script>
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/main.js"></script>

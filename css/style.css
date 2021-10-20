@@ -1716,6 +1716,9 @@ ul.list-radio li {
   .icon-width{
     width: 7rem !important;
   }
+  .back-btn{
+    margin-bottom: 8px;
+  }
 }
 @media (min-width: 320px) and (max-width: 480px) {
   p {
@@ -1801,6 +1804,9 @@ ul.list-radio li {
   }
   .icon-width{
     width: 6rem !important;
+  }
+  .back-btn{
+    margin-bottom: 8px;
   }
 }
 /* end responsive */

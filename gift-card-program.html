@@ -19,6 +19,11 @@
 <body>
   <!-- How to Create a Successful Gift Card Program   -->
   <section class="section-padding-1">
+    <button type="button" class="btn btn-outline-bn back-btn" style="margin-left: 17px;" onclick="goBack()">
+      <i class="fas fa-chevron-left me-4" style="font-size: 13px;">
+      </i
+      >back
+    </button>
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-12 col-xxl-12">
@@ -413,6 +418,10 @@
         $("#overlay5").fadeOut(300);
       });
     });
+
+    function goBack(){
+      window.history.back();
+    }
   </script>
 </body>
 

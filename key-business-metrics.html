@@ -22,6 +22,11 @@
   <!--Deliver the Touchpoints of an Exceptional Guest Experience -=-> slide 1-->
   <!-- Understanding Key Business Metrics -->
   <section id="top" class="section-padding-2">
+    <button type="button" class="btn btn-outline-bn back-btn" style="margin-left: 17px;" onclick="goBack()">
+      <i class="fas fa-chevron-left me-4" style="font-size: 13px;">
+      </i
+      >back
+    </button>
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -1368,6 +1373,10 @@
       $("#closerLook").hasClass("d-none")
         ? $("#closerLook").removeClass("d-none")
         : $("#closerLook").addClass("d-none");
+    }
+
+    function goBack(){
+      window.history.back();
     }
   </script>
 </body>
