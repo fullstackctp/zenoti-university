@@ -1411,6 +1411,9 @@ ul.list-radio li {
 .icon-width-new {
   width: 9.5rem !important;
 }
+.back-btn-top{
+  margin-bottom: 1rem;
+}
 /* responsive */
 
 @media (min-width: 1000px) and (max-width: 1200px) {
@@ -1464,6 +1467,7 @@ ul.list-radio li {
   .icon-width-new {
     width: 8.5rem !important;
   }
+  
 }
 @media (min-width: 991px) and (max-width: 1200px) {
   .sidebar-span {
