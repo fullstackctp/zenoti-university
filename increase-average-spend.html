@@ -20,9 +20,8 @@
     <section class="section-padding-2">
         <button type="button" class="btn btn-outline-bn back-btn" style="margin-left: 17px;" onclick="goBack()">
             <i class="fas fa-chevron-left me-4" style="font-size: 13px;">
-            </i
-            >back
-          </button>
+            </i>Back
+        </button>
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -517,8 +516,8 @@
                         Click the box next to the day do you prefer?
                     </strong>
                 </p>
-                <div class="mt-3 w-75 d-flex" style="align-items: center;">
-                    <div class=" blue-square try-again-text bg-DDF2FF" onclick="showContent('failed')">
+                <div class="mt-3 w-100 d-flex" style="align-items: center;">
+                    <div class="blue-square try-again-text bg-DDF2FF" onclick="showContent('failed')">
                         <div id="failed" class="text-center text-white d-none"><b>TRY<br /> AGAIN</b></div>
                     </div>
                     <p class="mx-3 text-center text-justify">
@@ -526,9 +525,10 @@
                     </p>
                 </div>
 
-                <div class="my-3 w-75 d-flex" style="align-items: center;">
-                    <div class="green-square" onclick="showContent('success')">
-                        <img id="success" src="img/smiley.png" class="img-responsive img-fluid d-none" />
+                <div class="my-3 w-100 d-flex" style="align-items: center;">
+                    <div class="green-square" id="green_box" onclick="showContent('success')">
+                        <img id="success" src="img/logo-success.png"
+                            class="img-responsive img-fluid d-none" />
                     </div>
                     <p class="mx-3 text-center text-justify">
                         <b>8</b> hours booked with <b>$300</b> services(2-hour duration) = <b>$1200</b>
@@ -548,10 +548,9 @@
             </p>
             <div class="row">
                 <div class="col-12">
-                    <div class="pb-3 inner-fullwidth-template" style="background-color: #f5f5f5;">\
+                    <div class="pb-3 inner-fullwidth-template" style="background-color: #f5f5f5;">
                         <div class="container">
-
-                            <p style="color: #00b6ed;">EVEN MORE BENEFITS OF HIGH-END SERVICES:</p>
+                            <p class="mt-2" style="color: #00b6ed;">EVEN MORE BENEFITS OF HIGH-END SERVICES:</p>
                             <div class="mt-3" style="margin-left: 1rem;">
                                 <div class="d-flex mb-2">
                                     <div class="me-2">
@@ -670,23 +669,31 @@
                                 <p class="text-uppercase" style="color: #00b6ed;">Keep these things in mind as you go
                                     through this information:
                                 </p>
-                                <ul class="mb-0" style="padding-left: 2rem !important">
-                                    <li>
-                                        Are your employees trained to recommend options that will raise a ticket price
-                                        at
-                                        the time of check-out?
-                                    </li>
-                                    <li>
-                                        Is your space “shopable” and are guests enticed to purchase items for themselves
-                                        or
-                                        as gifts?
-                                    </li>
-                                    <li>
-                                        Do you have the right selling strategies in place so you and your team can boost
-                                        revenues today?
-                                    </li>
-                                </ul>
-
+                                <div class="mt-3" style="margin-left: 1rem;">
+                                    <div class="d-flex mb-2">
+                                        <div class="me-2">
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <p class="text-justify">Are your employees trained to recommend options that will raise a ticket price
+                                            at
+                                            the time of check-out?</p>
+                                    </div>
+                                    <div class="d-flex mb-2">
+                                        <div class="me-2">
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <p class="text-justify"> Is your space “shopable” and are guests enticed to purchase items for themselves
+                                            or
+                                            as gifts?</p>
+                                    </div>
+                                    <div class="d-flex mb-2">
+                                        <div class="me-2">
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <p class="text-justify">Do you have the right selling strategies in place so you and your team can boost
+                                            revenues today?</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -878,7 +885,7 @@
                     </div>
                     <div class="container w-75" style="position: relative;">
                         <img src="./img/discount icon.png"
-                            class="img-fluid img-responsive my-1 round-callout icon-width" style="z-index: 1;" alt="">
+                            class="img-fluid img-responsive round-callout icon-width-new" style="z-index: 1;" alt="">
                         <div class="callout-B8EACF my-5 py-5 cut-div row">
                             <div class="col-xl-1 col-lg-1 col-sm-1"></div>
                             <div class="col-xl-11 col-lg-11 col-sm-11">
@@ -1122,7 +1129,7 @@
     </div>
 
     <!-- Additional References -->
-    <section class="mb-5 section-margin-2 bg-f5f5f5">
+    <section class="section-margin-2 bg-f5f5f5">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -1155,6 +1162,10 @@
         </div>
     </section>
     <!-- end Additional References -->
+    <button type="button" class="my-3 btn btn-outline-bn back-btn" style="margin-left: 17px;" onclick="goBack()">
+        <i class="fas fa-chevron-left me-4" style="font-size: 13px;">
+        </i>Back
+    </button>
     <script>
         function toggleCloserLook() {
             $("#closerLook").hasClass("d-none")
@@ -1172,11 +1183,16 @@
 
             }
             $(name).removeClass('d-none');
+
+            if (name === '#success') {
+                console.log('sadsadsa')
+                $('#green_box').addClass("bg-45B578")
+            }
         }
 
-        function goBack(){
-      window.history.back();
-    }
+        function goBack() {
+            window.history.back();
+        }
     </script>
 
     <script src="js/jquery.js"></script>
