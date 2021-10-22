@@ -1414,6 +1414,9 @@ ul.list-radio li {
 .back-btn-top{
   margin-bottom: 1rem;
 }
+.custom-pb{
+  padding-bottom: 3rem !important;
+}
 /* responsive */
 
 @media (min-width: 1000px) and (max-width: 1200px) {
@@ -1467,7 +1470,6 @@ ul.list-radio li {
   .icon-width-new {
     width: 8.5rem !important;
   }
-  
 }
 @media (min-width: 991px) and (max-width: 1200px) {
   .sidebar-span {
@@ -1497,6 +1499,9 @@ ul.list-radio li {
   }
   .custom-indent {
     padding-left: 2rem !important;
+  }
+  .custom-pb{
+    padding-bottom: 1.5rem !important;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1536,7 +1541,9 @@ ul.list-radio li {
   .custom-indent {
     padding-left: 2rem !important;
   }
-  
+  .custom-pb{
+    padding-bottom: 1rem !important;
+  }
 }
 @media (min-width: 768px) and (max-width: 836px) {
   .adult-1 {
@@ -1569,7 +1576,9 @@ ul.list-radio li {
   .custom-indent {
     padding-left: 2rem !important;
   }
- 
+  .custom-pb{
+    padding-bottom: 1rem !important;
+  }
 }
 @media (min-width: 638px) and (max-width: 767px) {
   p {
@@ -1651,6 +1660,9 @@ ul.list-radio li {
   }
   .icon-width-new {
     width: 7.5rem !important;
+  }
+  .custom-pb{
+    padding-bottom: 1rem !important;
   }
 }
 
@@ -1741,6 +1753,9 @@ ul.list-radio li {
   .icon-width-new {
     width: 7.5rem !important;
   }
+  .custom-pb{
+    padding-bottom: 1rem !important;
+  }
 }
 @media (min-width: 320px) and (max-width: 480px) {
   p {
@@ -1829,6 +1844,9 @@ ul.list-radio li {
   }
   .back-btn {
     margin-bottom: 8px;
+  }
+  .custom-pb{
+    padding-bottom: 1rem !important;
   }
 }
 /* end responsive */
