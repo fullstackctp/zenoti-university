@@ -1408,9 +1408,6 @@ ul.list-radio li {
   width: 85px;
   border: 7px solid #00b5ed;
 }
-.icon-width-new {
-  width: 9.5rem !important;
-}
 .back-btn-top{
   margin-bottom: 1rem;
 }
@@ -1466,9 +1463,6 @@ ul.list-radio li {
   }
   .font-reduce {
     font-size: 15px;
-  }
-  .icon-width-new {
-    width: 8.5rem !important;
   }
 }
 @media (min-width: 991px) and (max-width: 1200px) {
@@ -1658,9 +1652,6 @@ ul.list-radio li {
   .custom-indent {
     padding-left: 2rem !important;
   }
-  .icon-width-new {
-    width: 7.5rem !important;
-  }
   .custom-pb{
     padding-bottom: 1rem !important;
   }
@@ -1744,14 +1735,8 @@ ul.list-radio li {
     width: 50px;
     border: 6px solid #00b5ed;
   }
-  .icon-width-new {
-    width: 8.5rem !important;
-  }
   .back-btn {
     margin-bottom: 8px;
-  }
-  .icon-width-new {
-    width: 7.5rem !important;
   }
   .custom-pb{
     padding-bottom: 1rem !important;
@@ -1838,9 +1823,6 @@ ul.list-radio li {
   }
   .dollar-img img {
     width: 100%;
-  }
-  .icon-width-new {
-    width: 6.5rem !important;
   }
   .back-btn {
     margin-bottom: 8px;
@@ -1988,9 +1970,6 @@ ul.list-radio li {
     height: 62px !important;
     width: 92px !important;
     border: 5px solid #00b5ed;
-  }
-  .icon-width-new {
-    width: 6.5rem !important;
   }
 }
 
