@@ -1,0 +1,266 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+a{
+    text-decoration: none !important;
+}
+.total{
+    height: 200vh;
+}
+
+.responsive-banner{
+    background-image: url('../img/Logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.responsive-banner{
+    height: 60vh;
+    width: 100%;
+}
+
+.mobileBanner {
+    display: none;
+}
+
+.heading{
+    font-size: 40px;
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.heading h1{
+    font-weight: 600;
+}
+.bannerText{
+    width: 85%;
+    position: absolute;
+    bottom: 15%;
+}
+.box{
+    border-bottom-left-radius: 25px;
+    border-top-left-radius:25px;
+    text-align: center;
+}
+
+.box2{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.sectionBg{
+    background:#E5E5E5;
+    padding:40px 0px 40px 0px;
+}
+.iconDiv{
+    border: 2px solid #414242;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.iconBox{
+    background:#414242;
+}
+.iconText p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.btn-primary{
+    background-color: #E33D25 !important;
+    border-color: #E33D25 !important;
+}
+
+form input{
+    border-radius: 30px !important;
+    padding: 15px 15px !important;
+}
+
+form button{
+    border-radius: 30px !important;
+    padding: 10px 15px !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+}
+
+.btn-check:active+.btn-primary:focus, .btn-check:checked+.btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show>.btn-primary.dropdown-toggle:focus{
+    box-shadow:none !important;
+}
+footer{
+    background:#414141;
+}
+footer ul li{
+    list-style: none;
+}
+footer .logo{
+    height: 50px;
+}
+.footerLink ul li{
+    border-right: 1px solid #fff;
+}
+.footerLink ul li:last-child{
+    border: 0px !important;
+}
+.sectionPadding{
+    padding: 80px 0px;
+}
+.bgBack{
+    background-color: #414242;
+}
+.mainsection{
+    padding-bottom: 80px !important;
+}
+.mainsection .heading{
+    padding-bottom: 20px;
+}
+.iconText{
+    min-height: 195px;
+}
+.form-control:focus{
+    border-color: transparent !important;
+    box-shadow: none !important;
+    border: 1px solid #d1d1d1 !important;
+}
+div button{
+    width: 60% !important;
+    margin-left: 10%;
+}
+@media screen and (max-width: 542px) {
+    .box{
+        border-radius: 20px;
+    }
+    .box2{
+        border-radius: 20px;
+        margin-top: 10px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .main{
+        height: 25vh !important;
+    }
+
+    .mainsection .iconDiv{
+        display: flex;
+    }
+    .mainsection .iconBox img{
+        width: 100% !important;
+    }
+    .sectionPadding{
+        padding: 0px !important;
+    }
+    .heading {
+        font-size: 28px;
+        font-weight: 800;
+    }
+    .form-control{
+        font-size: 12px !important;
+    }
+    .remove-border{
+        border: none !important;
+    }
+    .footerLink .pe-4{
+        padding-left: 1.5rem !important;
+    }
+    /* .col-12 img{
+        margin: 0px 20px 20px 20px;
+    } */
+    .social_media{
+        padding: 0px 0px 0px 30px;
+    }
+    li{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .main{
+        height: 60vh;
+    }
+    .bannerText .pe-5{
+        padding-right: 0px !important;
+        font-size: 16px;
+    }
+    .bannerText{
+        bottom: 7.5%;
+        width: 90%;
+    }
+
+    .mobile-banner {
+        text-align: left !important;
+        float: right;
+    }
+
+    .iconText p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 992px) and ( max-width: 1200px) {
+    .iconText{
+        min-height: 250px;
+    }
+
+    .main{
+        height: 40vh;
+    }
+}
+
+
+/* banner media */
+
+@media (max-width: 500px) {
+    .heading {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .main {
+        display: none;
+    }
+    .mobileBanner {
+        display: block;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .iconBox img{
+        width: 50% !important;
+    }
+}
+
+@media screen and (max-width:360px) {
+    form button{
+        font-size: 8px !important;
+    }
+    div button{
+        height: 40px !important;
+    }
+}
+
+@media screen and (max-width:414px) {
+    form button{
+    padding: 0px;
+    font-size: 12px !important;
+    }
+    div button{
+        width: 90% !important;
+    }
+}
+
+/* banner media */
+/* 
+@media screen and (max-width:543px) {
+    .main{
+        height: 30vh !important;
+    }
+}
+
+@media  screen and (max-width:768px) {
+    .main{
+        height: 30vh !important;
+    }
+}
