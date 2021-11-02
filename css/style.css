@@ -747,15 +747,27 @@ h6.sub-heading {
 }
 /*next*/
 .btn-outline-bn {
+  color: #e53a24 !important;
+  border-color: #e53a24 !important;
+  border: 2px solid #e53a24 !important;
+  border-radius: 20px !important;
+}
+.btn-outline-bn:hover {
+  background-color: #e53a24;
+  color: #fff !important;
+}
+
+.btn-outline-bn-index {
   color: #5ac8c4 !important;
   border-color: #5ac8c4 !important;
   border: 2px solid #5ac8c4 !important;
   border-radius: 7px !important;
 }
-.btn-outline-bn:hover {
+.btn-outline-bn-index:hover {
   background-color: #5ac8c4;
   color: #fff !important;
 }
+
 #page-wrap {
   width: 600px;
   margin: 0.938rem auto;
