@@ -747,13 +747,15 @@ h6.sub-heading {
 }
 /*next*/
 .btn-outline-bn {
-  color: #e53a24 !important;
-  border-color: #e53a24 !important;
-  border: 2px solid #e53a24 !important;
-  border-radius: 20px !important;
+  background-color: #0d6efd !important;
+  color: #fff !important;
+  /* border-color: #0d6efd !important; */
+  border: 6px solid;
+  /* border-radius: 20px !important; */
+  padding: 0 0.75rem;
 }
 .btn-outline-bn:hover {
-  background-color: #e53a24;
+  background-color: #0b5ed7 !important;
   color: #fff !important;
 }
 
